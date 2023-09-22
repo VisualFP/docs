@@ -4,8 +4,8 @@
 #set heading(..sa_header_style)
 
 #sa_title_page(
-  "Studienarbeit",
-  "VisualFP");
+  "VisualFP",
+  "Designing a Visual, Block-Based Environment to Create & Execute Haskell Code");
 #sa_table_of_contents()
 #pagebreak()
 
