@@ -7,7 +7,7 @@ arrangements and connections into Haskell code.
 
 #figure(
   image("../../static/flo_screenshot_1.png", width: 50%),
-  caption: "Screenshot of an if function definition in flo") <flo_screenshot_1>
+  caption: [Screenshot of an if function definition in flo @flo-manual]) <flo_screenshot_1>
 
 A block's parameters and outputs are represented by 'sockets', which can be
 connected to compatible sockets through click-and-drag. The compiler is able to
@@ -20,7 +20,7 @@ example of a type being used as type parameter is shown in @flo_screenshot_2.
 
 #figure(
   image("../../static/flo_screenshot_2.png", width: 30%),
-  caption: "Screenshot of a negation function application in flo") <flo_screenshot_2>
+  caption: [Screenshot of a negation function application in flo @flo-manual]) <flo_screenshot_2>
 
 flo has been a research project, and has not been actively developed since 2016.
 Out of all researched tools, it is probably the one that comes closest to
