@@ -10,8 +10,8 @@
 #pagebreak()
 
 #set page(..sa_page_style)
+
 #include_section("design_concept/content/introduction.typ")
 
 #sa_bibliography()
 #sa_list_of_figures()
-
