@@ -25,5 +25,6 @@ artistic interest.
 particularly the way Eros visualized pure values can be an inspiration for
 VisualFP. Ultimately the technique is not well suited for general
 
-purpose functional programming and education. 
+purpose functional programming, especially in an educational context. 
+
 
