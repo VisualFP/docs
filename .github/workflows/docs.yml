@@ -27,7 +27,7 @@ jobs:
       - name: Compile documents
         run: make all
 
-      - name: Upload design_concept.pdf
+      - name: Upload artifacts
         uses: actions/upload-artifact@v3.1.3
         with:
           name: sa_docs
