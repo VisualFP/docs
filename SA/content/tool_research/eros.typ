@@ -17,6 +17,10 @@ Along with the technique, Conal developed an application called Eros that
 implements this technique. Eros is particuarly suited to creative people with an
 artistic interest.
 
+#figure(
+  image("../../static/eros_screenshot.png", width: 60%),
+  caption: "Screenshot of Eros")
+
 "Tangible Functional Programming" is a very interesting technique, and
 particularly the way Eros visualized pure values can be an inspiration for
 VisualFP. Ultimately, we feel like the technique is not well suited for general
