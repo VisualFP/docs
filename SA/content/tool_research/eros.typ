@@ -15,14 +15,14 @@ This is called _deep application_.
 
 Along with the technique, Conal developed an application called Eros that
 implements this technique. Eros is particuarly suited to creative people with an
-artistic interest.
+artistic interest. A screenshot of Eros is shown in @eros_screenshot.
 
 #figure(
   image("../../static/eros_screenshot.png", width: 60%),
-  caption: "Screenshot of Eros")
+  caption: [Screenshot of Eros @Elliot_2007]) <eros_screenshot>
 
 "Tangible Functional Programming" is a very interesting technique, and
-particularly the way Eros visualized pure values can be an inspiration for
+particularly the way Eros visualizes pure values can be an inspiration for
 VisualFP. Ultimately, we feel like the technique is not well suited for general
 purpose functional programming and education. 
 
