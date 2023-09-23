@@ -7,11 +7,11 @@
   title: [VisualFP],
   description: [Designing a Visual, Block-Based Environment to Create & Execute Haskell Code],
   organization: [Department of Computer Science \ OST - University of Applied Sciences \ Campus Rapperswil-Jona],
-  thesis: [Student Thesis],
+  thesis: [Term Paper],
   term: [Autumn Term 2023],
   authors: [Lukas Streckeisen, Jann M. Flepp],
   authors-short: [L. Streckeisen, J. Flepp],
-  advisor: [Farhad D. Mehta],
+  advisor: [Prof. Dr. Farhad D. Mehta],
   partner: [IFS Institute for Software],
   external-co-examiner: [],
   internal-co-examiner: []
