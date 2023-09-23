@@ -24,14 +24,20 @@ jobs:
         with:
           version: 'v0.8.0'
 
-      - name: Compile sa.typ
-        run: typst compile SA/sa.typ
+      - name: Compile documents
+        run: make all
 
-      - name: Upload sa.pdf
+      - name: Upload design_concept.pdf
         uses: actions/upload-artifact@v3.1.3
         with:
-          name: SA
-          path: SA/sa.pdf
+          name: SA Design Concept
+          path: SA/design_concept/design_concept.pdf
+
+      - name: Upload project_documentation.pdf
+        uses: actions/upload-artifact@v3.1.3
+        with:
+          name: SA Project Documentation
+          path: SA/project_documentation/project_documentation.pdf
 
   deploy:
     runs-on: ubuntu-latest
