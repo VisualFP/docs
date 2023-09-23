@@ -7,7 +7,7 @@
   for c in updated { c }
 }
 
-#let sa_title_page(title, subtitle) = {
+#let sa_title_page(data) = {
   counter(page).update(0)
 
   grid(
@@ -20,27 +20,35 @@
   v(2.5cm)
   
   align(center)[
-    #text(30pt, title, weight: "bold")
+    #text(30pt, data.title, weight: "bold")
     #v(-1.5em)
-    #text(20pt, subtitle)
+    #text(20pt, data.description)
     #v(0.5cm)
 
-    #set text(size: 15pt)
-    Department of Computer Science \
-    OST - University of Applied Sciences \
-    Campus Rapperswil-Jona \
+    #set text(size: 14pt)
+    #data.organization
 
     #v(1cm)
-
-    Autumn Term 2023 \
-
+    #data.thesis, #data.term
+    
     #v(1cm)
 
-    Authors: Lukas Streckeisen, Jann Flepp \
-    Advisor: Prof. Dr. Farhad Mehta \
-    Project Partner: IFS Institute for Software \
-    External Co-Examiner: \
-    Internal Co-Examiner: \
+
+    #v(4cm)
+    
+    #let ecell(ct) = rect(stroke: none, width: 100%)[
+      #align(left)[#ct]
+    ]
+    
+    #grid(
+      columns: (1fr, 1fr),
+      rows: (auto, auto, auto, auto, auto),
+      ecell()[*Authors:*], ecell()[#data.authors],
+      ecell()[*Advisor:*], ecell()[#data.advisor],
+      ecell()[*Project Partner:*], ecell()[#data.partner],
+      ecell()[*External Co-Examiner:*], ecell()[#data.external-co-examiner],
+      ecell()[*Internal Co-Examiner:*], ecell()[#data.external-co-examiner]
+    )
   ]
   pagebreak()
 }
@@ -53,26 +61,45 @@
   numbering: "1."
 )
 
-#let sa_header = align(horizon)[
-  IFS - Institute for Software
-  #h(2fr)
-  OST - University of Applied Sciences
-]
+#let ht-first = state("page-first-section", [])
+#let ht-last = state("page-last-section", [])
+// inspired by https://stackoverflow.com/questions/76363935/typst-header-that-changes-from-page-to-page-based-on-state
+#let get-last-heading() = {
+  locate(loc => [
+    #let first-heading = query(heading.where(level: 1), loc).find(h => h.location().page() == loc.page())
+    #let last-heading = query(heading.where(level: 1), loc).rev().find(h => h.location().page() == loc.page())
+        #{
+        if not first-heading == none {
+            ht-first.update([
+                #counter(heading).at(first-heading.location()).at(0). #first-heading.body
+            ])
+            ht-last.update([
+                #counter(heading).at(last-heading.location()).at(0). #last-heading.body
+            ])
+        ht-first.display()
+      } else {
+        ht-last.display()
+      }}
+  ])
+}
 
-#let sa_footer = locate(loc => {
-    if counter(page).at(loc).first() > 0 { align(horizon)[
-      Lukas Streckeisen, Jann Flepp
-      #h(0.5fr)
-      Studienarbeit - VisualFP
-      #h(1fr)
-      Page #counter(page).display("1 of 1", both: true)
-      #v(1.5cm)
-    ]}
+#let sa_header(metadata) = {
+  [#metadata.title #h(1fr) #get-last-heading()]
+}
+
+#let sa_footer(metadata) = locate(loc => {
+    if counter(page).at(loc).first() > 0 {
+      grid(
+        columns: (1fr, 1fr), 
+        align(left)[#metadata.authors-short],
+        align(right)[Page #counter(page).display("1 of 1", both: true)]
+      )
+    }
 })
 
-#let sa_page_style = (
-  header: sa_header,
-  footer: sa_footer
+#let sa_page_style(metadata) = (
+  header: sa_header(metadata),
+  footer: sa_footer(metadata)
 )
 
 #let sa_table_of_contents() = {
