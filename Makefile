@@ -1,9 +1,10 @@
 design_concept:
-	typst watch SA/design_concept/design_concept.typ --root SA
+	typst watch --root SA SA/design_concept/design_concept.typ
 
 project_documentation:
-	typst watch SA/project_documentation/project_documentation.typ --root SA
+	typst watch --root SA SA/project_documentation/project_documentation.typ
 
 all:
-	typst compile SA/design_concept/design_concept.typ --root SA
-	typst compile SA/project_documentation/project_documentation.typ --root SA
+	mkdir -p SA/out
+	typst compile --root SA SA/design_concept/design_concept.typ SA/out/design_concept.pdf
+	typst compile --root SA SA/project_documentation/project_documentation.typ SA/out/project_documentation.pdf
