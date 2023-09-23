@@ -9,15 +9,39 @@
 
 #let sa_title_page(title, subtitle) = {
   counter(page).update(0)
+
+  grid(
+    columns: 2,
+    gutter: 1fr,
+    move(dy: 0.4cm, image("static/ifs_logo.png", height: 2cm)),
+    image("static/ost_logo.svg", height: 3cm)
+  )
+
+  v(2.5cm)
+  
   align(center)[
-    #text(40pt, title, weight: "bold")
+    #text(30pt, title, weight: "bold")
     #v(-1.5em)
-    #text(30pt, subtitle)
+    #text(20pt, subtitle)
+    #v(0.5cm)
+
+    #set text(size: 15pt)
+    Department of Computer Science \
+    OST - University of Applied Sciences \
+    Campus Rapperswil-Jona \
+
+    #v(1cm)
+
+    Autumn Term 2023 \
+
+    #v(1cm)
+
+    Authors: Lukas Streckeisen, Jann Flepp \
+    Advisor: Prof. Dr. Farhad Mehta \
+    Project Partner: IFS Institute for Software \
+    External Co-Examiner: \
+    Internal Co-Examiner: \
   ]
-  v(5cm)
-  text(15pt, "Advisor: Farhad Mehta")
-  v(1fr)
-  image("static/ost_logo.svg", height: 3cm)
   pagebreak()
 }
 
@@ -29,19 +53,25 @@
   numbering: "1."
 )
 
+#let sa_header = align(horizon)[
+  IFS - Institute for Software
+  #h(2fr)
+  OST - University of Applied Sciences
+]
+
 #let sa_footer = locate(loc => {
     if counter(page).at(loc).first() > 0 { align(horizon)[
+      Lukas Streckeisen, Jann Flepp
+      #h(0.5fr)
       Studienarbeit - VisualFP
       #h(1fr)
-      #counter(page).display("1/1", both: true)
-      #h(1fr)
-      #box()[
-        Lukas Streckeisen \
-        Jann Flepp
-      ]
-    ]}})
+      Page #counter(page).display("1 of 1", both: true)
+      #v(1.5cm)
+    ]}
+})
 
 #let sa_page_style = (
+  header: sa_header,
   footer: sa_footer
 )
 
