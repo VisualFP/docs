@@ -9,7 +9,8 @@ Haskell code.
   image("../../static/flo_screenshot_1.png", width: 50%),
   caption: "Screenshot of an if function definition in flo")
 
-A blocks parameters and outputs are represented by 'sockets', which can be
+A block's parameters and outputs are represented by 'sockets', which can be
+
 connected to compatible sockets through click-and-drag. The compiler is able to
 infer the types of the sockets, and will reject incompatible connections.
 
