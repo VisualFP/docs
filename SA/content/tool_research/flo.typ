@@ -21,7 +21,7 @@ A specialty of flo is that blocks do not just represent values, but also types.
 A type block is either a basic type, such as `Int` or `Bool`, or a constructor
 to a complex type with type parameters, represented through sockets as well.
 
-flo has been a research project, and has not been developed since 2007. Out of
+flo has been a research project, and has not been developed since 2016. Out of
 all researched tools, it is probably the one that comes the most close to
 VisualFP in terms of its goals.
 
