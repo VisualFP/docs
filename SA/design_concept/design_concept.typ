@@ -1,4 +1,4 @@
-#import "style.typ": *
+#import "../style.typ": *
 
 #set text(..sa_text_style)
 #set heading(..sa_header_style)
@@ -10,10 +10,7 @@
 #pagebreak()
 
 #set page(..sa_page_style)
-#include_section("content/introduction.typ")
-
-= Existing tools
-#include_section("content/tool_research/snap.typ", heading_increase: 1)
+#include_section("design_concept/content/introduction.typ")
 
 #sa_bibliography()
 #sa_list_of_figures()

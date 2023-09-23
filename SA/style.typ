@@ -54,9 +54,11 @@
 )
 
 #let sa_header = align(horizon)[
+  #v(1.5cm)
   IFS - Institute for Software
   #h(2fr)
   OST - University of Applied Sciences
+  #v(0.5cm)
 ]
 
 #let sa_footer = locate(loc => {
