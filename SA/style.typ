@@ -90,9 +90,8 @@
 #let sa_footer(metadata) = locate(loc => {
     if counter(page).at(loc).first() > 0 {
       grid(
-        columns: (1fr, 1fr, 1fr), 
+        columns: (1fr, 1fr), 
         align(left)[#metadata.authors-short],
-        align(center)[#metadata.title],
         align(right)[Page #counter(page).display("1 of 1", both: true)]
       )
     }
