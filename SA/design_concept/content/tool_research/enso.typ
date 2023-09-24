@@ -1,10 +1,9 @@
 = Enso
-Enso is a functional programming language created by Enso International Inc., designed for data science.
+Enso is a functional programming language created by Enso International Inc., designed for data science. @enso-language
 Programs can be created by both text and a visual editor.
 
 The visual editor allows a user to define components that can be connected with each other, symbolizing the data-flow from one component to another.
-The editor also offers previews for a component's data, which e.g. allows a user to see a modified picture like in @enso_screenshot.
-@enso-language
+The editor also offers previews for a component's data, which e.g. allows a user to see a modified picture like in @enso_screenshot. 
 
 #figure(
     image("../../static/enso_screenshot.png", width: 80%),
