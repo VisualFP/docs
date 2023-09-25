@@ -7,7 +7,7 @@ We used these tools for the realization of this project.
   #footnote("https://visual-fp-ost.atlassian.net/jira/")
 / GitHub: is a web-based hosting service for version control using Git. We are
   using it to control and build the source code.
-  #footnote("https://github.com/")
+  #footnote("https://github.com/VisualFP")
 / Figma: is a vector graphics editor and prototyping tool. We are using it to
   design the UI concepts.
   #footnote("https://figma.com/")
