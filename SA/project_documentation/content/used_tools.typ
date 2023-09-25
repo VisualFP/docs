@@ -4,7 +4,7 @@ We used these tools for the realization of this project.
 
 / Jira: is a software management tool that can be used to manage agile teams.
   We are using it to plan the project and keep track of the progress.
-  #footnote("https://www.atlassian.com/software/jira")
+  #footnote("https://visual-fp-ost.atlassian.net/jira/")
 / GitHub: is a web-based hosting service for version control using Git. We are
   using it to control and build the source code.
   #footnote("https://github.com/")
