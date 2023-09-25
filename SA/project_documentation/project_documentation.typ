@@ -23,9 +23,10 @@
 
 #set page(..sa_page_style(metadata))
 #include_section("project_documentation/content/introduction.typ")
+#include_section("project_documentation/content/project_plan.typ")
 #include_section("project_documentation/content/used_tools.typ")
 #include_section("project_documentation/content/risk_management.typ")
 
 #sa_bibliography()
 #sa_list_of_figures()
-
+#sa_list_of_tables()
