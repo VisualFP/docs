@@ -1,4 +1,5 @@
 #import "../../../style.typ": include_section
+#pagebreak()
 = Meeting Minutes
 The following section lists all "formal" project meetings and their discussed agenda.
 
