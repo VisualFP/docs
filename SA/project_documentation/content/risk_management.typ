@@ -20,7 +20,7 @@ In @initial_risk_assessment all risks identified at the start of the project are
     ),
     kind: "table",
     supplement: "Table",
-    caption: "Initial Risk Management"
+    caption: "Initial Risk Assessment"
 )<initial_risk_assessment>
 
 == Risk Matrix
