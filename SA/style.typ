@@ -102,14 +102,14 @@
   footer: sa_footer(metadata)
 )
 
-#let sa_table_of_contents() = {
+#let sa_table_of_contents(depth: none) = {
   show outline.entry.where(
     level: 1
   ): it => {
     v(12pt, weak: true)
     strong(it)
   }
-  outline(indent: auto)
+  outline(indent: auto, depth: depth)
 }
 
 #let sa_bibliography() = {

@@ -18,13 +18,14 @@
 );
 
 #sa_title_page(metadata);
-#sa_table_of_contents()
+#sa_table_of_contents(depth: 2)
 #pagebreak()
 
 #set page(..sa_page_style(metadata))
 #include_section("project_documentation/content/introduction.typ")
 #include_section("project_documentation/content/used_tools.typ")
 #include_section("project_documentation/content/risk_management.typ")
+#include_section("project_documentation/content/meeting_minutes/meeting_minutes.typ")
 
 #sa_bibliography()
 #sa_list_of_figures()
