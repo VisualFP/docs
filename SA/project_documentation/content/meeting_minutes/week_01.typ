@@ -5,7 +5,7 @@
 - Jann Flepp
 
 == Agenda
-- Finalizing of SA task description
+- Finalization of SA task description
 - Questions:
     - How detailed does the project documentation have to be? -> as we see fit
     - Are there formatting requirements for documentation? -> no
