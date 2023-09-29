@@ -18,7 +18,9 @@ In @initial_risk_assessment all risks identified at the start of the project are
         cellx(fill: yellow)[003], [*Too little time for prototype*], [Include buffer in project plan, limit prototype to most important features], [Focus on functionality instead of UI design, cut features if necessary/possible],
         cellx(fill: red)[004], [*UI design is too difficult for certain features*], [limit amount of features included in design to minimize time impact], [try to simplify feature, remove feature from project scope]
     ),
-    supplement: "Table"
+    kind: "table",
+    supplement: "Table",
+    caption: "Initial Risk Assessment"
 )<initial_risk_assessment>
 
 == Risk Matrix
@@ -35,5 +37,6 @@ This risk matrix describes the color-coding used above using the factors "probab
         [*1 Minor*], cellx(fill: green)[], cellx(fill: green)[], cellx(fill: green)[], cellx(fill: yellow)[], cellx(fill: yellow)[]
     ),
     supplement: "Table",
+    kind: "table",
     caption: "Risk matrix"
 )<risk_matrix>

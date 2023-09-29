@@ -130,3 +130,11 @@
     target: figure.where(kind: image),
   )
 }
+
+#let sa_list_of_tables() = {
+  [= List of Tables]
+  outline(
+    title: none,
+    target: figure.where(kind: "table")
+  )
+}
