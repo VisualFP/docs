@@ -128,6 +128,7 @@
 #let sa_list_of_figures() = {
   pagebreak()
   [= List of Figures]
+  v(1em)
   outline(
     title: none,
     target: figure.where(kind: image),

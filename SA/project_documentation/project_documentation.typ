@@ -1,4 +1,5 @@
 #import "../style.typ": *
+#import "../acronyms.typ": *
 
 #set text(..sa_text_style)
 #set heading(..sa_header_style)
@@ -27,6 +28,7 @@
 #include_section("project_documentation/content/risk_management.typ")
 #include_section("project_documentation/content/meeting_minutes/meeting_minutes.typ")
 
+#sa_list_of_acronyms()
 #sa_bibliography()
 #sa_list_of_figures()
 
