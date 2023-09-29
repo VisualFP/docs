@@ -1,4 +1,4 @@
-// from https://github.com/Ciolv/typst-template-bachelor-thesis/blob/main/acronyms.typ
+// Inspired by https://github.com/Ciolv/typst-template-bachelor-thesis/blob/main/acronyms.typ
 
 #let acronyms = (
   AST: "Abstract Syntax Tree",
