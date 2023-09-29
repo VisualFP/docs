@@ -9,12 +9,12 @@
 - Presentation of researched tools (Snap!, Eros, Flo, Enso)
 - Questions:
     - Is there a deadline for signing the official documents for SA? -> end of project
-    - Do we need to create meeting minutes? -> yes, but very briefly, document important decisions
-- Input from Farhad Mehta:
+    - Do we need to create meeting minutes? -> yes, very briefly document important decisions
+- Input from advisor:
     - Maybe hold presentation for SA -> decide at about half-time
     - Tools/Projects to look at:
         - Doctor Racket
         - Wingman for Haskell
         - Dependently-typed languages
-    - Maybe there are synergies with master projects of his we can profit from
+    - Maybe we can profit from synergies with projects from master-students he advises
     - Define 3 scenarios to test our considered designs with (small programs using easy, intermediate and advanced FP concept)
