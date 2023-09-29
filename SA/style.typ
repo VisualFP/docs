@@ -2,7 +2,10 @@
   let content = include(path);
   let updated = content.children.map(it =>
       if not it.func() == heading { it }
-      else { heading(level: it.level + heading_increase, it.body) }
+      else [
+        #heading(level: it.level + heading_increase, it.body)
+        #it.at("label", default: none)
+      ]
   )
   for c in updated { c }
 }
@@ -102,14 +105,14 @@
   footer: sa_footer(metadata)
 )
 
-#let sa_table_of_contents() = {
+#let sa_table_of_contents(depth: none) = {
   show outline.entry.where(
     level: 1
   ): it => {
     v(12pt, weak: true)
     strong(it)
   }
-  outline(indent: auto)
+  outline(indent: auto, depth: depth)
 }
 
 #let sa_bibliography() = {
