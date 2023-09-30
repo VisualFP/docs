@@ -39,5 +39,4 @@ Thus using the common #ac("GHC") toolstack as development
 environment and as compiler for the VisualFP application is the best option. Its usage
 that the usage of #ac("GHC") as compiler imposes the project of any great
 but problems are expected to arise when using #ac("GHC") as a library.
-that problems may arise.
 
