@@ -1,11 +1,11 @@
 // Inspired by https://github.com/Ciolv/typst-template-bachelor-thesis/blob/main/acronyms.typ
 
 #let acronyms = (
-  AST: "abstract syntax tree",
-  API: "application programming interface",
-  FP: "functional programming",
-  SA: "studienarbeit",
-  LSP: "language-server-protocol",
+  AST: "Abstract Syntax Tree",
+  API: "Application Programming Interface",
+  FP: "Functional Programming",
+  SA: "Studienarbeit",
+  LSP: "Language Server Protocol",
   GHC: "Glassgow Haskell Compiler"
 )
 
@@ -25,7 +25,7 @@
     if(usedDic.keys().contains(ac)) {
       return ac
     }
-    return acronyms.at(ac) + " (" + ac + ")"
+    return ac + " (" + acronyms.at(ac) + ")"
   });
 
   usedAcronyms.update(usedDic => {
