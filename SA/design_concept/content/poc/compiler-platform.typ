@@ -29,14 +29,14 @@ straightforward as using it as a compiler.
   the available documentation seems to be out-of-date, incomplete or
   missing.
 
-The only other compiler platforms for Haskell found during research for this project are Hugs
-#footnote("https://www.haskell.org/hugs/") and the
-Haskell Language Extensions part of the Haskell Suite
+The only other compiler platforms for Haskell found during research for this project
+are Hugs #footnote("https://www.haskell.org/hugs/") and the
+Haskell Language Extensions, a part of the Haskell Suite
 #footnote("https://github.com/haskell-suite"). Both are not actively
 maintained anymore @hugs-compiler @haskell-src-ext. 
 
 Thus using the common #ac("GHC") toolstack as development
 environment and as compiler for the VisualFP application is the best option. Its usage
-that the usage of #ac("GHC") as compiler imposes the project of any great
-but problems are expected to arise when using #ac("GHC") as a library.
+as compiler doesn't impose any great risks to the project but problems are expected
+to arise if #ac("GHC") is used as a library.
 
