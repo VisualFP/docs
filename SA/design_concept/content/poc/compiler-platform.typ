@@ -29,7 +29,7 @@ straightforward as using it as a compiler.
   the available documentation seems to be out-of-date, incomplete or
   missing.
 
-The only other compiler platforms for Haskell that we are aware of are Hugs
+The only other compiler platforms for Haskell found during research for this project are Hugs
 #footnote("https://www.haskell.org/hugs/") and the
 Haskell Language Extensions part of the Haskell Suite
 #footnote("https://github.com/haskell-suite"), both are not actively
