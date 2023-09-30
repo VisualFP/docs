@@ -36,7 +36,7 @@ Haskell Language Extensions part of the Haskell Suite
 maintained anymore @hugs-compiler @haskell-src-ext. 
 
 Thus using the common #ac("GHC") toolstack as development
-environment and as compiler for the VisualFP application. We don't expected
+environment and as compiler for the VisualFP application is the best option. Its usage
 that the usage of #ac("GHC") as compiler imposes the project of any great
 risk, but in regards of the usage of #ac("GHC") as a library, we are aware
 that problems may arise.
