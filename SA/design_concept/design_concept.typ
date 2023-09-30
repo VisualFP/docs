@@ -1,4 +1,5 @@
 #import "../style.typ": *
+#import "../acronyms.typ": *
 
 #set text(..sa_text_style)
 #set heading(..sa_header_style)
@@ -27,5 +28,6 @@
 #include_section("design_concept/content/design/design.typ")
 #include_section("design_concept/content/poc/poc.typ")
 
+#sa_list_of_acronyms()
 #sa_bibliography()
 #sa_list_of_figures()
