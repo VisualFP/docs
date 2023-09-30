@@ -6,7 +6,7 @@ A compiler platform is a set of tools that can be used to compile code. For
 the VisualFP application we require not only a compiler platform to build
 the application itself, but also as a library to compile programs created by
 the users in the visual editor. Creating, parsing and compiling an #ac("AST")
-programmatically are entirely different use-cases compared the usual
+programmatically are entirely different use-cases compared to the usual
 use-cases of a compiler platform.
 
 The most obvious choice for a Haskell compiler platform is #ac("GHC")
