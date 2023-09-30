@@ -6,7 +6,8 @@
   FP: "Functional Programming",
   SA: "Studienarbeit",
   LSP: "Language Server Protocol",
-  GHC: "Glassgow Haskell Compiler"
+  GHC: "Glassgow Haskell Compiler",
+  PoC: "Proof of Concept",
 )
 
 #let usedAcronyms = state("usedDic", (:))
