@@ -33,7 +33,7 @@ The only other compiler platforms for Haskell found during research for this pro
 #footnote("https://www.haskell.org/hugs/") and the
 Haskell Language Extensions part of the Haskell Suite
 #footnote("https://github.com/haskell-suite"). Both are not actively
-developed anymore @hugs-compiler @haskell-src-ext. 
+maintained anymore @hugs-compiler @haskell-src-ext. 
 
 Thus, we have decided to use the common #ac("GHC") toolstack as development
 environment and as compiler for the VisualFP application. We don't expected
