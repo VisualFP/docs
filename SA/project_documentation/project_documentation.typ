@@ -24,6 +24,7 @@
 
 #set page(..sa_page_style(metadata))
 #include_section("project_documentation/content/introduction.typ")
+#include_section("project_documentation/content/project_method.typ")
 #include_section("project_documentation/content/project_plan.typ")
 #include_section("project_documentation/content/used_tools.typ")
 #include_section("project_documentation/content/risk_management.typ")
