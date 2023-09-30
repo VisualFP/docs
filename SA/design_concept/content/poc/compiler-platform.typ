@@ -38,6 +38,6 @@ maintained anymore @hugs-compiler @haskell-src-ext.
 Thus using the common #ac("GHC") toolstack as development
 environment and as compiler for the VisualFP application is the best option. Its usage
 that the usage of #ac("GHC") as compiler imposes the project of any great
-risk, but in regards of the usage of #ac("GHC") as a library, we are aware
+but problems are expected to arise when using #ac("GHC") as a library.
 that problems may arise.
 
