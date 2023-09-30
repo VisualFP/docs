@@ -5,7 +5,7 @@
   API: "Application Programming Interface",
   FP: "Functional Programming",
   SA: "Studienarbeit",
-  PoC: "proof of concept",
+  PoC: "Proof of Concept",
 )
 
 #let usedAcronyms = state("usedDic", (:))
