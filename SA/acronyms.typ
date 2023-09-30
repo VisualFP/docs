@@ -5,6 +5,8 @@
   API: "Application Programming Interface",
   FP: "Functional Programming",
   SA: "Studienarbeit",
+  LSP: "Language Server Protocol",
+  GHC: "Glassgow Haskell Compiler",
   PoC: "Proof of Concept",
 )
 
@@ -24,7 +26,7 @@
     if(usedDic.keys().contains(ac)) {
       return ac
     }
-    return acronyms.at(ac) + " (" + ac + ")"
+    return ac + " (" + acronyms.at(ac) + ")"
   });
 
   usedAcronyms.update(usedDic => {
