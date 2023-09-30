@@ -8,3 +8,4 @@ Our detail planing is done week by week using a Kanban board in Jira.
     image("../static/initial_project_plan.png"),
     caption: "Initial Project Plan"
 )<initial_project_plan>
+
