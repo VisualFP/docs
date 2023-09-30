@@ -24,6 +24,11 @@
 
 #set page(..sa_page_style(metadata))
 
+// TODO: Move this
+== Implementation Options
+#include_section("design_concept/content/poc/compiler-platform.typ", heading_increase: 1)
+
+
 #include_section("design_concept/content/introduction.typ")
 #include_section("design_concept/content/design/design.typ")
 #include_section("design_concept/content/poc/poc.typ")

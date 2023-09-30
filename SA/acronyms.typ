@@ -1,10 +1,12 @@
 // Inspired by https://github.com/Ciolv/typst-template-bachelor-thesis/blob/main/acronyms.typ
 
 #let acronyms = (
-  AST: "Abstract Syntax Tree",
-  API: "Application Programming Interface",
-  FP: "Functional Programming",
-  SA: "Studienarbeit",
+  AST: "abstract syntax tree",
+  API: "application programming interface",
+  FP: "functional programming",
+  SA: "studienarbeit",
+  LSP: "language-server-protocol",
+  GHC: "Glassgow Haskell Compiler"
 )
 
 #let usedAcronyms = state("usedDic", (:))
