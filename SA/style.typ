@@ -2,7 +2,10 @@
   let content = include(path);
   let updated = content.children.map(it =>
       if not it.func() == heading { it }
-      else { heading(level: it.level + heading_increase, it.body) }
+      else [
+        #heading(level: it.level + heading_increase, it.body)
+        #it.at("label", default: none)
+      ]
   )
   for c in updated { c }
 }
@@ -125,6 +128,7 @@
 #let sa_list_of_figures() = {
   pagebreak()
   [= List of Figures]
+  v(1em)
   outline(
     title: none,
     target: figure.where(kind: image),
