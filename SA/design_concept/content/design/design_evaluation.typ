@@ -12,16 +12,16 @@ The following code scenarios were defined to evaluate visualization designs rega
     caption: "Addition function for design evaluation"
 )<design_eval_addition>
 
-== Filter Function for Lists
-@design_eval_filter has been chosen to evalute designs for list comprehension.
+== Even numbers from 1 to 10
+@design_eval_even has been chosen to evalute designs for list comprehension.
 
 #figure(
     ```hs
-    filter :: (a -> Bool) -> [a] -> [a]
-    filter p xs = [x | x <- xs, p x]
+    evenOneToTen :: Integral a => [a]
+    evenOneToTen = [x | x <- [1 .. 10], even x]
     ```,
-    caption: "Filter function for design evaluation"
-)<design_eval_filter>
+    caption: "Function that returns even numbers between 1 and 10"
+)<design_eval_even>
 
 == Product of Numbers
 @design_eval_product has been chosen to evalute designs for recursive functions.
