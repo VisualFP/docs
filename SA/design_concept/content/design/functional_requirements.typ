@@ -39,8 +39,8 @@ A user wants to compose a simple function using pre-defined functions and e.g. I
 === UC2 - Function execution
 A user wants to execute their visually composed functions.
 
-=== UC3 - Composition of function using list comprehension
-A user wants to compose a function using list comprehension.
+=== UC3 - Composition of function using lists
+A user wants to compose a function using lists, i.e. list construction.
 
 === UC4 - Composition of recursive function
 A user wants to compose a function that is defined by itself.
