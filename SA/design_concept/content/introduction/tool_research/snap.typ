@@ -7,7 +7,7 @@ For that, Snap! offers various pre-defined commands like basic arithmetic operat
 For lists, snap offers some control-blocks that allow users to work with lists in a functional manner, as can be seen as the red blocks in @snap_screenshot.
 However, everything else can only be done in an imperative way, making the functional aspects more of an additional feature than a core concept of Snap!.
 #figure(
-    image("../../static/snap_screenshot.png", width: 90%),
+    image("../../../static/snap_screenshot.png", width: 90%),
     caption: [Screenshot of a block expression in Snap! @snap-manual]
 )<snap_screenshot>
 

@@ -18,7 +18,7 @@ implements this technique. Eros is particuarly suited to creative people with an
 artistic interest. A screenshot of Eros is shown in @eros_screenshot.
 
 #figure(
-  image("../../static/eros_screenshot.png", width: 60%),
+  image("../../../static/eros_screenshot.png", width: 60%),
   caption: [Screenshot of Eros @Elliot_2007]) <eros_screenshot>
 
 "Tangible Functional Programming" is a very interesting technique, and
