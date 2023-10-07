@@ -17,8 +17,8 @@ VisualFP has two actors:
     terms.item(
         "Expert User",
         [
-            The expert user is an experienced professional that wants to use VisualFP to help them to better understand their code.
-            For that, they want to be able to import their existing Haskell project into VisualFP.
+            The expert user is an experienced professional that wants to use VisualFP to help them to understand their code better.
+            For that, they want to import their existing Haskell project into VisualFP.
         ]
     )
 )
@@ -46,16 +46,19 @@ A user wants to compose a function using list comprehension.
 A user wants to compose a function that is defined by itself.
 
 === UC5 - Composition of higher-order function
-A uswer wants to compose functions that take other functions as their argument.
+A user wants to compose functions that take other functions as their argument.
 
 === UC6 - Composition of custom data types
 A user wants to be able to create their own data types.
 
-=== UC7 - Saving of project file
-A user wants to be able to save their composed functions in a project file.
+=== UC7 - Saving project file
+A user wants to save their composed functions in a project file.
 
 === UC8 - Opening project file
-A uswer wants to be able to open a previously saved project file to continue working on their functions.
+A user wants to open a previously saved project file to continue working on their functions.
 
-=== UC7 - Grouping of functions into modules
+=== UC9 - Grouping of functions into modules
 An expert user wants to group functions into modules to keep their code organized.
+
+=== UC10 - Importing of Haskell code
+An expert user wants to import their existing Haskell project into VisualFP.

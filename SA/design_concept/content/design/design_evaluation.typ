@@ -13,7 +13,7 @@ The following code scenarios were defined to evaluate visualization designs rega
 )<design_eval_addition>
 
 == Even numbers from 1 to 10
-@design_eval_even has been chosen to evalute designs for list comprehension.
+@design_eval_even has been chosen to evalute designs for list handling.
 
 #figure(
     ```hs
