@@ -51,11 +51,11 @@ A user wants to compose functions that take other functions as their argument.
 === UC6 - Composition of custom data types
 A user wants to be able to create their own data types.
 
-=== UC7 - Saving project file
-A user wants to save their composed functions in a project file.
+=== UC7 - Saving source file
+A user wants to save their composed functions in a source file.
 
-=== UC8 - Opening project file
-A user wants to open a previously saved project file to continue working on their functions.
+=== UC8 - Opening source file
+A user wants to open a previously saved source file to continue working on their functions.
 
 === UC9 - Grouping of functions into modules
 An expert user wants to group functions into modules to keep their code organized.
