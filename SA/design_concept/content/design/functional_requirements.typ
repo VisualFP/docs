@@ -29,36 +29,36 @@ VisualFP has two actors:
 By default, the usage of the term "user" in the use case description refers to the role "student user".
 
 #figure(
-    [TODO: insert diagram],
+    image("../../static/SA_use_cases.png", width: 80%),
     caption: "Use Case Diagram"
 )<use_case_diagram>
 
-=== UC1 - Composition of simple function
+=== UC1 - Simple Function Composition
 A user wants to compose a simple function using pre-defined functions and e.g. Integer parameters.
 
-=== UC2 - Function execution
+=== UC2 - Function Execution
 A user wants to execute their visually composed functions.
 
-=== UC3 - Composition of function using lists
+=== UC3 - Function Composition using Lists
 A user wants to compose a function using lists, i.e. list construction.
 
-=== UC4 - Composition of recursive function
+=== UC4 - Recursive Function Composition
 A user wants to compose a function that is defined by itself.
 
-=== UC5 - Composition of higher-order function
+=== UC5 - Function Composition using Higher-Order Functions
 A user wants to compose functions that take other functions as their argument.
 
-=== UC6 - Composition of custom data types
+=== UC6 - Data Type Composition
 A user wants to be able to create their own data types.
 
-=== UC7 - Saving source file
+=== UC7 - Save Source File
 A user wants to save their composed functions in a source file.
 
-=== UC8 - Opening source file
+=== UC8 - Open Source File
 A user wants to open a previously saved source file to continue working on their functions.
 
-=== UC9 - Grouping of functions into modules
+=== UC9 - Group Functions into Modules
 An expert user wants to group functions into modules to keep their code organized.
 
-=== UC10 - Importing of Haskell code
+=== UC10 - Import Haskell code
 An expert user wants to import their existing Haskell project into VisualFP.
