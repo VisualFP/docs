@@ -2,16 +2,17 @@
 
 = Goals <goals>
 
-With VisualFP we want to design a tool that allows graphical development of
-functional code, is block-based and extensible. The primary audience are
-students learning to program, and secondary the audience are programmers
-that want to view their code in a visual context.
+The goal of this term paper is to design a tool, VisualFP, that allows the
+graphical development of functional code, is block-based and extensible. The
+target audience of VisualFP are students learning to program. Additionally,
+VisualFP should offer support for experienced programmers that want to view
+their code in a visual context.
 
-Futhermore we want to implement part of the core functionality in a
-#ac("PoC") to proof the feasibility of the design.
+The core functionality of VisualFP will be implemented in a #ac("PoC") to
+proof the feasibility of the design.
 
-Finally, we want to transparently document the design process that was used
-to create VisualFP. This allows potential implementers to better understand
+The main part of this paper is to transparently document the design process
+that was used to create VisualFP. This allows others to better understand
 the decisions that have been made, which alternatives were considered, and
-evaluate for themselfes whether they want to follow the same paths.
+to evaluate for themselves whether they want to follow the same path.
 
