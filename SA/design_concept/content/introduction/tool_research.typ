@@ -8,7 +8,7 @@ functional programming language as described in @motivation.
 But even if they fail to live up to the specific goals of this project, they
 may still be useful as inspiration or as a starting point for a VisualFP.
 
-In the following, we will take a look at some of these tools and discuss
+This section discusses these tools and
 their strengths and weaknesses.
 
 #let tool_research_directory = "design_concept/content/introduction/tool_research/"

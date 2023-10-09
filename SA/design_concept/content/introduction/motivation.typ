@@ -12,10 +12,10 @@ logical nature of functional programming through e.g. the lambda calculus,
 or by jumping right into code, leaving many students puzzled.
 
 Some visual approaches to functional programming do exist though, some of
-which are covered in @existing_tools. Unfortunately, none are not suitable
-as introduction to general purpose functional programming.
+which are covered in @existing_tools. Unfortunately, none are suitable
+as an introduction to general purpose functional programming.
 
-Block-based tools don't need to be limited to education: A sufficiently
+However, block-based tools don't need to be limited to education: A sufficiently
 powerful environment which allows conversion to and from a text-based
 programming language could also see adoption among professionals looking for
 ways to visualize their code.

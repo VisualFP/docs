@@ -2,8 +2,8 @@
 
 = Introduction
 
-This section discusses the motivation behind VisualFP, what it aims it
-intends to achieve, and the research that was done about existing
+This section discusses the motivation behind VisualFP, what it aims
+to achieve, and the research that was done about existing
 alternatives.
 
 Some sections from @motivation Motivation and @goals Goals have been taken
