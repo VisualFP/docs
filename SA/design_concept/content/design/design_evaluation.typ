@@ -1,5 +1,17 @@
 = Design Evaluation Criteria
-The following code scenarios were defined to evaluate visualization designs regarding their simplicity and clarity of the underlying functional concepts.
+
+The following code scenarios were defined to evaluate visualization designs
+regarding their simplicity and clarity of the underlying functional
+concepts. The decision for which design is worth pursuing further will be
+made based on how well a design is able to represent these scenarios.
+
+Unfortunately, it isn't possible to compare 'how well' a design represents
+the scenarios in a quantitative fashion. Any chosen metric would necessarily
+be subjective.
+
+Thus, the the decision will be based on the opinions of the authors, as well
+as opinions from more experienced functional programmers which are shown at
+/*TODO: Insert reference */.
 
 == Simple Addition Function
 @design_eval_addition has been chosen to evalute designs for the composition of a simple function, using another function.
