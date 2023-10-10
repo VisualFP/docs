@@ -16,7 +16,7 @@ code, a so-called _metavariable_, which the checker will detect and display
 alongside the expected type in the context-window, as shown in @agda_context_window.
 
 #figure(
-  image("../../static/agda-context-window.png", width: 70%),
+  image("../../../static/agda-context-window.png", width: 70%),
   caption: [Screenshot of Agda context-window after inserting a hole in an expression using the `?` sign]
 ) <agda_context_window>
 

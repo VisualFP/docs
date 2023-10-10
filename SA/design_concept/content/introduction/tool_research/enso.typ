@@ -1,4 +1,4 @@
-#import "../../../acronyms.typ": *
+#import "../../../../acronyms.typ": *
 
 = Enso
 Enso is a functional programming language created by Enso International Inc., designed for data science. @enso-language
@@ -8,7 +8,7 @@ The visual editor allows a user to define components that can be connected with 
 The editor also offers previews for a component's data, which e.g. allows a user to see a modified picture like in @enso_screenshot. 
 
 #figure(
-    image("../../static/enso_screenshot.png", width: 80%),
+    image("../../../static/enso_screenshot.png", width: 80%),
     caption: [Example programm in Enso @enso-language]
 )<enso_screenshot>
 

@@ -6,7 +6,7 @@ environment that is based on blocks connected using cables, as shown in
 arrangements and connections into Haskell code.
 
 #figure(
-  image("../../static/flo_screenshot_1.png", width: 50%),
+  image("../../../static/flo_screenshot_1.png", width: 50%),
   caption: [Screenshot of an if function definition in flo @flo-manual]) <flo_screenshot_1>
 
 A block's parameters and outputs are represented by 'sockets', which can be
@@ -19,7 +19,7 @@ to a complex type with type parameters, represented through sockets as well. An
 example of a type being used as type parameter is shown in @flo_screenshot_2.
 
 #figure(
-  image("../../static/flo_screenshot_2.png", width: 30%),
+  image("../../../static/flo_screenshot_2.png", width: 30%),
   caption: [Screenshot of a negation function application in flo @flo-manual]) <flo_screenshot_2>
 
 flo has been a research project, and has not been actively developed since 2016.

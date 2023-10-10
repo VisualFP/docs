@@ -24,7 +24,7 @@
 
 #set page(..sa_page_style(metadata))
 
-#include_section("design_concept/content/introduction.typ")
+#include_section("design_concept/content/introduction/introduction.typ")
 #include_section("design_concept/content/design/design.typ")
 #include_section("design_concept/content/poc/poc.typ")
 
