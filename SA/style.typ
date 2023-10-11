@@ -91,13 +91,17 @@
 }
 
 #let sa_footer(metadata) = locate(loc => {
-    if counter(page).at(loc).first() > 0 {
-      grid(
-        columns: (1fr, 1fr), 
-        align(left)[#metadata.authors-short],
-        align(right)[Page #counter(page).display("1 of 1", both: true)]
-      )
-    }
+  // reset footnote numbering after each page. Subject change in a future
+  // typst release
+  counter(footnote).update(_ => 0)
+
+  if counter(page).at(loc).first() > 0 {
+    grid(
+      columns: (1fr, 1fr), 
+      align(left)[#metadata.authors-short],
+      align(right)[Page #counter(page).display("1 of 1", both: true)]
+    )
+  }
 })
 
 #let sa_page_style(metadata) = (
@@ -142,3 +146,17 @@
     target: figure.where(kind: "table")
   )
 }
+
+#let sa_disclaimer() = [
+  #pagebreak()
+  #set page(header: none, footer: none)
+
+  #align(center)[
+    #text(weight: "bold", size: 1.5em, "Disclaimer")
+  ]
+
+  Parts of this thesis were reworded using the following tools: 
+
+  - GitHub Copilot #footnote("https://github.com/features/copilot/")
+  - Grammarly #footnote("https://www.grammarly.com/")
+]
