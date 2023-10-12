@@ -48,6 +48,16 @@ concepts.
     caption: "Product function for design evaluation"
 )<design_eval_product>
 
+=== Map Add 5 Function
+@design_eval_currying has been chosen to evaluate designs for currying.
+
+#figure(
+    ```hs
+    mapAdd5 :: Num b => [b] -> [b]
+    mapAdd5 = map ((+) 5)
+    ```
+)<design_eval_currying>
+
 === Function to count words
 @design_eval_word_count has been chosen to evalute designs for more complex functions using higher-order functions.
 
