@@ -155,7 +155,7 @@
     #text(weight: "bold", size: 1.5em, "Disclaimer")
   ]
 
-  Parts of this thesis were reworded using the following tools: 
+  Parts of this paper were rephrased using the following tools: 
 
   - GitHub Copilot #footnote("https://github.com/features/copilot/")
   - Grammarly #footnote("https://www.grammarly.com/")
