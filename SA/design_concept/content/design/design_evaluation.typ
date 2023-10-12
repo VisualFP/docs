@@ -2,7 +2,7 @@
 This section describes the decision process used to decide on a final design for function & type composition in VisualFP.
 
 Unfortunately, it isn't possible to compare 'how good' a design is in an objective fashion.
-This is why the decision process is based on selected code scenarios and a questionnaire to evaluate their visual representation.
+This is why the decision process is based on selected code scenarios and a non-quantitative questionnaire to evaluate their visual representation.
 
 Both the questionnaire and the example visualizations will be given to a group of students and some more experienced functional programmers.
 The final decision is based upon the author's opinion on the designs and the feedback received from the selected group.
@@ -88,7 +88,7 @@ concepts.
 )<design_eval_expr_eval>
 
 == Evaluation Questionnaire
-The following questions will be given to the selected group of students and programmers to help them evaluate the proposed designs.
+The following questions will be given to the selected group of students and programmers to evaluate the proposed designs.
 The evaluation questions have to be answered for every example visualization of every design proposal:
 
 - Were you able to determine what the function does?
