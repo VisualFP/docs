@@ -34,10 +34,10 @@ An example of a simple function definition can be seen in @flo_inspired_addition
     caption: "Example of flow-inspired function definition for addition function"
 )<flo_inspired_addition>
 
-Functions themselves can of course also be used as parameters themselves.
-For that, the use can create a connector-arrow between the main function block (not one of the depending ones) and a function parameter slot in the same ways as with function parameters.
-When using functions as parameters, it is possible to auto-fill some of the functions parameters.
-That means that a parameter of a function is automatically filled by the function that it's used in.
+Functions can of course also be used as parameters themselves.
+For that, the user can create a connector-arrow between a function block and a function parameter slot in the same ways as with function parameters.
+When using functions as parameters, it is possible leave some function parameters unapplied.
+Like this, a parameter of a function can be filled by the function that it's used in.
 
 An example for that can be seen in @flo_inspired_mapAddFive, which is a visual representation of the "Map Add 5" code scenario in @design_eval_code_scenarios.
 The auto-filled parameter of the "(+)" function can be recognized by the fill-color of the parameter slot.
@@ -46,13 +46,14 @@ The auto-filled parameter of the "(+)" function can be recognized by the fill-co
     caption: "Example of functions used as parameters for other functions"
 )<flo_inspired_mapAddFive>
 
-Another important concept is recursion.
-In Haskell, recursive functions are often defined with pattern matching.
-To support that, there is a pre-defined match block that has match cases for typical scenarios (e.g. empty list and head-tail pattern).
+Pattern-matching is a very useful feature of Haskell.
+To support that in VisualFP, there is a pre-defined match block that has match cases for typical scenarios (e.g. empty list and head-tail pattern).
 The match block has connector-slots for each match-case to which the user can connect the definition of the case behavior.
+
+Another important concept in any language is recursion.
 To create the recursive behaviour, the user can simply drag the function they are defining from the sidebar onto the function editor canvas and use it as any other function.
 
-@flo_inspired_product, which is a visual representation of the product code scenario defined in @design_eval_code_scenarios, shows how a recursive function definition could look like.
+@flo_inspired_product, which is a visual representation of the product code scenario defined in @design_eval_code_scenarios, shows how a recursive function definition using pattern-matching could look like.
 
 #figure(
     image("../../static/flo-inspired-product.png"),
