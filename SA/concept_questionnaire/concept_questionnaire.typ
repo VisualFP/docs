@@ -156,19 +156,19 @@ Lukas Streckeisen & Jann Flepp
   title: "Scratch inspired",
   show-questions: true,
   simple_addition: [
-    #set text(font: "Roboto")
+    #set text(font: "Ubuntu")
     #image("static/scratch_addition.svg", width: 60%)
   ],
   even_one_to_ten: [
-    #set text(font: "Roboto")
+    #set text(font: "Ubuntu")
     #image("static/scratch_evenOneToTen.svg")
   ],
   product_of_numbers: [
-    #set text(font: "Roboto")
+    #set text(font: "Ubuntu")
     #image("static/scratch_product.svg")
   ],
   map_add_5_function: [
-    #set text(font: "Roboto")
+    #set text(font: "Ubuntu")
     #image("static/scratch_mapAdd5.svg", width: 50%)
   ],
   count_words: [
