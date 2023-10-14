@@ -39,26 +39,33 @@ A user wants to compose a simple function using pre-defined functions and e.g. I
 === UC2 - Function Execution
 A user wants to execute their visually composed functions.
 
-=== UC3 - Function Composition using Lists
-A user wants to compose a function using lists, i.e. list construction.
-
-=== UC4 - Recursive Function Composition
+=== UC3 - Recursive Function Composition
 A user wants to compose a function that is defined by itself.
 
-=== UC5 - Function Composition using Higher-Order Functions
+=== UC4 - Function Composition using Higher-Order Functions
 A user wants to compose functions that take other functions as their argument.
 
-=== UC6 - Data Type Composition
+=== UC5 - Curried Functions
+A user wants to create function by partially applying a curried function.
+
+=== UC6 - Function Composition using Lists
+A user wants to compose a function using lists, i.e. list construction.
+
+=== UC7 - Data Type Composition
 A user wants to be able to create their own data types.
 
-=== UC7 - Save Source File
+=== UC8 - Save Source File
 A user wants to save their composed functions in a source file.
 
-=== UC8 - Open Source File
+=== UC9 - Open Source File
 A user wants to open a previously saved source file to continue working on their functions.
 
-=== UC9 - Group Functions into Modules
+=== UC10 - Group Functions into Modules
 An expert user wants to group functions into modules to keep their code organized.
 
-=== UC10 - Import Haskell code
+=== UC11 - Import Haskell code
 An expert user wants to import their existing Haskell project into VisualFP.
+
+== Prioritization
+The focus of this paper lies on creating a design for function composition.
+This means that use cases 1 - 5 have the priority must-have and use cases 6 - 11 have priority nice-to-have.
