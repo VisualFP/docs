@@ -5,7 +5,7 @@ project_documentation:
 	typst watch --root SA SA/project_documentation/project_documentation.typ
 
 concept_questionnaire:
-	typst watch --root SA SA/concept_questionnaire/concept_questionnaire.typ
+	typst watch --root SA --font-path SA/concept_questionnaire/static SA/concept_questionnaire/concept_questionnaire.typ
 
 all:
 	mkdir -p SA/out
