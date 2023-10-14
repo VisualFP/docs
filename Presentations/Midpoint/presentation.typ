@@ -90,13 +90,13 @@ filter even (takeWhile (<= 10) (iterate (+ 1) 0))
 #polylux-slide[
 = Mehta-drawing inspired
 #align(center + horizon,
-  image("static/mehta-drawing-inspired-01.png", width: 65%))
+  image("static/mehta-drawing-inspired-02.png", width: 50%))
 ]
 
 #polylux-slide[
 = Mehta-drawing inspired
 #align(center + horizon,
-  image("static/mehta-drawing-inspired-02.png", width: 50%))
+  image("static/mehta-drawing-inspired-01.png", width: 65%))
 ]
 
 #polylux-slide[
