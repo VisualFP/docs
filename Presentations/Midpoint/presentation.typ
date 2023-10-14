@@ -116,3 +116,15 @@ rather than teaching them how to
 #v(1fr)
 ]
 
+#polylux-slide[
+= Decision
+#v(1fr)
+- Design decision based on feedback of students & programmers
+#v(1fr)
+- Questions:
+  - Were you able to determine what the function does?
+  - Did you find it easy or difficult to determine the purpose of the function?
+  - Do you find the visualization nice to look at?
+  - Do you have any suggestions for improvement or general comments on the visualization?
+#v(1fr)
+]
