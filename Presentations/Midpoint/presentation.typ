@@ -38,9 +38,7 @@ In order:
 #v(1fr)
 ]
 
-#polylux-slide[
-= Flo inspired
-]
+#include "flo-inspired.typ"
 
 #polylux-slide[
 = Scratch inspired
