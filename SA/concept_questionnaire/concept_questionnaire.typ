@@ -59,8 +59,8 @@ In the context of our SA, we are currently searching for a new way to
 visualize functional programming concepts. Before we start to flesh out our
 ideas, we would like to get some feedback on a few concepts we came up with.
 
-In the end we will decide on one and develop it further. In the end, we will
-have developed a concept, along with a proof of concept of it, that
+In the end, we will
+have developed a design concept, along with a proof of concept of it, that
 fullfills the following criteria:
 
 1. It can be used to teach functional programming concepts
