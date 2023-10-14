@@ -1,4 +1,4 @@
-= flo
+= flo <flo>
 
 flo is a visual and functional programming language. It features a programming
 environment that is based on blocks connected using cables, as shown in

@@ -9,7 +9,7 @@ The final decision is based upon the author's opinion on the designs and the fee
 
 The questionnaire results can be found here and the final decision here /*TODO: Insert reference */.
 
-== Code Scenarios
+== Code Scenarios <design_eval_code_scenarios>
 The following code scenarios were defined to evaluate visualization designs
 regarding their simplicity and clarity of the underlying functional
 concepts.
