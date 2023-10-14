@@ -15,11 +15,11 @@
       height: 7cm)[
     === #title
     #line(length: 100%, stroke: .5pt)
-    #content
+    #align(center + horizon, content)
   ]
 
   = #data.title
-  #v(-1em)
+  #v(-2em)
 
   #let gutter = .5cm
   #columns(2, gutter: gutter)[
@@ -138,7 +138,7 @@ Lukas Streckeisen & Jann Flepp
 ))
 
 #concept((
-  title: "Flo based",
+  title: "Flo inspired",
   show-questions: true,
   simple_addition: [
   ],
@@ -153,15 +153,23 @@ Lukas Streckeisen & Jann Flepp
 ))
 
 #concept((
-  title: "Scratch based",
+  title: "Scratch inspired",
   show-questions: true,
   simple_addition: [
+    #set text(font: "Ubuntu")
+    #image("static/scratch_addition.svg", width: 60%)
   ],
   even_one_to_ten: [
+    #set text(font: "Ubuntu")
+    #image("static/scratch_evenOneToTen.svg")
   ],
   product_of_numbers: [
+    #set text(font: "Ubuntu")
+    #image("static/scratch_product.svg")
   ],
   map_add_5_function: [
+    #set text(font: "Ubuntu")
+    #image("static/scratch_mapAdd5.svg", width: 50%)
   ],
   count_words: [
   ]
