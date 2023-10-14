@@ -141,7 +141,7 @@ Lukas Streckeisen & Jann Flepp
 ]
 
 #let questions = [
-  #question("Where you able to understand the meaning of the boxes and arrows?")
+  #question("Were you able to understand the meaning of the boxes and arrows?")
   #question("Do you find the concept nice to look at?")
   #question("Could you imagine teaching functional programming using this vizualization?")
   #question("Do you have any suggestions for improvement or general comments on the concept?")
