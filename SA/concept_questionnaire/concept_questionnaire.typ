@@ -7,13 +7,12 @@
   #set page(
     margin: (bottom: 2cm, top: 1cm, left: 1cm, right: 1cm))
 
-  #let scenario(title, content, height: 6cm) = block(
+  #let scenario(title, content) = block(
       inset: 8pt,
       radius: 6pt,
       width: 100%,
       stroke: .5pt,
-      height: height,
-      fill: rgb("F7F7F7"))[
+      height: 7cm)[
     === #title
     #line(length: 100%, stroke: .5pt)
     #content
@@ -43,14 +42,22 @@
       #data.map_add_5_function
     ]
   ]
-  #v(gutter)
-  #v(-0.8em)
-  #scenario("Count Words", height: 10cm)[
-      #data.count_words
+
+  #let question(text) = [
+    #v(1em)
+    #text
+
+    #box(width: 1fr, repeat[.])
+  ]
+
+  #if data.show-questions [
+    #question("Were you able to understand the meaning of the boxes and arrows?")
+    #question("Do you find the concept nice to look at?")
+    #question("Could you imagine teaching functional programming using this vizualization?")
+    #question("Do you have any suggestions for improvement or general comments on the concept?")
   ]
 ]
 
-#[
 = VisualFP Concept Questionare
 
 Hi there,
@@ -58,29 +65,30 @@ Hi there,
 In the context of our SA, we are currently searching for a new way to
 visualize functional programming concepts. Before we start to flesh out our
 ideas, we would like to get some feedback on a few concepts we came up with.
+We'll then decide which concept we'll develop further based on the received
+feedback.
 
-In the end, we will
-have developed a design concept, along with a proof of concept of it, that
-fullfills the following criteria:
+In the end, we will have designed a concept, along with a proof of concept
+of some of its functionality, that fullfills the following criteria:
 
 1. It can be used to teach functional programming concepts
 2. It is able to visualize Haskell code
 
-On the first page you'll find the Haskell equivalent of the concepts we
-developed. On the last page you'll find a few questions about the concepts.
-It would be great if you could take a few minutes to answer for each
-concept.
+On the next page you'll find a few Haskell snippets that we prepared as
+example scenarios. Then we used our concepts to visualize the scenarios, and
+added a few questions at the bottom of each. It would be great if you could
+take a few minutes to answer the questions for each concept.
 
 Thank you very much for your time!
 
 #v(1em)
 Lukas Streckeisen & Jann Flepp
-]
 
 #pagebreak()
 
 #concept((
   title: "Scenarios",
+  show-questions: false,
   simple_addition: [
     ```haskell
     addition :: Num a => a -> a -> a
@@ -129,29 +137,32 @@ Lukas Streckeisen & Jann Flepp
   ]
 ))
 
-#pagebreak()
+#concept((
+  title: "Flo based",
+  show-questions: true,
+  simple_addition: [
+  ],
+  even_one_to_ten: [
+  ],
+  product_of_numbers: [
+  ],
+  map_add_5_function: [
+  ],
+  count_words: [
+  ]
+))
 
-= Questions
-
-#let question(text) = [
-  #v(1em)
-  #text
-
-  #box(width: 1fr, repeat[.])
-]
-
-#let questions = [
-  #question("Were you able to understand the meaning of the boxes and arrows?")
-  #question("Do you find the concept nice to look at?")
-  #question("Could you imagine teaching functional programming using this vizualization?")
-  #question("Do you have any suggestions for improvement or general comments on the concept?")
-]
-
-== Flo Inspired
-
-#questions
-
-== Scratch Inspired
-
-#questions
-
+#concept((
+  title: "Scratch based",
+  show-questions: true,
+  simple_addition: [
+  ],
+  even_one_to_ten: [
+  ],
+  product_of_numbers: [
+  ],
+  map_add_5_function: [
+  ],
+  count_words: [
+  ]
+))
