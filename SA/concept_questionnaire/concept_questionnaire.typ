@@ -116,24 +116,6 @@ Lukas Streckeisen & Jann Flepp
     mapAdd5 :: Num a => [a] -> [a]
     mapAdd5 = map (+ 5)
     ```
-  ],
-  count_words: [
-    ```haskell
-    input :: [String]
-    input = ["This is a sentence.", "This is another sentence."]
-
-    wordsPerLine :: [String] -> [[String]]
-    wordsPerLine = map words
-
-    wordCountPerLine :: [String] -> [Int]
-    wordCountPerLine = map length . wordsPerLine
-
-    totalWordCount :: [String] -> Int
-    totalWordCount xs = foldr (+) 0 (wordCountPerLine xs)
-
-    totalWordCountOneLiner :: [String] -> Int
-    totalWordCountOneLiner = foldr (+) 0 . map (length . words)
-    ```
   ]
 ))
 
@@ -141,14 +123,16 @@ Lukas Streckeisen & Jann Flepp
   title: "Flo inspired",
   show-questions: true,
   simple_addition: [
+    #image("static/flo-inspired-addition.png", width: 80%)
   ],
   even_one_to_ten: [
+    #image("static/flo-inspired-evenOneToTen.png", width: 80%)
   ],
   product_of_numbers: [
+    #image("static/flo-inspired-product.png", width: 105%)
   ],
   map_add_5_function: [
-  ],
-  count_words: [
+    #image("static/flo-inspired-mapAdd5.png", width: 80%)
   ]
 ))
 
@@ -165,12 +149,10 @@ Lukas Streckeisen & Jann Flepp
   ],
   product_of_numbers: [
     #set text(font: "Ubuntu")
-    #image("static/scratch_product.svg")
+    #image("static/scratch_product.svg", width: 99%)
   ],
   map_add_5_function: [
     #set text(font: "Ubuntu")
     #image("static/scratch_mapAdd5.svg", width: 50%)
-  ],
-  count_words: [
   ]
 ))
