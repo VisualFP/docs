@@ -44,7 +44,7 @@
   ]
 
   #let question(text) = [
-    #v(1em)
+    #v(.7em)
     #text
 
     #box(width: 1fr, repeat[.])
@@ -54,6 +54,7 @@
     #question("Were you able to understand the meaning of the boxes and arrows?")
     #question("Do you find the concept nice to look at?")
     #question("Could you imagine teaching functional programming using this vizualization?")
+    #question("Could you imagine how the concept scales to more complex expressions?")
     #question("Do you have any suggestions for improvement or general comments on the concept?")
   ]
 ]
@@ -78,6 +79,18 @@ On the next page you'll find a few Haskell snippets that we prepared as
 example scenarios. Then we used our concepts to visualize the scenarios, and
 added a few questions at the bottom of each. It would be great if you could
 take a few minutes to answer the questions for each concept.
+
+Please note that:
+
+- These concept are in early stages of development, so there can be bugs and
+  inconsistencies in the examples. If you find any, feel free to point them
+  out.
+- We've consciously decided to not give more textual explanations of the
+  concepts, as we want to see how well they can stand on their own.
+- Some visualizations barely fit into the boxes. We regard this as a
+  downside of these concept, since this indicates that they don't scale
+  well. We tried to created images of high resolution, so you should be able
+  to zoom to see the details.
 
 Thank you very much for your time!
 
@@ -170,6 +183,26 @@ Lukas Streckeisen & Jann Flepp
   map_add_5_function: [
     #set text(font: "Ubuntu")
     #image("static/scratch_mapAdd5.svg", width: 50%)
+  ],
+  count_words: [
+  ]
+))
+
+#concept((
+  title: "Haskell Function-Notation inspired",
+  show-questions: true,
+  simple_addition: [
+    #image("static/funcnotation_addition.png", height: 40%)
+  ],
+  even_one_to_ten: [
+    #image("static/funcnotation_evenOneToTen.png", width: 105%)
+  ],
+  product_of_numbers: [
+    #image("static/funcnotation_product.png", height: 85%)
+  ],
+  map_add_5_function: [
+    #set text(font: "Ubuntu")
+    #image("static/funcnotation_mapAdd5.png", width: 75%)
   ],
   count_words: [
   ]
