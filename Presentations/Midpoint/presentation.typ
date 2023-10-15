@@ -120,9 +120,9 @@ rather than teaching them how to
 - Design decision based on feedback of students & programmers
 #v(1fr)
 - Questions:
-  - Were you able to determine what the function does?
-  - Did you find it easy or difficult to determine the purpose of the function?
-  - Do you find the visualization nice to look at?
-  - Do you have any suggestions for improvement or general comments on the visualization?
+  - Were you able to understand the meaning of the boxes and arrows?
+  - Do you find the concept nice to look at?
+  - Could you imagine teaching functional programming using this vizualization?
+  - Do you have any suggestions for improvement or general comments on the concept?
 #v(1fr)
 ]
