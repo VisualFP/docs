@@ -59,7 +59,7 @@
   ]
 ]
 
-= VisualFP Concept Questionare
+= VisualFP Concept Questionnaire
 
 Hi there,
 
