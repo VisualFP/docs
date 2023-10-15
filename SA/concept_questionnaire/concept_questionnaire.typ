@@ -65,9 +65,9 @@ Hi there,
 
 In the context of our SA, we are currently searching for a new way to
 visualize functional programming concepts. Before we start to flesh out our
-ideas, we would like to get some feedback on a few concepts we came up with.
-We'll then decide which concept we'll develop further based on the received
-feedback.
+ideas, we would like to get some feedback on a few visualization concepts we
+came up with. We'll then decide which one we'll develop further based on
+the received feedback.
 
 In the end, we will have designed a concept, along with a proof of concept
 of some of its functionality, that fullfills the following criteria:
@@ -76,9 +76,9 @@ of some of its functionality, that fullfills the following criteria:
 2. It is able to visualize Haskell code
 
 On the next page you'll find a few Haskell snippets that we prepared as
-example scenarios. Then we used our concepts to visualize the scenarios, and
+example scenarios. Then we used the concepts to visualize the scenarios, and
 added a few questions at the bottom of each. It would be great if you could
-take a few minutes to answer the questions for each concept.
+take a few minutes to answer them.
 
 Please note that:
 
@@ -88,9 +88,9 @@ Please note that:
 - We've consciously decided to not give more textual explanations of the
   concepts, as we want to see how well they can stand on their own.
 - Some visualizations barely fit into the boxes. We regard this as a
-  downside of these concept, since this indicates that they don't scale
-  well. We tried to created images of high resolution, so you should be able
-  to zoom to see the details.
+  downside of these concepts, since this indicates that they don't scale
+  well. We tried to provide hight resultion images though, so you should be
+  able to zoom in to see the details.
 
 Thank you very much for your time!
 
