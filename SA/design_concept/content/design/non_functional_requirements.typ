@@ -18,7 +18,7 @@ To find relevant NFRs, ISO-25010 was used for inspiration.
 #NFR(
     [
         VisualFP should be usable on Windows, MacOS and Linux devices.
-        There should be no extra effort for a user to use VisualFP compared to a user with another OS.
+        There should be no extra effort required to run VisualFP on any particular OS.
     ],
     "Test the usage of VisualFP on all three mentioned operating systems.",
     "The installation steps are the same or of equivalent effort for all three mentioned operating systems",
@@ -32,5 +32,5 @@ To find relevant NFRs, ISO-25010 was used for inspiration.
     ],
     "Usability Tests with a user without experience in functinal programming",
     "A user without experience in functional programming undestands how to use VisualFP within 2 hours",
-    "Keep the design of VisualPF simple, offer Help buttons on more complex blocks"
+    "Keep the design of VisualPF simple, offer help buttons on more complex blocks"
 )
