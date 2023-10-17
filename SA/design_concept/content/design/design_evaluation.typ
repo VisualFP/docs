@@ -75,7 +75,7 @@ concepts.
 )<design_eval_expr_eval>
 
 == Evaluation Questionnaire <design_eval_questionnaire>
-The following questions will be given to selected  of students and programmers to evaluate the proposed designs.
+The following questions will be given to selected students and programmers to evaluate the proposed designs.
 The evaluation questions have to be answered once for every design proposal:
 
 - Were you able to understand the meaning of the boxes and arrows?
