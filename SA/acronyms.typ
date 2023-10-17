@@ -6,7 +6,7 @@
   FP: "Functional Programming",
   SA: "Studienarbeit",
   LSP: "Language Server Protocol",
-  GHC: "Glassgow Haskell Compiler",
+  GHC: "Glasgow Haskell Compiler",
   PoC: "Proof of Concept",
 )
 
