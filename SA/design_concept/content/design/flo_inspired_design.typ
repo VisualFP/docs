@@ -17,10 +17,10 @@ The user can drag a parameter from the parameter editor onto the function editor
 To define a function, the user can drag pre-defined functions, block elements, and self-defined functions from a sidebar onto the editor canvas.
 As described above, the same can be done with function parameters from the parameter editor.
 To connect a parameter to a function call, the user can create a connector-arrow between them.
-Ctrl+Click can achieve this on the parameter and then click on the function parameter slot.
+This is achieved by clicking on the parameter while holding Ctrl and then clicking on the function parameter slot.
 
 To visually display currying, every function block has only one or no parameter.
-If a function has more than one parameter, the function block has different blocks for every additional parameter.
+If a function has more than one parameter, the function block has additional blocks for every additional parameter.
 The ":apply" suffix to the function's name recognizes such depending blocks.
 The last block of a function is the value returned by the function.
 This value can be used as a parameter for another function or marked as the function's return value.

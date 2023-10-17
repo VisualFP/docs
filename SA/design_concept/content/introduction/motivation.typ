@@ -10,7 +10,7 @@ which is why most educators start their courses by either showing the
 logical nature of functional programming through e.g. the lambda calculus,
 or by jumping right into code, leaving many students puzzled.
 
-Some visual approaches to functional programming exist, but some are covered in
+Some visual approaches to functional programming exist, some are covered in
 @existing_tools. Unfortunately, none are suitable as an introduction to
 general-purpose functional programming.
 

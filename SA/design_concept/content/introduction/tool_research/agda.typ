@@ -6,7 +6,7 @@ programming environment, the tools for it have been designed in an
 interactive way and are of interest to this project.
 
 The basis for these tools is a language-server, which, in combination with
-the powerful checker and editor extensions not only allow to verify the
+the powerful checker and editor extensions not only allows to verify the
 correctness of the code, but also to check incomplete programs. Additional
 context, such as checker errors or incomplete expressions, is then provided
 in a separate window inside the editor. 

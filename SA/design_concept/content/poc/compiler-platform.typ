@@ -35,8 +35,8 @@ Haskell Language Extensions, a part of the Haskell Suite
 #footnote("https://github.com/haskell-suite"). Both are not actively
 maintained anymore @hugs-compiler @haskell-src-ext. 
 
-Thus, the best option is using the common #ac("GHC") tool stack as a development
-environment and as a compiler for the VisualFP application. Its usage
-as a compiler doesn't impose any great risks to the project, but problems are expected
-to arise if #ac("GHC") is used as a library.
+Thus, the best option is to use the common #ac("GHC") tool stack as a
+development platform. Its usage as a compiler doesn't impose any significant
+risks to the project, but problems are expected to arise if #ac("GHC") is used
+as a library.
 
