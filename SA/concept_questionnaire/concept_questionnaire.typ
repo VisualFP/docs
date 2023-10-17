@@ -189,3 +189,8 @@ Lukas Streckeisen & Jann Flepp
   count_words: [
   ]
 ))
+
+If you have an own idea for a visualization concept, we would be happy to
+see it!
+
+
