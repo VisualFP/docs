@@ -10,9 +10,9 @@
 - Discussion of vision for prototype
 - Decisions:
     - Design concept is the focus of this #ac("SA"), prototype is secondary
-    - Design should focus on education, advanced users are secondary
-    - Design concept is allowed to be idealistic, implementation in prototype doesn't have to be feasable
+    - Design should focus on education; advanced users are secondary
+    - Design concept is allowed to be idealistic; implementation in prototype doesn't have to be feasible
 - Input from Advisor:
-    - Think of concept to visualize FP data types (algebraic datatypes, maybe type classes)
+    - Think of a concept to visualize FP data types (algebraic datatypes, maybe type classes)
     - Look at https://github.com/jespercockx/agda-lecture-notes/blob/master/agda.pdf for inspiration
     - Send visualization drafts to advisor as soon as they're ready

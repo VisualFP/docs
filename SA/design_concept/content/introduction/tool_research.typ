@@ -6,7 +6,7 @@ There already are tools available that could fill the role of a visual
 functional programming language as described in @motivation.
 
 But even if they fail to live up to the specific goals of this project, they
-may still be useful as inspiration or as a starting point for a VisualFP.
+may still be helpful as inspiration or a starting point for a VisualFP.
 
 This section discusses these tools and
 their strengths and weaknesses.

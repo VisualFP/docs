@@ -8,16 +8,16 @@ VisualFP has two actors:
     terms.item(
         "Student User",
         [
-            The student user is the main user of VisualFP and therefore the main influence on the visualization design.
+            The student user is the primary user of VisualFP and, therefore, the main influence on the visualization design.
             The user wants to learn functional programming using VisualFP.
             They want to do that by visually composing functions in a simple UI.
-            The UI should simplify the understanding of functional concepts that many beginners have difficulties with.
+            The UI should simplify the understanding of functional concepts that many beginners struggle with.
         ]
     ),
     terms.item(
         "Expert User",
         [
-            The expert user is an experienced professional that wants to use VisualFP to help them to understand their code better.
+            The expert user is an experienced professional who wants to use VisualFP to help them understand their code better.
             For that, they want to import their existing Haskell project into VisualFP.
         ]
     )
@@ -26,7 +26,7 @@ VisualFP has two actors:
 == Use Cases
 
 @use_case_diagram gives an overview of all identified use-cases.
-By default, the usage of the term "user" in the use case description refers to the role "student user".
+By default, the term "user" in the use case description refers to the "student user" role.
 
 #figure(
     image("../../static/SA_use_cases.png", width: 80%),
@@ -34,7 +34,7 @@ By default, the usage of the term "user" in the use case description refers to t
 )<use_case_diagram>
 
 === UC1 - Simple Function Composition
-A user wants to compose a simple function using pre-defined functions and e.g. Integer parameters.
+A user wants to compose a simple function using pre-defined functions, e.g., Integer parameters.
 
 === UC2 - Function Execution
 A user wants to execute their visually composed functions.
@@ -67,5 +67,5 @@ An expert user wants to group functions into modules to keep their code organize
 An expert user wants to import their existing Haskell project into VisualFP.
 
 == Prioritization
-The focus of this paper lies on creating a design for function composition.
-This means that use cases 1 - 5 have the priority must-have and use cases 6 - 11 have priority nice-to-have.
+The focus of this paper lies in creating a design for function composition.
+This means use cases 1 - 5 have the priority must-have, and use cases 6 - 11 have priority nice-to-have.

@@ -98,7 +98,7 @@ concepts.
 )<design_eval_expr_eval>
 
 == Evaluation Questionnaire
-The following questions will be given to the selected group of students and programmers to evaluate the proposed designs.
+The following questions will be given to the selected students and programmers to evaluate the proposed designs.
 The evaluation questions have to be answered for every example visualization of every design proposal:
 
 - Were you able to determine what the function does?

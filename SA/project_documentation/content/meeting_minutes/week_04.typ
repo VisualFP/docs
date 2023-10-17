@@ -10,5 +10,5 @@
 - Discussion of function visualization drafts
 - Input from Advisor:
     - Include a code scenario with currying
-    - Maybe VisualFP should go into the direction of a visual version of GHCi
+    - Maybe VisualFP should go in the direction of a visual version of GHCi
 - Decision: Determine next steps based on designs next week

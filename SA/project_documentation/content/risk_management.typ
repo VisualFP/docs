@@ -24,7 +24,7 @@ In @initial_risk_assessment all risks identified at the start of the project are
 
     ..risk([001], green,
       risk: [Difficulties with Typst],
-      correction: [Switch to LaTeX in case typst lacks neccessary features]),
+      correction: [Switch to LaTeX in case typst lacks necessary features]),
     
     ..risk([002], yellow,
       risk: [Absence of team member],
@@ -54,7 +54,7 @@ In @initial_risk_assessment all risks identified at the start of the project are
 )<initial_risk_assessment>
 
 == Risk Matrix
-This risk matrix describes the color-coding used above using the factors "probability" and "severity".
+This risk matrix describes the color-coding used above using "probability" and "severity".
 
 #figure(
     tablex(
