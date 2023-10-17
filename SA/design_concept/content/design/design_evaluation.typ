@@ -7,7 +7,7 @@ This is why the decision process is based on selected code scenarios and a non-q
 Both the questionnaire and the example visualizations will be given to a group of students and some more experienced functional programmers.
 The final decision is based upon the author's opinion on the designs and the feedback received from the selected group.
 
-The questionnaire results can be found here and the final decision here /*TODO: Insert reference */.
+The questionnaire results can be found in @design_eval_results and the final decision in @design_decision.
 
 == Code Scenarios <design_eval_code_scenarios>
 The following code scenarios were defined to evaluate visualization designs
@@ -58,29 +58,6 @@ concepts.
     ```
 )<design_eval_currying>
 
-=== Function to count words
-@design_eval_word_count has been chosen to evalute designs for more complex functions using higher-order functions.
-
-#figure(
-    ```hs
-    input :: [String]
-    input = ["This is a sentence.", "This is another sentence."]
-
-    wordsPerLine :: [String] -> [[String]]
-    wordsPerLine = map words
-
-    wordCountPerLine :: [String] -> [Int]
-    wordCountPerLine = map length . wordsPerLine
-
-    totalWordCount :: [String] -> Int
-    totalWordCount xs = foldr (+) 0 (wordCountPerLine xs)
-
-    totalWordCountOneLiner :: [String] -> Int
-    totalWordCountOneLiner = foldr (+) 0 . map (length . words)
-    ```,
-    caption: "Word count function for design evaluation"
-)<design_eval_word_count>
-
 === Function for expression evaluation
 @design_eval_expr_eval has been chosen to evaluate designs for type composition of custom types and functions using them.
 
@@ -97,11 +74,14 @@ concepts.
     caption: "Eval function for design evaluation"
 )<design_eval_expr_eval>
 
-== Evaluation Questionnaire
-The following questions will be given to the selected students and programmers to evaluate the proposed designs.
-The evaluation questions have to be answered for every example visualization of every design proposal:
+== Evaluation Questionnaire <design_eval_questionnaire>
+The following questions will be given to selected  of students and programmers to evaluate the proposed designs.
+The evaluation questions have to be answered once for every design proposal:
 
-- Were you able to determine what the function does?
-- Did you find it easy or difficult to determine the purpose of the function?
-- Do you find the visualization nice to look at?
-- Do you have any suggestions for improvement or general comments on the visualization?
+- Were you able to understand the meaning of the boxes and arrows?
+- Do you find the concept nice to look at?
+- Could you imagine teaching functional programming using this vizualization?
+- Could you imagine how the concept scales to more complex expressions?
+- Do you have any suggestions for improvement or general comments on the concept?
+
+The questionnaire template handed out to survey participants can be found here. // TODO: add questionnaire to appendix and reference it here

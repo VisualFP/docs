@@ -82,21 +82,27 @@ filter even (takeWhile (<= 10) (iterate (+ 1) 0))
 ]
 
 #polylux-slide[
-= Mehta-drawing inspired
+= Haskell Function-Notation inspired
 #align(center + horizon,
   image("static/mehta-drawing.png", width: 50%))
 ]
 
 #polylux-slide[
-= Mehta-drawing inspired
+= Haskell Function-Notation inspired
 #align(center + horizon,
-  image("static/mehta-drawing-inspired-02.png", width: 50%))
+  image("static/funcnotation_addition.png", width: 30%))
 ]
 
 #polylux-slide[
-= Mehta-drawing inspired
+= Haskell Function-Notation inspired
 #align(center + horizon,
-  image("static/mehta-drawing-inspired-01.png", width: 65%))
+  image("static/funcnotation_evenOneToTen.png", width: 85%))
+]
+
+#polylux-slide[
+= Haskell Function-Notation inspired
+#align(center + horizon,
+  image("static/funcnotation_collapsing.png", width: 65%))
 ]
 
 #polylux-slide[

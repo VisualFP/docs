@@ -44,7 +44,7 @@
   ]
 
   #let question(text) = [
-    #v(1em)
+    #v(.7em)
     #text
 
     #box(width: 1fr, repeat[.])
@@ -54,19 +54,20 @@
     #question("Were you able to understand the meaning of the boxes and arrows?")
     #question("Do you find the concept nice to look at?")
     #question("Could you imagine teaching functional programming using this vizualization?")
+    #question("Could you imagine how the concept scales to more complex expressions?")
     #question("Do you have any suggestions for improvement or general comments on the concept?")
   ]
 ]
 
-= VisualFP Concept Questionare
+= VisualFP Concept Questionnaire
 
 Hi there,
 
 In the context of our SA, we are currently searching for a new way to
 visualize functional programming concepts. Before we start to flesh out our
-ideas, we would like to get some feedback on a few concepts we came up with.
-We'll then decide which concept we'll develop further based on the received
-feedback.
+ideas, we would like to get some feedback on a few visualization concepts we
+came up with. We'll then decide which one we'll develop further based on
+the received feedback.
 
 In the end, we will have designed a concept, along with a proof of concept
 of some of its functionality, that fullfills the following criteria:
@@ -75,9 +76,21 @@ of some of its functionality, that fullfills the following criteria:
 2. It is able to visualize Haskell code
 
 On the next page you'll find a few Haskell snippets that we prepared as
-example scenarios. Then we used our concepts to visualize the scenarios, and
+example scenarios. Then we used the concepts to visualize the scenarios, and
 added a few questions at the bottom of each. It would be great if you could
-take a few minutes to answer the questions for each concept.
+take a few minutes to answer them.
+
+Please note that:
+
+- These concept are in early stages of development, so there can be bugs and
+  inconsistencies in the examples. If you find any, feel free to point them
+  out.
+- We've consciously decided to not give more textual explanations of the
+  concepts, as we want to see how well they can stand on their own.
+- Some visualizations barely fit into the boxes. We regard this as a
+  downside of these concepts, since this indicates that they don't scale
+  well. We tried to provide hight resultion images though, so you should be
+  able to zoom in to see the details.
 
 Thank you very much for your time!
 
@@ -116,24 +129,6 @@ Lukas Streckeisen & Jann Flepp
     mapAdd5 :: Num a => [a] -> [a]
     mapAdd5 = map (+ 5)
     ```
-  ],
-  count_words: [
-    ```haskell
-    input :: [String]
-    input = ["This is a sentence.", "This is another sentence."]
-
-    wordsPerLine :: [String] -> [[String]]
-    wordsPerLine = map words
-
-    wordCountPerLine :: [String] -> [Int]
-    wordCountPerLine = map length . wordsPerLine
-
-    totalWordCount :: [String] -> Int
-    totalWordCount xs = foldr (+) 0 (wordCountPerLine xs)
-
-    totalWordCountOneLiner :: [String] -> Int
-    totalWordCountOneLiner = foldr (+) 0 . map (length . words)
-    ```
   ]
 ))
 
@@ -141,14 +136,16 @@ Lukas Streckeisen & Jann Flepp
   title: "Flo inspired",
   show-questions: true,
   simple_addition: [
+    #image("static/flo-inspired-addition.png", width: 80%)
   ],
   even_one_to_ten: [
+    #image("static/flo-inspired-evenOneToTen.png", width: 80%)
   ],
   product_of_numbers: [
+    #image("static/flo-inspired-product.png", width: 105%)
   ],
   map_add_5_function: [
-  ],
-  count_words: [
+    #image("static/flo-inspired-mapAdd5.png", width: 80%)
   ]
 ))
 
@@ -165,12 +162,35 @@ Lukas Streckeisen & Jann Flepp
   ],
   product_of_numbers: [
     #set text(font: "Ubuntu")
-    #image("static/scratch_product.svg")
+    #image("static/scratch_product.svg", width: 99%)
   ],
   map_add_5_function: [
     #set text(font: "Ubuntu")
     #image("static/scratch_mapAdd5.svg", width: 50%)
+  ]
+))
+
+#concept((
+  title: "Haskell Function-Notation inspired",
+  show-questions: true,
+  simple_addition: [
+    #image("static/funcnotation_addition.png", height: 40%)
+  ],
+  even_one_to_ten: [
+    #image("static/funcnotation_evenOneToTen.png", width: 105%)
+  ],
+  product_of_numbers: [
+    #image("static/funcnotation_product.png", height: 85%)
+  ],
+  map_add_5_function: [
+    #set text(font: "Ubuntu")
+    #image("static/funcnotation_mapAdd5.png", width: 75%)
   ],
   count_words: [
   ]
 ))
+
+If you have an own idea for a visualization concept, we would be happy to
+see it!
+
+
