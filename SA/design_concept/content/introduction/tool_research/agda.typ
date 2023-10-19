@@ -3,10 +3,10 @@
 Even though Agda
 #footnote("https://wiki.portal.chalmers.se/agda/pmwiki.php") isn't a visual
 programming environment, the tools for it have been designed in an
-interactive way and are of interest for this project.
+interactive way and are of interest to this project.
 
-The basis for these tools is a language-server, which in combination with
-the powerful checker and editor extensions, not only allows to verify the
+The basis for these tools is a language-server, which, in combination with
+the powerful checker and editor extensions not only allows to verify the
 correctness of the code, but also to check incomplete programs. Additional
 context, such as checker errors or incomplete expressions, is then provided
 in a separate window inside the editor. 
@@ -21,13 +21,12 @@ alongside the expected type in the context-window, as shown in @agda_context_win
 ) <agda_context_window>
 
 The Agda language server is also able to provide automatic case-splitting
-for pattern matching. During this process, the checker will determine which
-cases are possible, and present only those to the user. Thus, the user
-is not only freed from having to remember and type out all cases, but also
-from having to determine which cases are possible at all.
+for pattern matching. During this process, the checker will determine the
+possible cases and present only those to the user. Thus, the user is freed from
+remembering and typing all cases and determining which cases are possible.
 
-Additionally, the langage-server offers to normalize or deduce any given
-expression, inside the context of the currently loaded code. The checker is
+Additionally, the language-server offers to normalize or deduce any given
+expression inside the context of the currently loaded code. The checker is
 also utilized for syntax highlighting, providing the user with semantical
-value in form of coloring. 
+value in the form of coloring. 
 

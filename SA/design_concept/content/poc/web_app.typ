@@ -1,9 +1,9 @@
 = Web Application
 A web application has a frontend and a backend.
-The frontend is statically served to the user in a web browser and communicates with the backend, which is hosted on a server, via an API.
+The frontend is statically served to the user in a web browser and communicates via an API with the backend, which is hosted on a server.
 
 Pros:
-- Frontend and backend can be written in completely different programming languages
+- Frontend and backend can be written in entirely different programming languages
 - JavaScript has a wide range of libraries available for frontend development
 
 Cons:
