@@ -216,5 +216,46 @@ These are the results:
     generalComments: "It would be nice to have 'referential-transparency', i.e. hovering over a block to see the type of a specific argument."
 )
 
+#questionnaireResult(
+    "Lukas Buchli",
+    "Lukas Buchli is a technical employee at the institue for software at OST",
+    (
+        (
+            concept: "Flo-inspired",
+            meaningAnswer: "I don't know Flo and for me it is not a very obvious notation. I can guess the semantics though.",
+            lookAnswer: "It looks a bit cluttered to me.",
+            teachingAnswer: "I think I would visualize it differently.",
+            scalingAnswer: "It will probably clutter quite fast, I already find 'Product of Numbers' hard to read. I don't see a simple way to split it into multiple parts.",
+            suggestionsAndComments: "Maybe multiple argument functions can have the argument in the same block instead of the :apply notation? I understand that this is to highlight currying, but I think you could also explain this by only highlighting the empty argument boxes. This would reduce clutter and make it more scalable."
+        ),
+        (
+            concept: "Scratch-inspired",
+            meaningAnswer: "I find this quite easy to read. The only confusing bits I find are the type annotations (purple), especially because it mixes up constraints and types, but also because it could be interpreted as being part of the lower layer (i.e. in 'Map Add 5 Function' it could be interpreted as describing the (+) and not the 5).",
+            lookAnswer: "Yes, it looks clean and colorful.",
+            teachingAnswer: "Yes.",
+            scalingAnswer: "It seems to clutter up less fast, and even then, it could be possible to split it up into multiple towers with references to each other (maybe when visualizing Haskell code, definitions in 'where' or in a let expression could be a separate tower, this would also solve the problem of multiple references.",
+            suggestionsAndComments: [
+                - Type annotations: There could be a separate type annotation tower that can be enabled or disabled. Or it should be more obvious where the type annotation applies. At the moment it looks like the types are arguments to the function (which is actually the case in GHC Core or with the TypeApplications extension, but not in normal Haskell). Constraints should be ignored or handled differently.
+                - Infix functions should look like +, not (+), if they are visualized in an infix way.
+            ],
+        ),
+        (
+            concept: "Haskell Function-Notation inspired",
+            meaningAnswer: "I find this one difficult to read. I especially have difficulty with the apparent mix-up of types and values. It seems that the last part of an arrow chain is the return type, and the rest is a value if present and a type if partially applied? I like the currying visualization with nested boxes though.",
+            lookAnswer: "It looks more formal than Scratch-inspired, which to me is a disadvantage. It also has more text.",
+            teachingAnswer: "No, I find it difficult to describe the semantics of single components. Maybe I'd be able to if you gave me an explanation of their meaning.",
+            scalingAnswer: "I guess it would be possible to use cross references. It looks less cluttered than the Flo -inspired one.",
+            suggestionsAndComments: "It seems like the single component semantics are not entirely consistent here."
+        )
+    ),
+    generalComments: [
+        - I think it is important to have clear and simple semantics for single components of your visualization. In order to ensure this, it may be useful to think about reduction rules for your visualization.
+        - I like your use of color and how it distinguishes different things (types, value, arguments, ...)
+        - Type polymorphism and constraints seems to be a challenge to visualize. For polymorphic types, TypeApplications may be a useful inspiration (i.e. receive types as a different kind of argument to functions). Constraints could maybe then be applied to these kinds of type arguments. Con of this approach is that in Haskell, you don't pass types as arguments.
+        - Do you also plan on visualizing type definitions?
+        - My vote is on a Scratch-inspired version.
+    ]
+)
+
 == Design Decision <design_decision>
 Based on the results from the design evalution questionnaires it is clear that design X is best due to X, Y and Z.
