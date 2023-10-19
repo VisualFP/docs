@@ -11,7 +11,7 @@ However, everything else can only be done imperatively, making the functional as
     caption: [Screenshot of a block expression in Snap! @snap-manual]
 )<snap_screenshot>
 
-A user can also create their block-commands based on already existing commands. This allows users to reuse their code.
+A user can also create their own block-commands based on already existing commands. This allows users to reuse their code.
 But other than with actual functions, custom-blocks aren't able to take arguments from their caller.
 @snap-manual
 

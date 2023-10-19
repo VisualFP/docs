@@ -20,7 +20,7 @@ To connect a parameter to a function call, the user can create a connector-arrow
 This is achieved by clicking on the parameter while holding Ctrl and then clicking on the function parameter slot.
 
 To visually display currying, every function block has only one or no parameter.
-If a function has more than one parameter, the function block has additional blocks for every additional parameter.
+If a function has more than one parameter, the function block has dependent blocks for every additional parameter.
 The ":apply" suffix to the function's name recognizes such depending blocks.
 The last block of a function is the value returned by the function.
 This value can be used as a parameter for another function or marked as the function's return value.

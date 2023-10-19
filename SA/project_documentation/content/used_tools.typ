@@ -2,7 +2,7 @@
 
 We used these tools for the realization of this project.
 
-/ Jira: is a software management tool that can manage agile teams.
+/ Jira: is a software management tool to manage agile teams.
   We are using it to plan the project and keep track of the progress.
   #footnote("https://visual-fp-ost.atlassian.net/jira/")
 / GitHub: is a web-based hosting service for version control using Git. We are
