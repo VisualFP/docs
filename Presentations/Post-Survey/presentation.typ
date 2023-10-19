@@ -23,7 +23,7 @@
 #polylux-slide[
 = Survey Results
 #v(1fr)
-- The survey was intended to help us make a decision into which direction which
+- The survey was intended to help us make a decision into which direction we
   can go forward
 #v(1fr)
 - The examples were not fully developed & formally correct since we wanted to
@@ -46,7 +46,7 @@
 = Survey Results
 / Conclusion:
 #v(1fr)
-- None of the proposed concepts are mature enough to make a decision
+- None of the proposed concepts are mature enough, so there is no clear winner
 #v(1fr)
 - It would probably have been better to replace the questionnaire
   with personal discussions
@@ -90,13 +90,13 @@ $arrow.double.r$ Without these changes, we worry that the time will run out
 #polylux-slide[
 = How to proceed?
 #v(1fr)
-In the immediate next steps, we could:
+As immediate next steps, we could:
 #v(1fr)
--  We improve the existing concepts based on the feedback
+-  Improve one of the existing concepts based on the feedback
    - Some suggestions are already covered, but it wasn't
      conveyed since the format was lacking 
 #v(1fr)
--  We think about an entirely different approach:
+-  Think about an entirely different approach:
    - Research in the direction of Lisp
    - Google for another week
 #v(1fr)
