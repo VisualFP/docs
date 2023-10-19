@@ -180,5 +180,41 @@ These are the results:
     )
 )
 
+#questionnaireResult(
+    "Mathias Fischler",
+    "Mathias Fischler is a student at OST and has visited the functional programming lecture.",
+    (
+        (
+            concept: "Flo-inspired",
+            meaningAnswer: "",
+            lookAnswer: "No, very confusing with too many arrows and annotations.",
+            teachingAnswer: "",
+            scalingAnswer: "",
+            suggestionsAndComments: ""
+        ),
+        (
+            concept: "Scratch-inspired",
+            meaningAnswer: "",
+            lookAnswer: "Yes",
+            teachingAnswer: "",
+            scalingAnswer: "",
+            suggestionsAndComments: [
+                - No type-annotations, so it's difficult to tell what goes where
+                - Type-Hole isn't intuitive
+                - Operators should be treated like any other function
+            ],
+        ),
+        (
+            concept: "Haskell Function-Notation inspired",
+            meaningAnswer: "",
+            lookAnswer: "Yes",
+            teachingAnswer: "",
+            scalingAnswer: "",
+            suggestionsAndComments: ""
+        )
+    ),
+    generalComments: "It would be nice to have 'referential-transparency', i.e. hovering over a block to see the type of a specific argument."
+)
+
 == Design Decision <design_decision>
 Based on the results from the design evalution questionnaires it is clear that design X is best due to X, Y and Z.
