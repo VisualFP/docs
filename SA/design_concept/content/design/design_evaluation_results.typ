@@ -43,7 +43,7 @@ These are the results:
             ),
             kind: "table",
             supplement: "Table",
-            caption: "Design evaluation questionnaire answers for " + concept + " design from " + participant
+            caption: "Design questionnaire answers for " + concept + " design from " + participant
         )
     }
 
@@ -218,7 +218,7 @@ These are the results:
 
 #questionnaireResult(
     "Lukas Buchli",
-    "Lukas Buchli is a technical employee at the institue for software at OST",
+    "Lukas Buchli is a technical employee at the institute for software at OST",
     (
         (
             concept: "Flo-inspired",
