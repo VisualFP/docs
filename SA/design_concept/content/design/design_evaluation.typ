@@ -84,4 +84,5 @@ The evaluation questions have to be answered once for every design proposal:
 - Could you imagine how the concept scales to more complex expressions?
 - Do you have any suggestions for improvement or general comments on the concept?
 
-The questionnaire template handed out to survey participants can be found here. // TODO: add questionnaire to appendix and reference it here
+Additionally, every survey participant has the possibility to suggest a visualization concept of their own.
+The questionnaire template handed out to survey participants can be found in @appendix_design_eval_questionnaire.

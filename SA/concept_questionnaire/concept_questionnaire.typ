@@ -89,7 +89,7 @@ Please note that:
   concepts, as we want to see how well they can stand on their own.
 - Some visualizations barely fit into the boxes. We regard this as a
   downside of these concepts, since this indicates that they don't scale
-  well. We tried to provide hight resultion images though, so you should be
+  well. We tried to provide high resultion images though, so you should be
   able to zoom in to see the details.
 
 Thank you very much for your time!
