@@ -4,9 +4,11 @@ This is achieved through the combination of chromium and Node.js.
 Electron allows the creation of desktop apps in web-app style, which means that, as long as no native OS features are needed, an app is automatically capable of running on different OS platforms without adjustments.
 @electron-js
 
+For VisualFP, Electron.js can be used to implement both the UI and the backend logic.
+
 Pros:
-- Since apps can be created like any web app, there is a wide range of libraries available for frontend-development
-- A desktop-app allows access to the local file system, allowing VisualFP to manage project files on the disk and use other development tools, such as cabal (TODO: insert reference here).
+- Since Electron apps can be created like any web app, there is a wide range of libraries available for frontend-development.
+- The authors already have experience with JavaScript and its ecosystem.
 
 Cons:
 - JavaScript has a weak type system
