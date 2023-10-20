@@ -18,7 +18,7 @@ These are the results:
 
     for conceptAnswers in answersPerConcept {
         let (concept, meaningAnswer, lookAnswer, teachingAnswer, scalingAnswer, suggestionsAndComments) = conceptAnswers
-        [===== #concept]  // the heading_increase don't seem to affect this
+        heading(level: 5, numbering: none, concept)  // the heading_increase don't seem to affect this
         figure(
             tablex(
                 columns: 2,
@@ -48,7 +48,7 @@ These are the results:
     }
 
     if (generalComments != "") {
-        [===== General Comments]
+        heading(level: 5, numbering: none, "General Comments")
         generalComments
     }
 }
@@ -83,7 +83,7 @@ These are the results:
         )
     ),
     generalComments: [
-        The questionnaire may not do full justice to the visual progrmming methods since it only reviews the end state, and not the method of programming.
+        The questionnaire may not do full justice to the visual programming methods since it only reviews the end state, and not the method of programming.
 
         All methods seem to have a "bottom-up" strategy on constructing programs (i.e. start with small steps with what is available, and tinker with it unit you come up with something that you can use).
         The imperative paradigm forces one to do this (top level blocks are always ";", and therefore uninteresting).
