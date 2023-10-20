@@ -21,7 +21,8 @@ To implement VisualFP as a desktop application, the following technologies were 
 VisualFP requires technologies to implement a UI, the backend logic and a compiler platform to translate the visual code representation to Haskell code.
 
 #include_section("design_concept/content/poc/electron.typ", heading_increase: 3)
+#include_section("design_concept/content/poc/haskell_gi.typ", heading_increase: 3)
 #include_section("design_concept/content/poc/compiler-platform.typ", heading_increase: 3)
 
-== Decision
+=== Decision
 Due to X and Y technologies this and that are best for this project.

@@ -9,6 +9,7 @@ For VisualFP, Electron.js can be used to implement both the UI and the backend l
 Pros:
 - Since Electron apps can be created like any web app, there is a wide range of libraries available for frontend-development.
 - The authors already have experience with JavaScript and its ecosystem.
+- There are a lot of applications built with Electron.
 
 Cons:
 - JavaScript has a weak type system
