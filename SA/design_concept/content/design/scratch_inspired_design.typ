@@ -36,7 +36,7 @@ be seen in @scratch_inspired_type_hole.
 
 In @scratch_inspired_type_hole, the second parameter of the `(+)` function
 is left unapplied. The portrayed type is `a`, a type-argument that would be
-declared in a separate window, not yet specified, window.
+declared in a separate, not yet specified window.
 
 == Pattern Matching
 
