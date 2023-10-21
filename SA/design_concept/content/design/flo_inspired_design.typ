@@ -31,7 +31,7 @@ An example of a simple function definition can be seen in @flo_inspired_addition
 
 #figure(
     image("../../static/flo-inspired-addition.png", width: 50%),
-    caption: "Example of flow-inspired function definition for addition function"
+    caption: "Example of flow-inspired function definition for an addition function"
 )<flo_inspired_addition>
 
 Functions can, of course, also be used as parameters themselves.

@@ -26,7 +26,9 @@ Regarding code execution, there are multiple considered options:
     caption: "Mockup of VisualFP IDE"
 )<visualfp_ide_mockup>
 
-== Scratch-based design
-TODO: add design description
 
+#include_section("design_concept/content/design/scratch_inspired_design.typ", heading_increase: 2)
 #include_section("design_concept/content/design/flo_inspired_design.typ", heading_increase: 2)
+
+== Haskell function notation inspired design
+TODO: add design description
