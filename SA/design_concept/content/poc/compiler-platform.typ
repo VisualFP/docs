@@ -2,8 +2,8 @@
 
 = Compiler Platform <compiler_platform>
 
-A compiler platform is a set of tools that can be used to compile code. For
-the VisualFP application, we require not only a compiler platform to build
+A compiler platform is a set of tools that can be used to compile code.
+The VisualFP application does not only require a compiler platform to build
 the application itself, but also as a library to compile programs created by
 the users in the visual editor. Creating, parsing and compiling an #ac("AST")
 programmatically are entirely different use-cases compared to the usual
@@ -19,7 +19,7 @@ Unfortunately, the usage of #ac("GHC") as a library is not as
 straightforward as using it as a compiler.
 
 - Given the large amount of supported features, the #ac("API") is more
-  complex than necessary for our use-case of representing a visual-editor
+  complex than necessary for the use-case of representing a visual-editor
   code snippet in an #ac("AST").
 
 - The #ac("API") documentation is limited. Even though there is a great
@@ -39,4 +39,3 @@ Thus, the best option is to use the common #ac("GHC") tool stack as a
 development platform. Its usage as a compiler doesn't impose any significant
 risks to the project, but problems are expected to arise if #ac("GHC") is used
 as a library.
-
