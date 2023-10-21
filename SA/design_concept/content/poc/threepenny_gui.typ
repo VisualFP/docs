@@ -1,7 +1,7 @@
 #import "../../../acronyms.typ": ac
 
 = Threepenny-GUI
-Threepenny-GUI is a cross-platform GUI framework to create desktop applications that are run in a web browser.
+Threepenny-GUI is a cross-platform GUI framework, written in Haskell, to create desktop applications that are run in a web browser.
 The framework can be combined with Electron for a thighter integration with the desktop environment.
 
 Threepenny starts a local web server which serves an HTML page.
