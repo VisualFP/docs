@@ -8,4 +8,4 @@ Pros:
 
 Cons:
 - Every user has to install the application themselves.
-- The application must be built per operating systems.
+- The application must be built per operating system.
