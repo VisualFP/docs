@@ -4,8 +4,8 @@ Both the frontend and backend are executed on the user's device.
 
 Pros:
 - A desktop-app doesn't require infrastructure to host it.
-- A desktop-app allows access to the local file system, allowing VisualFP to manage project files on the disk and use other development tools, such as Cabal #footnote("https://www.haskell.org/cabal/").
+- A desktop-app gives access to the local file system, allowing VisualFP to manage project files on the disk and use other development tools, such as Cabal #footnote("https://www.haskell.org/cabal/").
 
 Cons:
 - Every user has to install the application themselves.
-- The application has to support different operating systems.
+- The application must be built per operating systems.
