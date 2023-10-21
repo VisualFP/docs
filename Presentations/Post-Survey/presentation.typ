@@ -61,8 +61,7 @@ For the SA, we have 14 weeks.
 $
 14 & - 5 && "are already gone" \
    & - 5 && "for the minimal PoC" \
-   & - 1 && "for the presentation" \
-   &     && "& to finalize the documentation" \
+   & - 1 && "to finalize the documentation" \
    & - 2 && "to 'flesh out' a design" \
    & = 1 && "to make a decision"
 $
