@@ -42,7 +42,7 @@ declared in a separate, not yet specified window.
 
 Pattern matching is provided as a dedicated block that takes a value as a
 parameter and has the list of possible patterns as its pre-applied arguments.
-These cases then offer the pattern-matches values as values and can be supplied
+These cases then offer the matched patterns as values and can be supplied
 with blocks to specify the expression to be evaluated. An example of such a
 function can be seen in @scratch_inspired_product.
 
