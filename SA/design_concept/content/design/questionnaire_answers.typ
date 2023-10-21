@@ -57,7 +57,7 @@ These are the results:
     (
         (
             concept: "Flo-inspired",
-            meaningAnswer: "Not really. Semantics & the arrows are unclear (insertion or ?? result)",
+            meaningAnswer: "Not really. Semantics & the arrows are unclear (insertion or reverse result)",
             lookAnswer: "Not really.",
             teachingAnswer: "Not really. The arrows obsucre the denotational semantics.",
             scalingAnswer: "Yes. The arrows allow blocks to remain small.",
