@@ -29,8 +29,8 @@ The most consistent criticism was about the operator functions being aligned
 in the middle, implying that the design accounts for infix application but
 was written in parentheses (e.g., `(+)`), a form of regular
 function application that doesn't support infix notation. This is a very
-valid point and is something we didn't intend to imply/didn't think about
-enough. It should be fairly easy to fix, e.g., by aligning the operators to
+valid point and something the design wasn't supposed to imply.
+It is fairly easy to fix by aligning the operators to
 the left.
 
 Another point of critique that several participants repeated was that
@@ -41,7 +41,7 @@ missing arguments are type-holes portrayed in violet, indicating that they
 are unfilled. Unfortunately, this was not clear enough solely based on the
 images.
 
-At last, all participants agreed that the design wouldn't scale, as it
+Finally, all participants agreed that the design wouldn't scale, as it
 requires a lot of horizontal space to grow.
 
 Compared to the other designs, the Scratch-inspired design was praised for
