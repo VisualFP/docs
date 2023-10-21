@@ -29,6 +29,5 @@ Regarding code execution, there are multiple considered options:
 
 #include_section("design_concept/content/design/scratch_inspired_design.typ", heading_increase: 2)
 #include_section("design_concept/content/design/flo_inspired_design.typ", heading_increase: 2)
+#include_section("design_concept/content/design/haskell_function_notation_inspired_design.typ", heading_increase: 2)
 
-== Haskell function notation inspired design
-TODO: add design description

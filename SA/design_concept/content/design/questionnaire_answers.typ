@@ -19,6 +19,7 @@ These are the results:
         figure(
             tablex(
                 columns: 2,
+                stroke: .5pt,
 
                 cellx(align: center + horizon)[*Question*],
                 cellx(align: center + horizon)[*Answer*],

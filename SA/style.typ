@@ -3,7 +3,10 @@
   let updated = content.children.map(it =>
       if not it.func() == heading { it }
       else [
-        #heading(level: it.level + heading_increase, it.body)
+        #heading(
+          level: it.level + heading_increase,
+          it.body
+          )
         #it.at("label", default: none)
       ]
   )
