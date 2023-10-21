@@ -22,6 +22,7 @@ The following technologies were considerd.
 
 #include_section("design_concept/content/poc/electron.typ", heading_increase: 3)
 #include_section("design_concept/content/poc/haskell_gi.typ", heading_increase: 3)
+#include_section("design_concept/content/poc/threepenny_gui.typ", heading_increase: 3)
 #include_section("design_concept/content/poc/compiler-platform.typ", heading_increase: 3)
 
 === Decision
