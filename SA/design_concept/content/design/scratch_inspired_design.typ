@@ -5,7 +5,7 @@ style and converts it into the context of an expressional and declarative
 setup.
 
 Functions, variables, parameters, etc., are portrayed as colorful blocks that
-can be dragged into each other.
+can be dragged on top of each other.
 
 == Function Declaration, Composition and Application
 
