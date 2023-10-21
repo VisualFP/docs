@@ -8,7 +8,8 @@
   LSP: "Language Server Protocol",
   GHC: "Glasgow Haskell Compiler",
   PoC: "Proof of Concept",
-  GTK: "GIMP ToolKit"
+  GTK: "GIMP ToolKit",
+  FFI: "Foreign Functional Interface"
 )
 
 #let usedAcronyms = state("usedDic", (:))
