@@ -113,7 +113,7 @@
   _Note:_ I could also have solved these parts as separate definitions, but
   in this case, I wanted to push the concept and see what happens when we
   build complex expressions.
-  #v(1fr)rgb("e4e5ea")
+  #v(1fr)
 ]
 
 #state([], 2, [
