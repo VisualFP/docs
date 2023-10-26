@@ -36,4 +36,4 @@ Because the application is about visual functional programming, it makes sense t
 These two technologies come together when the electron application starts a sub-process to interact with the backend.
 
 For the compiler platform it would be ideal to use GHC, since implementing a custom solution doesn't scale well.
-However, due to the time constraints and the problems expected to ocurr with GHC as a library, the PoC will use a custom compiler platform anyway.
+However, due to the time constraints and the problems expected to occur with GHC as a library, the PoC will use a custom compiler platform anyway.
