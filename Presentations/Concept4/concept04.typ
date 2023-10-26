@@ -15,7 +15,7 @@
   #v(1fr)
   1. Take an exercise
   #v(1fr)
-  2. Solve it using the proposed concept *step by step*, including the
+  2. Solve it using the proposed concept step by step, including the
     thinking process \
     (How do we want students to think about programs?)
   #v(1fr)
@@ -125,9 +125,6 @@
 
   Below it, the original type-hole appears again, but now we can use the
   newly defined value.
-
-  _Note:_ The `be` part could easily be replaced with a `=` sign, but I
-  always thought that a `be` keyword would be more descriptive.
 ], top_right: element_of_interest("static/let_be_in.png", width: 130pt))
 
 #state([], 3, [
@@ -140,7 +137,7 @@
 
   Thus, we'll start the definition by inserting the `take` function into the
   type-hole.
-], top_right: element_of_interest("static/take.png"))
+], top_right: element_of_interest("static/take.png", width: 90pt))
 
 #state([], 4, [
   The sequence must be `n` numbers long, so insert the `n` parameter into
@@ -155,7 +152,7 @@
   The `iterate` function takes two parameters:
   - A function that computes the next values based on the previous
   - A starting value
-], top_right: element_of_interest("static/iterate.png"))
+], top_right: element_of_interest("static/iterate.png", width: 140pt))
 
 #state([], 6, [
   Since our target sequence is ascending, we insert the `plus` function into
@@ -212,7 +209,7 @@
 
 #state([], 14, [
   Then, the `sum` function.
-], top_right: element_of_interest("static/sum.png", width: 100pt))
+], top_right: element_of_interest("static/sum.png", width: 80pt))
 
 #state([], 15, [
   Then, supply the `ns` captured by the first `let` expression.
@@ -223,7 +220,7 @@
 #state([], 16, [
   The second sum is the sum of the squared values. So we'll begin with the
   `sum` function.
-], top_right: element_of_interest("static/sum.png", width: 100pt))
+], top_right: element_of_interest("static/sum.png", width: 80pt))
 
 #state([], 17, [
   Next, we need to transform all values in the sequence into their squared
