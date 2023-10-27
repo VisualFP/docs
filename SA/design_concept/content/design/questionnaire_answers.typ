@@ -254,3 +254,43 @@ These are the results:
         - My vote is on a Scratch-inspired version.
     ]
 )
+
+#questionnaireResult(
+    "Eliane Schmidli",
+    "Eliane Schmidli is a master student & scientific assistant at the institute for software at OST",
+    (
+        (
+            concept: "Flo-inspired",
+            meaningAnswer: [
+                Ja, ich bin mir jedoch nicht sicher, ob man es ohne Haskell Erfahrung versteht. 
+                Ausserdem hätte ich die Pfeile fürs Verständnis eher von unten nach oben gemacht (siehe erste Box).
+                Ich möchte nicht vom Resultat zurück gehen, sondern wende ein Argument nach dem anderen an und gelange am Schluss zum Resultat.
+                (wenn man jedoch die Argumente im UI dann so hinziehen kann macht von unten nach oben mehr Sinn)
+            ],
+            lookAnswer: "Grundsätzlich ja, es wird jedoch schnell unübersichtlich. Es bräuchte noch mehr Farbe und die Pfeile könnten je nach Funktionalität unterschiedlich gestaltet werden.",
+            teachingAnswer: "So wie es jetzt ist, eher nicht, da es zu unübersichtlich ist. Aber wenn es etwas ausgereifter ist, denke ich schon. Man kann es ja dann wahrscheinlich Schritt für Schritt einblenden, bzw. zusammensetzen.",
+            scalingAnswer: "Ich glaube es wird immer unübersichtlicher...",
+            suggestionsAndComments: "Ich finde die Rekursion nicht so verständlich. Man sieht nicht, dass product rekursiv aufgerufen wird. Ich hätte die match Box als noch mit product beschriftet und mit Farbe gearbeitet. Die ::Num a -> a Box verwirrt mich. Ausserdem fände ich es besser die Applikation in einer Box zu machen"
+        ),
+        (
+            concept: "Scratch-inspired",
+            meaningAnswer: "Ja, ich finde hier sieht man am besten, wie die Parameter in einander verschachtelt sind",
+            lookAnswer: "Ja, die Farben sind mega gut fürs Verständnis und es ist sehr übersichtlich. Rein visuell der beste Vorschlag.",
+            teachingAnswer: "Gut ist hier, dass man sieht wie man Schritt für Schritt etwas einblenden könnte. Ich weiss jedoch nicht, ob es wirklich einen Mehrwert gegenüber dem Code bietet... Bzw. Man sieht wie im Code die Zusammenhänge nicht ganz",
+            scalingAnswer: "Ich könnte mir vorstellen, dass es schnell zu überladen wird",
+            suggestionsAndComments: [
+                - Type annotations: There could be a separate type annotation tower that can be enabled or disabled. Or it should be more obvious where the type annotation applies. At the moment it looks like the types are arguments to the function (which is actually the case in GHC Core or with the TypeApplications extension, but not in normal Haskell). Constraints should be ignored or handled differently.
+                - Infix functions should look like +, not (+), if they are visualized in an infix way.
+            ],
+        ),
+        (
+            concept: "Haskell Function-Notation inspired",
+            meaningAnswer: "Ich finde es schlechter verständlich als der erste Vorschlag. Ich könnte mir aber vorstellen, dass eine Kombination aus diesem und dem ersten funktionieren könnte.",
+            lookAnswer: "Farben und Boxen finde ich gut und dass die Applikation und der Zusammenhang zwischen Argumenten und den Typen besser sichtbar ist. Aber es sieht irgendwie zu mathematisch aus :) Ich könnte mir vorstellen, dass das Personen abschrecken könnte",
+            teachingAnswer: "So nicht unbedingt. Aber wenn man es mit dem ersten Vorschlag verbinden würde, denke ich schon",
+            scalingAnswer: "Ich glaube, es wird mega kompliziert mit der Verschachtelung. Ich finde die Pfeile beim ersten Vorschlag besser",
+            suggestionsAndComments: "It seems like the single component semantics are not entirely consistent here."
+        )
+    ),
+    generalComments: [See @design_suggestion_eliane_schmidli]
+)
