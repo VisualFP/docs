@@ -3,6 +3,11 @@
 
 #set text(..sa_text_style)
 #set heading(..sa_header_style)
+#show heading.where(level: 1): sa_heading1_show
+#show heading.where(level: 2): sa_heading2_show
+#show heading.where(level: 3): sa_heading3_show
+#show heading.where(level: 4): sa_heading4_show
+#show heading.where(level: 5): sa_heading5_show
 
 #let metadata = (
   title: [VisualFP],
@@ -23,13 +28,16 @@
 #pagebreak()
 
 #set page(..sa_page_style(metadata))
-#include_section("project_documentation/content/introduction.typ")
-#include_section("project_documentation/content/project_method.typ")
-#include_section("project_documentation/content/project_plan.typ")
-#include_section("project_documentation/content/used_tools.typ")
-#include_section("project_documentation/content/risk_management.typ")
-#include_section("project_documentation/content/meeting_minutes/meeting_minutes.typ")
 
+= Project Documentation
+#include_section("project_documentation/content/introduction.typ", heading_increase: 1)
+#include_section("project_documentation/content/project_method.typ", heading_increase: 1)
+#include_section("project_documentation/content/project_plan.typ", heading_increase: 1)
+#include_section("project_documentation/content/used_tools.typ", heading_increase: 1)
+#include_section("project_documentation/content/risk_management.typ", heading_increase: 1)
+#include_section("project_documentation/content/meeting_minutes/meeting_minutes.typ", heading_increase: 1)
+
+= Appendix
 #sa_list_of_acronyms()
 #sa_bibliography()
 #sa_list_of_figures()

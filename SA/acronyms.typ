@@ -38,10 +38,9 @@
 }
 
 
-#let sa_list_of_acronyms() = {
+#let sa_list_of_acronyms(level: 2) = {
   locate(loc => if (usedAcronyms.final(loc).len() > 0) {
-      pagebreak()
-      heading(level: 1, "List of Acronyms")
+      heading(level: level, "List of Acronyms")
       v(1em)
       terms(..usedAcronyms
         .final(loc)
