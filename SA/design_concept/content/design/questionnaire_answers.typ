@@ -86,7 +86,7 @@ These are the results:
         All methods seem to have a "bottom-up" strategy on constructing programs (i.e. start with small steps with what is available, and tinker with it unit you come up with something that you can use).
         The imperative paradigm forces one to do this (top level blocks are always ";", and therefore uninteresting).
         In FP, we are able to design our programs "top-down", starting with a specification (type definition at least).
-        This specification often admits a top-level function that is often interesting (e.g. filter, map), with type "holes" that can similarly be filled successively.
+        This specification often admits a top-level function that is often interesting (e.g. filter, map), with further "holes" that can similarly be filled successively.
 
         It may be a good idea to design the VP tool around to support the method we want people to learn "how to design programs" (see "recipe for defining functions" & video on "Schreib dein program").
 
