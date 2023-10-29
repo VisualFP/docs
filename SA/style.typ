@@ -1,14 +1,14 @@
 #let include_section(path, heading_increase: 0) = {
   let content = include(path);
   let updated = content.children.map(it =>
-      if not it.func() == heading { it }
-      else [
-        #heading(
-          level: it.level + heading_increase,
-          it.body
-          )
-        #it.at("label", default: none)
-      ]
+    if not it.func() == heading { it }
+    else [
+      #heading(
+        level: it.level + heading_increase,
+        it.body
+        )
+      #it.at("label", default: none)
+    ]
   )
   for c in updated { c }
 }
@@ -60,12 +60,42 @@
 }
 
 #let sa_text_style = (
-  font: "New Computer Modern"
+  font: "New Computer Modern",
+  size: 12pt,
 )
 
 #let sa_header_style = (
-  numbering: "1."
+  numbering: (..args) => {
+    let nums = args.pos()
+    if (nums.len() == 1) {
+      numbering("I", nums.at(0))
+    } else {
+      numbering("1.1.", ..nums.slice(1))
+    }
+  }
 )
+
+#let sa_heading1_show(it) = {
+  if (counter(heading).at(it.location()).at(0) != 1) { pagebreak() }
+  v(.5cm)
+  text(size: 20pt, [Part #counter(heading).display(): #it.body])
+  v(1cm)
+}
+
+#let level-2-counter = counter("custom-level2-heading")
+#level-2-counter.update(0)
+#let sa_heading2_show(it) = {
+  level-2-counter.update(n => n + 1)
+  locate(loc => {
+    counter(heading).update((..n) => {
+      (n.pos().at(0), level-2-counter.at(loc).first())
+    })
+  })
+  text(size: 14pt, it)
+}
+#let sa_heading3_show(it) = { text(size: 13pt, it) }
+#let sa_heading4_show(it) = { block(text(size: 12pt, it.body)) }
+#let sa_heading5_show(it) = { block(text(size: 12pt, style: "italic", it.body)) }
 
 #let ht-first = state("page-first-section", [])
 #let ht-last = state("page-last-section", [])
@@ -113,18 +143,49 @@
 )
 
 #let sa_table_of_contents(depth: none) = {
-  show outline.entry.where(
-    level: 1
-  ): it => {
-    v(12pt, weak: true)
-    strong(it)
-  }
-  outline(indent: auto, depth: depth)
+  // custom implementation of the table of contents since typst's 'locate'
+  // function doesn't take #show statements that alter the numbering counter
+  // into account, resulting in some incorrect numberings in the builtin
+  // 'outline'
+  align(center, text(size: 15pt, [*Table of Contents*]))
+  locate(loc => {
+    let first = 0
+    let second = 0
+    let third = 0
+    for h in query(heading.where(h => h.level < 4), loc) {
+      let h-page = str(counter(page).at(h.location()).first())
+      let filler = box(width: 1fr, repeat[.])
+      let h-increment = 0.4cm
+
+      if (h.level == 1) {
+        first = first + 1
+        third = 0
+        let l1-numbering = numbering("I", first)
+        let h-entry-body = strong(text(size: 12pt, [#l1-numbering #h.body]))
+        box(inset: (top: 0.3cm), outline.entry(h.level, h, h-entry-body, filler, h-page))
+      }
+
+      if (h.level == 2) {
+        second = second + 1
+        third = 0
+        let l2-numbering = numbering("1.", second)
+        let h-entry-body = [#l2-numbering #h.body]
+        box(inset: (left: 1 * h-increment), outline.entry(h.level, h, h-entry-body, filler, h-page))
+      }
+
+      if (h.level == 3) {
+        third = third + 1
+        let l3-numbering = numbering("1.1.", second, third)
+        let h-entry-body = [#l3-numbering #h.body]
+        box(inset: (left: 2 * h-increment), outline.entry(h.level, h, h-entry-body, filler, h-page))
+      }
+    }
+  })
 }
 
 #let sa_bibliography() = {
   pagebreak()
-  [= Bibliography]
+  heading(level: 2, [Bibliography])
   bibliography(
     "bibliography.bib",
     title: none,
@@ -134,7 +195,7 @@
 
 #let sa_list_of_figures() = {
   pagebreak()
-  [= List of Figures]
+  heading(level: 2, [List of Figures])
   v(1em)
   outline(
     title: none,
@@ -143,7 +204,7 @@
 }
 
 #let sa_list_of_tables() = {
-  [= List of Tables]
+  heading(level: 2, [List of Tables])
   outline(
     title: none,
     target: figure.where(kind: "table")
