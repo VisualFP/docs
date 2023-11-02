@@ -294,3 +294,35 @@ These are the results:
     ),
     generalComments: [See @design_suggestion_eliane_schmidli]
 )
+
+#questionnaireResult(
+    "Timon Erhart",
+    "Timon Erhart is a scientific assistant at the institute for software at OST",
+    (
+        (
+            concept: "Flo-inspired",
+            meaningAnswer: "Mostly. It is confusing, that the input (e.g.) a and output (results) have the same arrow direction. It is not clear where to begin and how the data 'flows'",
+            lookAnswer: "No. In my opinion it looks more complicated than the code",
+            teachingAnswer: "No",
+            scalingAnswer: "No. More complex would probably look more messy",
+            suggestionsAndComments: "If grey boxes are type only, draw just a line or place it inside. But use no arrow"
+        ),
+        (
+            concept: "Scratch-inspired",
+            meaningAnswer: "The match-case are where confusing to me. But the rest yes",
+            lookAnswer: "Better than Flo. Cleaner and smaler. It has some structure visible",
+            teachingAnswer: "Rather no",
+            scalingAnswer: "Yes (at least better than the others)",
+            suggestionsAndComments: "Maybe an other syntax for match-case to dinstinguish between functions names",
+        ),
+        (
+            concept: "Haskell Function-Notation inspired",
+            meaningAnswer: "No",
+            lookAnswer: "No, gets to big/messy soon",
+            teachingAnswer: "No",
+            scalingAnswer: "No, gets big very soon",
+            suggestionsAndComments: ""
+        )
+    ),
+    generalComments: "Maybe something like a tree structure (similar to expression trees) that goes from top to bottom? It would may be some kind of mix between Flo and Scratch. Make a own symbol for match-cases (to distinguish from functions). Make sure it is tidy (same thing on same height level etc.)"
+)
