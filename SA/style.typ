@@ -94,7 +94,7 @@
   text(size: 14pt, it)
 }
 #let sa_heading3_show(it) = { text(size: 13pt, it) }
-#let sa_heading4_show(it) = { block(text(size: 12pt, it.body)) }
+#let sa_heading4_show(it) = { block(text(size: 12pt, it)) }
 #let sa_heading5_show(it) = { block(text(size: 12pt, style: "italic", it.body)) }
 
 #let ht-first = state("page-first-section", [])
@@ -201,6 +201,7 @@
     title: none,
     target: figure.where(kind: image),
   )
+  pagebreak()
 }
 
 #let sa_list_of_tables() = {
@@ -209,6 +210,16 @@
     title: none,
     target: figure.where(kind: "table")
   )
+  pagebreak()
+}
+
+#let sa_list_of_listings() = {
+  heading(level: 2, [List of Code Listings])
+  outline(
+    title: none,
+    target: figure.where(kind: raw)
+  )
+  pagebreak()
 }
 
 #let sa_disclaimer() = [

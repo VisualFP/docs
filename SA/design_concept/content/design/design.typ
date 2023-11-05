@@ -5,6 +5,5 @@ This chapter describes the requirements, the design proposals, the design evalua
 
 #include_section("design_concept/content/design/functional_requirements.typ", heading_increase: 1)
 #include_section("design_concept/content/design/non_functional_requirements.typ", heading_increase: 1)
+#include_section("design_concept/content/design/design_evaluation_criteria.typ", heading_increase: 1)
 #include_section("design_concept/content/design/design_evaluation.typ", heading_increase: 1)
-#include_section("design_concept/content/design/design_proposals.typ", heading_increase: 1)
-#include_section("design_concept/content/design/design_evaluation_results.typ", heading_increase: 1)

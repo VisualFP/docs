@@ -1,16 +1,10 @@
 #import "../../../style.typ": include_section
 
-= Design Evaluation
-This section documents all answers received from the design evaluation questionnaires and the conclusions drawn from them.
-
-#include_section("design_concept/content/design/questionnaire_answers.typ", heading_increase: 2)
-
-== Design Decision <design_decision>
-
-The received questionnaire answers don't determine a clear winner.
+= Conclusions
+Based on the questionnaire answers for the first three designs, which can be found in @design_iteration_one_survey_results , it can be concluded that there is no clear winner.  //TODO: figure out why the refernced section is displayed wrong
 All of the design concepts got a fair amount of valid criticism.
 
-=== Flo-inspired Design
+== Flo-inspired Design
 
 However, it is clear that the Flo-inspired design received the most negative feedback.
 While this concept keeps blocks very small due to blocks being connect through arrows, it quickly looks overloaded.
@@ -20,7 +14,7 @@ By trying to visualize currying, the amount of blocks grows with every additiona
 This could be improved by displaying functions as one block with multiple parameters, giving up the visualization of currying.
 As suggested by Rafael Das Gupta, an option could also be to offer the user a possibility to activate/deactivate currying in the function editor.
 
-=== Scratch-inspired Design
+== Scratch-inspired Design
 
 The Scratch-inspired design received the most positive feedback, but also
 some negative feedback.
@@ -47,7 +41,7 @@ requires a lot of horizontal space to grow.
 Compared to the other designs, the Scratch-inspired design was praised for
 its extensive use of coloring, and as the most easy to understand.
 
-=== Haskell Function-Notation inspired Design
+== Haskell Function-Notation inspired Design
 
 The Haskell function-notation inspired design received the most mixed
 feedback.

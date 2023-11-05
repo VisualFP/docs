@@ -34,4 +34,4 @@
 #include_section("design_concept/content/design/design.typ")
 #include_section("design_concept/content/poc/poc.typ")
 
-#include_section("design_concept/appendix.typ")
+#include_section("design_concept/appendix/appendix.typ")
