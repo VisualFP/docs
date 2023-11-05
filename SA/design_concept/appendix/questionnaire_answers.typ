@@ -1,7 +1,6 @@
 #import "@preview/tablex:0.0.5": tablex, cellx
 
-= Design Iteration One - Questionnaire Results
-<design_iteration1_results>
+= Design Iteration One - Survey Results <design_iteration_one_survey_results>
 The design evaluation questionnaire (as described in @design_eval_questionnaire) was given to 7 students and exprienced programmers.
 These are the results:
 
@@ -11,7 +10,7 @@ These are the results:
     answersPerConcept,
     generalComments: []
 ) = {
-    [==== Questionnaire Results from #participant]  // the heading_increase don't seem to affect this
+    [==== Survey Results from #participant]  // the heading_increase don't seem to affect this
     participantDescription
 
     for conceptAnswers in answersPerConcept {
@@ -296,11 +295,11 @@ These are the results:
     ),
     generalComments: [
         #figure(
-            image("../../static/general_comments_eliane_schmidli_1.png")
+            image("../static/general_comments_eliane_schmidli_1.png")
         )
 
         #figure(
-            image("../../static/general_comments_eliane_schmidli_2.png")
+            image("../static/general_comments_eliane_schmidli_2.png")
         )
     ]
 )
