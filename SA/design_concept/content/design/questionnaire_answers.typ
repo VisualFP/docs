@@ -1,7 +1,8 @@
 #import "@preview/tablex:0.0.5": tablex, cellx
 
-= Questionnaire Results <design_eval_results>
-The design evaluation questionnaire (as described in @design_eval_questionnaire) was given to X students. //TODO: document actual numbers of questionnaire given out
+= Design Iteration One - Questionnaire Results
+<design_iteration1_results>
+The design evaluation questionnaire (as described in @design_eval_questionnaire) was given to 7 students and exprienced programmers.
 These are the results:
 
 #let questionnaireResult(
@@ -49,6 +50,7 @@ These are the results:
         heading(level: 5, numbering: none, "General Comments")
         generalComments
     }
+    pagebreak()
 }
 
 #questionnaireResult(
@@ -292,7 +294,15 @@ These are the results:
             suggestionsAndComments: "It seems like the single component semantics are not entirely consistent here."
         )
     ),
-    generalComments: [See @design_suggestion_eliane_schmidli]
+    generalComments: [
+        #figure(
+            image("../../static/general_comments_eliane_schmidli_1.png")
+        )
+
+        #figure(
+            image("../../static/general_comments_eliane_schmidli_2.png")
+        )
+    ]
 )
 
 #questionnaireResult(

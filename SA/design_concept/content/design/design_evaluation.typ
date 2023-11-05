@@ -1,88 +1,34 @@
-= Design Evaluation Criteria
-This section describes the decision process used to decide on a final design for function & type composition in VisualFP.
+#import "../../../style.typ": include_section
 
-Unfortunately, it isn't possible to compare 'how good' a design is in an objective fashion.
-This is why the decision process is based on selected code scenarios and a non-quantitative questionnaire to evaluate their visual representation.
+= Design Evaluation
+The evaluation of possible designs for function and type composition is conducted in iterations.
+After creating initial design proposals, a group of students and experienced programmers is asked for feedback on these proposals, as documented in @design_eval_questionnaire.
+Based on that feedback, a new design proposal that aims to fix the shortcommings of the previous ones is created.
 
-Both the questionnaire and the example visualizations will be given to a group of students and some more experienced functional programmers.
-The final decision is based upon the author's opinion on the designs and the feedback received from the selected group.
+The following section first describes how the overall tool design for VisualFP should look like and then describes each design proposals from every iteration.
 
-The questionnaire results can be found in @design_eval_results and the final decision in @design_decision.
+== Overall tool design
+VisualFP should work in an IDE-style, which means that there is:
+- An editor to compose functions
+- An editor for custom types
+- A way to organize defined functions and types
+- Mean to execute functions
 
-== Code Scenarios <design_eval_code_scenarios>
-The following code scenarios were defined to evaluate visualization designs
-regarding their simplicity and clarity of the underlying functional
-concepts.
+@visualfp_ide_mockup shows a mockup of how the VisualFP IDE could look like.
+The two main elements are the sidebar, which gives the user access to pre- and self-defined functions, and the large editor-section.
+The designs proposed later in this section describe how the function-editor section of the IDE could work.
 
-=== Simple Addition Function
-@design_eval_addition has been chosen to evalute designs for the composition of a simple function, using another function.
+Functions in the sidebar can be grouped in modules (analogous to Haskell modules), which appear like folders in the IDE.
 
-#figure(
-    ```hs
-    addition :: Num a => a -> a -> a
-    addition a b = (+) a b
-    ```,
-    caption: "Addition function for design evaluation"
-)<design_eval_addition>
-
-=== Even numbers from 1 to 10
-@design_eval_even has been chosen to evalute designs for list handling.
+Regarding code execution, there are multiple considered options:
+- The defined content is loaded into an interactive GHCi session which users can interact with.
+- The user needs to define a main function. The project is then executed like any other cabal project.
+- The IDE offers a "Try it" functionality, which allows the user to execute a single function with ad-hoc parameters.
 
 #figure(
-    ```hs
-    evenOneToTen :: Integral a => [a]
-    evenOneToTen = [x | x <- [1 .. 10], even x]
-    ```,
-    caption: "Function that returns even numbers between 1 and 10"
-)<design_eval_even>
+    image("../../static/visualfp_ide_mockup.png"),
+    caption: "Mockup of VisualFP IDE"
+)<visualfp_ide_mockup>
 
-=== Product of Numbers
-@design_eval_product has been chosen to evalute designs for recursive functions.
-
-#figure(
-    ```hs
-    product :: Num a => [a] -> a
-    product [] = 1
-    product (n : ns) = (*) n (product ns)
-    ```,
-    caption: "Product function for design evaluation"
-)<design_eval_product>
-
-=== Map Add 5 Function
-@design_eval_currying has been chosen to evaluate designs for currying.
-
-#figure(
-    ```hs
-    mapAdd5 :: Num b => [b] -> [b]
-    mapAdd5 = map ((+) 5)
-    ```
-)<design_eval_currying>
-
-=== Function for expression evaluation
-@design_eval_expr_eval has been chosen to evaluate designs for type composition of custom types and functions using them.
-
-#figure(
-    ```hs
-    data Expr = Val Int
-                | Add Expr Expr
-                | Mul Expr Expr
-    eval :: Expr -> Int
-    eval (Val n) = n
-    eval (Add x y) = eval x + eval y
-    eval (Mul x y) = eval x * eval y
-    ```,
-    caption: "Eval function for design evaluation"
-)<design_eval_expr_eval>
-
-== Evaluation Questionnaire <design_eval_questionnaire>
-The following questions will be given to selected students and programmers to evaluate the proposed designs.
-The evaluation questions have to be answered once for every design proposal:
-
-- Were you able to understand the meaning of the boxes and arrows?
-- Do you find the concept nice to look at?
-- Could you imagine teaching functional programming using this vizualization?
-- Could you imagine how the concept scales to more complex expressions?
-- Do you have any suggestions for improvement or general comments on the concept?
-
-Additionally, every survey participant has the possibility to suggest a visualization concept of their own.
-The questionnaire template handed out to survey participants can be found in @appendix_design_eval_questionnaire.
+#include_section("design_concept/content/design/design_evaluation_iteration_1.typ", heading_increase: 2)
+#include_section("design_concept/content/design/design_evaluation_iteration_2.typ", heading_increase: 2)
