@@ -9,7 +9,8 @@
   GHC: "Glasgow Haskell Compiler",
   PoC: "Proof of Concept",
   GTK: "GIMP ToolKit",
-  FFI: "Foreign Functional Interface"
+  FFI: "Foreign Functional Interface",
+  FRP: [Functional Reactive Programming - A concept that defines types and functions for interactive applications written in a functional language @frp_elliott_hudak]
 )
 
 #let usedAcronyms = state("usedDic", (:))
@@ -25,10 +26,7 @@
   }
 
   usedAcronyms.display(usedDic => {
-    if(usedDic.keys().contains(ac)) {
-      return ac
-    }
-    return ac + " (" + acronyms.at(ac) + ")"
+    return link(label("list_of_acronyms"))[#ac]
   });
 
   usedAcronyms.update(usedDic => {
@@ -41,11 +39,15 @@
   locate(loc => if (usedAcronyms.final(loc).len() > 0) {
       heading(level: 2, "List of Acronyms")
       v(1em)
-      terms(..usedAcronyms
-        .final(loc)
-        .pairs()
-        .map(key => key.at(0))
-        .sorted()
-        .map(key => terms.item(key, acronyms.at(key))))
+      terms(
+        tight: false,
+        separator: [: #h(0.6em)],
+        ..usedAcronyms
+          .final(loc)
+          .pairs()
+          .map(key => key.at(0))
+          .sorted()
+          .map(key => terms.item(key, acronyms.at(key)))
+      )
   })
 }

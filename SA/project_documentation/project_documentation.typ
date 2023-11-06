@@ -38,7 +38,7 @@
 #include_section("project_documentation/content/meeting_minutes/meeting_minutes.typ", heading_increase: 1)
 
 = Appendix
-#sa_list_of_acronyms()
+#sa_list_of_acronyms() <list_of_acronyms>
 #sa_bibliography()
 #sa_list_of_figures()
 #sa_list_of_tables()
