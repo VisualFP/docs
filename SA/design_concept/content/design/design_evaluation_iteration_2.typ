@@ -75,7 +75,7 @@ The proposal leaves two decisions open for further exploration:
 
 2. #[How should application be done?
 
-   - #[A very simple type of application is to do it explicitly, as the
+   - #[A simple type of application is to do it explicitly, as the
      Lambda Calculus suggests. Translated to a block-based visual tool, this
      means that a user would have to drag a dedicated expression block to
      apply a value to another.
@@ -85,10 +85,10 @@ The proposal leaves two decisions open for further exploration:
      beginners, and easier to implement for VisualFP.]
 
    - #[Another approach is to bake knowledge about function application
-     right into the visual language. This would mean that the application
-     takes apart curried functions into it's separate nested values, and
-     offer a dedicated block for each argument in the form of holes to be
-     filled.
+     right into the visual language, which would allow to offer a more
+     elaborated application experience. For example, the system could take
+     curried functions apart until the value matches the inferred target
+     value, offering all intermediate parameters as type-holes.
 
      This approach would be more restrictive than explicit application, with
      the advantage of being more concise. It would also make use of
