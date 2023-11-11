@@ -1,5 +1,5 @@
-#import "../../../style.typ": include_section
+#import "../../../style.typ": *
 
-= Proof of Concept
+#part("Proof of Concept")
 
-#include_section("design_concept/content/poc/implementation_options.typ", heading_increase: 1)
+#include_section("design_concept/content/poc/implementation_options.typ")

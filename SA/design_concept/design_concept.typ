@@ -7,7 +7,6 @@
 #show heading.where(level: 2): sa_heading2_show
 #show heading.where(level: 3): sa_heading3_show
 #show heading.where(level: 4): sa_heading4_show
-#show heading.where(level: 5): sa_heading5_show
 
 #let metadata = (
   title: [VisualFP],
@@ -26,12 +25,9 @@
 #sa_title_page(metadata);
 #sa_table_of_contents(depth: 3)
 
-#pagebreak()
-
 #set page(..sa_page_style(metadata))
 
 #include_section("design_concept/content/introduction/introduction.typ")
 #include_section("design_concept/content/design/design.typ")
 #include_section("design_concept/content/poc/poc.typ")
-
 #include_section("design_concept/appendix/appendix.typ")
