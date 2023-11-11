@@ -10,3 +10,4 @@ The following section lists all "formal" project meetings and their discussed ag
 #include_section("project_documentation/content/meeting_minutes/week_05.typ", heading_increase: 1)
 #include_section("project_documentation/content/meeting_minutes/week_06.typ", heading_increase: 1)
 #include_section("project_documentation/content/meeting_minutes/week_07.typ", heading_increase: 1)
+#include_section("project_documentation/content/meeting_minutes/week_08.typ", heading_increase: 1)
