@@ -95,9 +95,9 @@ The proposal leaves two decisions open for further exploration:
      type-holes more often, which may offer stronger guidance to beginners.]
   ]
 
-Regarding complex expressions, the idea is to rather define multiple small
-functions and then stick them together, rather than providing a
-`let ... in ...`-like expression type to delcare re-usable values.
+Regarding the re-use of expressions, the idea is to define multiple small
+functions and then stick them together, rather than providing a `let ... in
+...`-like expression type to delcare re-usable values.
 
 A strong inferrence engine would be running in the background, which powers
 the resolution of type holes and type-checking of the program.
