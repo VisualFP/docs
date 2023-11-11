@@ -10,11 +10,6 @@ Thus, we have decided to go ahead with the proposal of Prof. Dr. Farhad
 Mehta.
 
 Regarding the two open questions, we have decided to not yet make a final
-decision yet. But we do have preferences: 
-
-- We feel like generated functions to destruct sum types is easier to
-  implement and understand than full-fledged pattern matching.
-- In our opinion, explicit function application would make even small code
-  snippets very verbose. Thus, we feel like a more integrated approach to
-  application would be better.
+decision yet. While we do have preferences, we are going to explore all
+options in the later stages of the project.
 
