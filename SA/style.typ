@@ -212,3 +212,4 @@
   - GitHub Copilot #footnote("https://github.com/features/copilot/")
   - Grammarly #footnote("https://www.grammarly.com/")
 ]
+
