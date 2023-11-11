@@ -5,7 +5,7 @@
 
 #include_section("design_concept/appendix/questionnaire_answers.typ")
 
-#sa_list_of_acronyms()
+#sa_list_of_acronyms() <list_of_acronyms>
 #sa_bibliography()
 #sa_list_of_figures()
 #sa_list_of_tables()
