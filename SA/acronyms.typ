@@ -37,7 +37,7 @@
 
 #let sa_list_of_acronyms() = {
   locate(loc => if (usedAcronyms.final(loc).len() > 0) {
-      heading(level: 2, "List of Acronyms")
+      heading(level: 1, "List of Acronyms")
       v(1em)
       terms(
         tight: false,

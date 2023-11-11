@@ -8,18 +8,18 @@ This section describes considered deployment platforms and technologies, their p
 == Deployment platform
 For VisualFP, two possible deployment platforms were considered: A web application or a desktop application.
 
-#include_section("design_concept/content/poc/web_app.typ", heading_increase: 3)
-#include_section("design_concept/content/poc/desktop_app.typ", heading_increase: 3)
+#include_section("design_concept/content/poc/web_app.typ", heading_increase: 2)
+#include_section("design_concept/content/poc/desktop_app.typ", heading_increase: 2)
 
 == Technologies
 VisualFP requires external technologies to implement a UI, the backend logic and a compiler platform to translate the visual code representation to Haskell code.
 The following technologies were considerd.
 
-#include_section("design_concept/content/poc/electron.typ", heading_increase: 3)
-#include_section("design_concept/content/poc/haskell_gi.typ", heading_increase: 3)
-#include_section("design_concept/content/poc/threepenny_gui.typ", heading_increase: 3)
-#include_section("design_concept/content/poc/bolero.typ", heading_increase: 3)
-#include_section("design_concept/content/poc/compiler-platform.typ", heading_increase: 3)
+#include_section("design_concept/content/poc/electron.typ", heading_increase: 2)
+#include_section("design_concept/content/poc/haskell_gi.typ", heading_increase: 2)
+#include_section("design_concept/content/poc/threepenny_gui.typ", heading_increase: 2)
+#include_section("design_concept/content/poc/bolero.typ", heading_increase: 2)
+#include_section("design_concept/content/poc/compiler-platform.typ", heading_increase: 2)
 
 == Decision
 Since this project wants to create a tool for visual functional programming, implementing the tool in a functional language is most fitting.

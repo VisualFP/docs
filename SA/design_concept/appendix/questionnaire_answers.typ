@@ -10,7 +10,7 @@ These are the results:
     answersPerConcept,
     generalComments: []
 ) = {
-    [==== Survey Results from #participant]  // the heading_increase don't seem to affect this
+    [=== Survey Results from #participant]  // the heading_increase don't seem to affect this
     participantDescription
 
     for conceptAnswers in answersPerConcept {

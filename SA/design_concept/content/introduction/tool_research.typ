@@ -13,9 +13,9 @@ their strengths and weaknesses.
 
 #let tool_research_directory = "design_concept/content/introduction/tool_research/"
 
-#include_section(tool_research_directory + "snap.typ", heading_increase: 2)
-#include_section(tool_research_directory + "eros.typ", heading_increase: 2)
-#include_section(tool_research_directory + "flo.typ", heading_increase: 2)
-#include_section(tool_research_directory + "enso.typ", heading_increase: 2)
-#include_section(tool_research_directory + "reddit_suggestion_visual_fp.typ", heading_increase: 2)
-#include_section(tool_research_directory + "agda.typ", heading_increase: 2)
+#include_section(tool_research_directory + "snap.typ", heading_increase: 1)
+#include_section(tool_research_directory + "eros.typ", heading_increase: 1)
+#include_section(tool_research_directory + "flo.typ", heading_increase: 1)
+#include_section(tool_research_directory + "enso.typ", heading_increase: 1)
+#include_section(tool_research_directory + "reddit_suggestion_visual_fp.typ", heading_increase: 1)
+#include_section(tool_research_directory + "agda.typ", heading_increase: 1)
