@@ -23,7 +23,7 @@
 );
 
 #sa_title_page(metadata);
-#sa_table_of_contents(depth: 3)
+#sa_table_of_contents()
 
 #set page(..sa_page_style(metadata))
 

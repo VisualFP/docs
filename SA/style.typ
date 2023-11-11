@@ -133,7 +133,7 @@
   footer: sa_footer(metadata)
 )
 
-#let sa_table_of_contents(depth: none) = {
+#let sa_table_of_contents() = {
   align(center, text(size: 15pt, [*Table of Contents*]))
   show outline.entry.where(level: 1): it => { v(12pt, weak: true); it }
 
