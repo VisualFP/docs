@@ -1,7 +1,7 @@
 #import "../../../style.typ": *
 #let load-drawio-svg(path, ..args) = image.decode(read(path).replace("Text is not SVG - cannot display", ""), ..args)
 
-= Second Iteration
+= Second Iteration <design_proposal_iteration_2>
 
 After the inital propols received mixed feedback in the questionnaire, our
 advisor Prof. Dr. Farhad d. Mehta, suggested an additional design which
