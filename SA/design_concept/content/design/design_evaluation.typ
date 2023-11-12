@@ -33,3 +33,4 @@ Regarding code execution, there are multiple considered options:
 
 #include_section("design_concept/content/design/design_evaluation_iteration_1.typ", heading_increase: 1)
 #include_section("design_concept/content/design/design_evaluation_iteration_2.typ", heading_increase: 1)
+#include_section("design_concept/content/design/design_evaluation_conclusion.typ", heading_increase: 1)
