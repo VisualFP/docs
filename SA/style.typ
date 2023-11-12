@@ -1,15 +1,9 @@
 #let include_section(path, heading_increase: 0) = {
   let content = include(path);
   let updated = content.children.map(it =>
-    if not it.func() == heading [
-      #it
-      #it.at("label", default: none)
-    ]
+    if not it.func() == heading { it }
     else [
-      #heading(
-        level: it.level + heading_increase,
-        it.body
-        )
+      #heading(level: it.level + heading_increase, it.body)
       #it.at("label", default: none)
     ]
   )
@@ -64,7 +58,7 @@
 
 #let sa_text_style = (
   font: "New Computer Modern",
-  size: 12pt,
+  size: 12pt
 )
 
 #let sa_header_style = (numbering: "1.")

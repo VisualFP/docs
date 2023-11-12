@@ -20,7 +20,7 @@
   partner: [IFS Institute for Software],
   external-co-examiner: [],
   internal-co-examiner: []
-);
+)
 
 #sa_title_page(metadata);
 #sa_table_of_contents()

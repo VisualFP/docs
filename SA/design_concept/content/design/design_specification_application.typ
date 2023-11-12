@@ -9,12 +9,12 @@ Prof. Dr. Farhad Mehta, the application style was left open as a decision.
 
 The two discussed options were:
 
-/ Explicit: Leave higher-order function values as such, and apply them
+/ Explicit: Leave higher-order function values as such and apply them
   explicitly using a dedicated application function.
 
 / Elaborate: #[Embedd a more deeper understanding of application into the
-  language, which allows to resolve nested curried function down to their
-  arguments if necessary.]
+  language, which allows to resolve nested curried function values to
+  their arguments if necessary.]
 
 A side-by-side comparison of how double application of two `5` literals to
 an `addition` function would look like in both styles can be seen in
@@ -30,8 +30,10 @@ an `addition` function would look like in both styles can be seen in
 ]
 
 After some consideration, we have decided to go with the explicit style.
+The main reason for this decision was that the explicit style doesn't
+scale well, while the elaborate style doesn't lose much readability. 
 
-We image the elaborate style to behave the following way:
+We imagine the elaborate style to behave the following way:
 
 1. A type-hole of a value $A_1 arrow.r ... arrow.r A_n$ is encountered.
 2. A value of type
@@ -50,13 +52,12 @@ An example of the system can be seen in @elaborate_application_example.
   tablex(
     auto-lines: false,
     columns: (auto, auto, auto),
-    [Type-Hole], [Inserted value], [Result], hlinex(stroke: 0.5pt),
+    [Type hole], [Inserted Value], [Result], hlinex(stroke: 0.5pt),
     $A arrow.r A$, $A$, [_error_], hlinex(stroke: 0.5pt),
     $A$, $A arrow.r A$, [_type-hole:_ $A$], hlinex(stroke: 0.5pt),
     $B arrow.r C$, $A arrow.r B arrow.r C$, [_type-hole:_ $A$], hlinex(stroke: 0.5pt),
-    $C$, $A arrow.r B arrow.r C$, [_type-holes:_ $A$, $B$], hlinex(stroke: 0.5pt),
-
+    $C$, $A arrow.r B arrow.r C$, [_type-holes:_ $A$, $B$],
   ),
   kind: "table",
   supplement: "Table",
-  caption: [Examples of elabore application resolution])<elaborate_application_example>
+  caption: [Examples of elaborate application resolution])<elaborate_application_example>
