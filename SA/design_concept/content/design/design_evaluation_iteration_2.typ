@@ -3,15 +3,15 @@
 
 = Second Iteration <design_proposal_iteration_2>
 
-After the inital propols received mixed feedback in the questionnaire, our
-advisor Prof. Dr. Farhad d. Mehta, suggested an additional design which
+After the inital proposals received mixed feedback in the questionnaire,
+project advisor Prof. Dr. Farhad D. Mehta suggested an additional design which
 combines some aspects of the previous proposals and adds some new ideas. 
 
 #grid(
   columns: (2fr, 1.4fr),
   column-gutter: 5pt,
-  [The basic structure consists of nested blocks, each represent a different
-  expressions. In that regard it is similar to the scratch inspired design
+  [The basic structure consists of nested blocks, each representing a different
+  expression. In that regard it is similar to the scratch inspired design
   as described in @scratch_inspired_design, with the difference that the
   blocks are completely enclosing their children, as can be seen in
   @mehta-proposal-basic-structure.],
@@ -27,8 +27,8 @@ combines some aspects of the previous proposals and adds some new ideas.
   column-gutter: 5pt,
   [Another similarity to the scratch inspired design is the use of
   type-holes for parameters that are not yet supplied. In such a case, a
-  special block is shown which contains nothing but the type of the
-  parameter, as can be seen in @mehta-proposal-type-hole.],
+  placeholder with nothing but the type of the
+  parameter is shown, as can be seen in @mehta-proposal-type-hole.],
   align(center + horizon)[
     #figure(
       load-drawio-svg("../../static/mehta-proposal-type-hole.svg", width: 50%),
@@ -43,7 +43,7 @@ combines some aspects of the previous proposals and adds some new ideas.
   [The main difference to the previous proposals is how scoping is solved:
   Instead of providing specialized expressions for constructs such as
   pattern-matching, list-comprehension, etc., the idea is to do scoping using
-  only lambda expressions. An example can be seen in @mehta-proposal-lambda.],
+  only lambda expressions. An example for that can be seen in @mehta-proposal-lambda.],
   align(center + horizon)[
     #figure(
       load-drawio-svg("../../static/mehta-proposal-lambda.svg", width: 70%),
@@ -69,7 +69,7 @@ The proposal leaves two decisions open for further exploration:
 
      Such a system would provide a special expression type `match`, which
      automatically generates the matching function for the given sum type.
-     This would come with the burder of having to offer scopes with multiple
+     This would come with the burden of having to offer scopes with multiple
      exclusive values from the destructed object.]
    ]
 
@@ -85,7 +85,7 @@ The proposal leaves two decisions open for further exploration:
      beginners, and easier to implement for VisualFP.]
 
    - #[Another approach is to bake knowledge about function application
-     right into the visual language, which would allow to offer a more
+     right into the visual language, which would allow a more
      elaborated application experience. For example, the system could take
      curried functions apart until the value matches the inferred target
      value, offering all intermediate parameters as type-holes.
