@@ -57,7 +57,7 @@ function_. How such a destruction function would look for the sum type
 )<destruction-function-example-haskell>
 
 Unfortunately, such a destruction function is not as powerful as
-pattern-matching in a few ways, for example:
+pattern-matching in a few ways:
 
 - It is not possible to specify multiple overlapping patterns, which are
   matched against in order of definition.
@@ -69,7 +69,7 @@ This list is not exhaustive, but it already shows how the lack of
 pattern-matching would make the import of Haskell code into VisualFP more
 difficult.
 
-How these approaches would look in VisualFP can be seen in
+How pattern-matching and destruction functions would look like in VisualFP can be seen in
 @pattern-matching-example-visualfp and
 @destruction-function-example-visualfp.
 
