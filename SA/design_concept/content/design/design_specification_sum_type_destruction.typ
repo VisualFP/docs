@@ -5,9 +5,9 @@ Sum types consist of a set of constructors, each with a different type. The type
 of a sum type is the union of the types of its constructors.
 
 To work with a value of a sum type, it must be possible to destruct
-the value into its constructor and arguments. Since while developing you
-usually cannot know which constructor was used to create a value, you must
-provide a way to handle all possible constructors. 
+the value into its constructor and arguments. Since while developing one
+usually cannot know which constructor was used to create a value, there must
+be a way to handle all possible constructors. 
 
 A common approach in functional languages is to use _pattern matching_.
 Pattern matching allows to match values against a set of patterns and

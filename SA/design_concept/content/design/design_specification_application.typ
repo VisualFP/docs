@@ -33,7 +33,7 @@ After some consideration, we have decided to go with the explicit style.
 The main reason for this decision was that the explicit style doesn't
 scale well, while the elaborate style doesn't lose much readability. 
 
-We imagine the elaborate style to behave the following way:
+The type-resolution for the elaborate application style works like this:
 
 1. A type-hole of a value $A_1 arrow.r ... arrow.r A_n$ is encountered.
 2. A value of type
