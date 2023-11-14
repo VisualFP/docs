@@ -11,7 +11,7 @@ be a way to handle all possible constructors.
 
 A common approach in functional languages is to use _pattern matching_.
 Pattern matching allows to match values against a set of patterns and
-execute a corresponding code. One of the patterns-types usually 
+execute user-provided code per pattern. One of the patterns-types usually 
 destructs sum type constructors. 
 
 An example of pattern-matching in Haskell can be seen in
@@ -35,11 +35,13 @@ constructors.
     caption: "Example of pattern-matching in Haskell"
 )<pattern-matching-example-haskell>
 
-A more straightforward approach is to generate a function, which, for each
-constructor, takes a parameter that takes the constructor arguments as arguments
-of itself and maps it to a common value. Such an approach is called _destruction
-function_. How such a destruction function would look for the sum type
-`Expression` example can be seen in @destruction-function-example-haskell.
+An easier way to implement this is to generate a function which has a
+parameter function per constructor of the sum type and an output type. These
+parameter functions take the type constructor arguments as their input
+parameters and map them to the output type. This is called a destruction
+function. @destruction-function-example-haskell shows how such a destruction
+function would look like for the example mentioned above.
+
 
 #figure(
     ```hs
@@ -61,8 +63,7 @@ pattern-matching in a few ways:
 
 - It is not possible to specify multiple overlapping patterns, which are
   matched against in order of definition.
-- It is not possible to combine patterns patterns into more complex
-  patterns.
+- It is not possible to combine patterns into more complex patterns.
 - It is not possible to specify a default case.
 
 This list is not exhaustive, but it already shows how the lack of
