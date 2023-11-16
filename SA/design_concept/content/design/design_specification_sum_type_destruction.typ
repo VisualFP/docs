@@ -82,8 +82,8 @@ How pattern-matching and destruction functions would look like in VisualFP can b
   caption: [Example of pattern-matching in VisualFP])<destruction-function-example-visualfp>
 
 The decision was made in favor of the destruction function since the
-pattern-matching approach does not translate as well into a visual language.
-The fact that it makes the import of Haskell code more difficult is unfortunate,
-but acceptable since the primary goal of VisualFP is to be a visual language
-to introduce beginners to functional programming.
+pattern-matching approach does not translate as well into an exclusively
+visual language. The fact that it makes the import of Haskell code more
+difficult is unfortunate, but acceptable since the primary goal of VisualFP
+is to be a visual language to introduce beginners to functional programming.
 

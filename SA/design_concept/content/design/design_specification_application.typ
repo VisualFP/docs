@@ -29,9 +29,9 @@ an `addition` function would look like in both styles can be seen in
   caption: [Explicit application])<explicit_application>
 ]
 
-After some consideration, we have decided to go with the explicit style.
-The main reason for this decision was that the explicit style doesn't
-scale well, while the elaborate style doesn't lose much readability. 
+Of these two styles, the elaborate application style was chosen over
+explicit application, since the elaborate style stays readable when scaling
+up to bigger examples, while the explicit style starts to feel overloaded.
 
 The type-resolution for the elaborate application style works like this:
 
@@ -46,7 +46,8 @@ The type-resolution for the elaborate application style works like this:
    The remaining arguments $B_1 arrow.r ... arrow.r B_n$ are then processed
    as new type holes to be filled in.]
 
-An example of the system can be seen in @elaborate_application_example.
+An example of the elaborate application system can be seen in
+@elaborate_application_example.
 
 #figure(
   tablex(
