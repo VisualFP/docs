@@ -35,6 +35,7 @@
 #include_section("project_documentation/content/quality_assurance.typ")
 #include_section("project_documentation/content/risk_management.typ")
 #include_section("project_documentation/content/time_tracking.typ")
+#include_section("project_documentation/content/personal_reports.typ")
 #include_section("project_documentation/content/meeting_minutes/meeting_minutes.typ")
 
 #part("Appendix")
