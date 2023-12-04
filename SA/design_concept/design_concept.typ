@@ -2,6 +2,7 @@
 #import "../acronyms.typ": *
 
 #set text(..sa_text_style)
+
 #show heading.where(level: 1): sa_heading1_show
 #show heading.where(level: 2): sa_heading2_show
 #show heading.where(level: 3): sa_heading3_show

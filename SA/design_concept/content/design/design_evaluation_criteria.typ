@@ -33,6 +33,7 @@ These code scenarios were defined to evaluate visualization designs regarding th
 )<design_eval_even>
 
 === Product of Numbers
+
 @design_eval_product has been chosen to evalute designs for recursive functions.
 
 #figure(
@@ -53,22 +54,6 @@ These code scenarios were defined to evaluate visualization designs regarding th
     mapAdd5 = map ((+) 5)
     ```
 )<design_eval_currying>
-
-=== Function for expression evaluation
-@design_eval_expr_eval has been chosen to evaluate designs for type composition of custom types and functions using them.
-
-#figure(
-    ```hs
-    data Expr = Val Int
-                | Add Expr Expr
-                | Mul Expr Expr
-    eval :: Expr -> Int
-    eval (Val n) = n
-    eval (Add x y) = eval x + eval y
-    eval (Mul x y) = eval x * eval y
-    ```,
-    caption: "Eval function for design evaluation"
-)<design_eval_expr_eval>
 
 == Evaluation Questionnaire <design_eval_questionnaire>
 These evaluation questions have to be answered by the survey participants once for every design proposal:
