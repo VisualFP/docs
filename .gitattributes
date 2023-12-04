@@ -1,7 +1,7 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
-
 * text=auto
 *.png binary
 *.jpg binary
 *.svg binary
+SA/project_documentation/static/time_spent.png filter=lfs diff=lfs merge=lfs -text
