@@ -23,7 +23,7 @@ VisualFP has two actors:
     )
 )
 
-== Use Cases
+== Use Cases <use-cases>
 
 @use_case_diagram gives an overview of all identified use-cases.
 By default, the term "user" in the use case description refers to the "student user" role.

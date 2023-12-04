@@ -49,7 +49,6 @@ These are the results:
         heading(level: 5, numbering: none, "General Comments")
         generalComments
     }
-    pagebreak()
 }
 
 #questionnaireResult(
@@ -335,3 +334,5 @@ These are the results:
     ),
     generalComments: "Maybe something like a tree structure (similar to expression trees) that goes from top to bottom? It would may be some kind of mix between Flo and Scratch. Make a own symbol for match-cases (to distinguish from functions). Make sure it is tidy (same thing on same height level etc.)"
 )
+
+#pagebreak()

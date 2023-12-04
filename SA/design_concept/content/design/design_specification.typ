@@ -1,6 +1,6 @@
 #import "../../../style.typ": *
 
-= Design specification
+= Design specification <design_specification>
 
 After having worked out a design to move forward with in @design-evaluation,
 this section shows the details of the design specification, and which
