@@ -3,6 +3,7 @@
 
 #part("Appendix")
 
+#include_section("design_concept/appendix/task_description.typ")
 #include_section("design_concept/appendix/questionnaire_answers.typ")
 
 #sa_list_of_acronyms() <list_of_acronyms>
