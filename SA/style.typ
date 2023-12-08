@@ -43,21 +43,38 @@
       #align(left)[#ct]
     ]
     
+    #let grid_cols = (1fr, 1fr)
     #grid(
-      columns: (1fr, 1fr),
-      rows: (auto, auto, auto, auto, auto),
+      columns: grid_cols,
+      rows: (auto, auto, auto),
       ecell()[*Authors:*], ecell()[#data.authors],
       ecell()[*Advisor:*], ecell()[#data.advisor],
-      ecell()[*Project Partner:*], ecell()[#data.partner],
-      ecell()[*External Co-Examiner:*], ecell()[#data.external-co-examiner],
-      ecell()[*Internal Co-Examiner:*], ecell()[#data.external-co-examiner]
+      ecell()[*Project Partner:*], ecell()[#data.partner]
     )
+
+    #if (data.external-co-examiner != []) {
+      v(-16pt)
+      grid(
+        columns: grid_cols,
+        rows: (auto),
+        ecell()[*External Co-Examiner:*], ecell()[#data.external-co-examiner]
+      ) 
+    }
+
+    #if (data.internal-co-examiner != []) {
+      v(-16pt)
+      grid(
+        columns: grid_cols,
+        rows: (auto),
+        ecell()[*Internal Co-Examiner:*], ecell()[#data.internal-co-examiner]
+      )
+     }
   ]
   pagebreak()
 }
 
 #let sa_text_style = (
-  font: "New Computer Modern",
+  font: "Palatino",
   size: 12pt
 )
 
