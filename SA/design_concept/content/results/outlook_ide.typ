@@ -20,7 +20,5 @@ Modules are displayed as folders in the IDE sidebar, with the module's functions
     caption: "Mockup of VisualFP IDE"
 )<visualfp_ide_mockup>
 
-For VisualFP projects to work as cabal project, VisualFP would need to be compatible with Haskell's type system.
-
 Ideally the IDE also provides debugging tools, so users can understand their code better and find bugs easier.
 An integration with e.g. the Haskell Substitution Stepper #footnote("https://eprints.ost.ch/id/eprint/991/") could be useful.
