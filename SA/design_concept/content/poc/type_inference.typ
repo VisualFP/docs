@@ -19,7 +19,7 @@ An overview of the inference engine is shown in
 phases.
 
 #figure(
-  align(center, image("../../static/inference-engine.svg", width: 75%)),
+  text(font: "Palatino Linotype" ,align(center, image("../../static/inference-engine.svg", width: 75%))),
   caption: [Type-inference engine components])  <inference-engine-components>
 
 
