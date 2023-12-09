@@ -7,7 +7,7 @@ sub-expressions with their according types.
 It operates on a separate expression model to isolate the inference engine,
 which differs from the UI's. The engine is not responsible for converting to and
 from the UI model; this is done by a translation layer described in
-@translation_layer.
+@translation-layer.
 
 Heavy inspiration for the implementation of the engine was taken from the talk
 "Type inference as constraint solving" by Simon Peyton Jones @spj-ghc-inference.
@@ -19,9 +19,8 @@ An overview of the inference engine is shown in
 phases.
 
 #figure(
-  text(font: "Palatino Linotype" ,align(center, image("../../static/inference-engine.svg", width: 75%))),
+  text(font: "Palatino Linotype" ,align(center, image("../../static/inference-engine.svg", width: 65%))),
   caption: [Type-inference engine components])  <inference-engine-components>
-
 
 1. *Elaboration*: #[The elaboration phase takes an input expression and
   annotates all elements with placeholder types called _unification variables_.
