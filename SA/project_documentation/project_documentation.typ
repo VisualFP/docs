@@ -12,7 +12,7 @@
   title: [VisualFP],
   description: [Project documentation],
   organization: [Department of Computer Science \ OST - University of Applied Sciences \ Campus Rapperswil-Jona],
-  thesis: [Term Paper],
+  thesis: [Student Research Project],
   term: [Autumn Term 2023],
   authors: [Lukas Streckeisen, Jann M. Flepp],
   authors-short: [L. Streckeisen, J. Flepp],

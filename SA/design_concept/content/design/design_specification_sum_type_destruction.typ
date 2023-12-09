@@ -1,4 +1,4 @@
-= Sum Type Destruction
+= Sum Type Destruction <sum_type_destruction>
 #let load-drawio-svg(path, ..args) = image.decode(read(path).replace("Text is not SVG - cannot display", ""), ..args)
 
 Sum types consist of a set of constructors, each with a different type. The type

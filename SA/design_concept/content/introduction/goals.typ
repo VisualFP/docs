@@ -2,7 +2,7 @@
 
 = Goals <goals>
 
-The goal of this term paper is to design a tool, VisualFP, that allows the
+The goal of this student research project is to design a tool, VisualFP, that allows the
 graphical development of functional code, is block-based and extensible. The
 target audience of VisualFP are students learning to program. Additionally,
 VisualFP should support experienced programmers who want to view

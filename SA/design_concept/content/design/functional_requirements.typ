@@ -9,7 +9,7 @@ VisualFP has two actors:
         "Student User",
         [
             The student user is the primary user of VisualFP and, therefore, the main influence on the visualization design.
-            The user wants to learn functional programming using VisualFP.
+            The student user wants to learn functional programming using VisualFP.
             They want to do that by visually composing functions in a simple UI.
             The UI should simplify the understanding of functional concepts that many beginners struggle with.
         ]
@@ -66,6 +66,7 @@ An expert user wants to group functions into modules to keep their code organize
 === UC11 - Import Haskell code
 An expert user wants to import their existing Haskell project into VisualFP.
 
-== Prioritization
-The focus of this paper lies in creating a design for function composition.
-This means use cases 1 - 5 have the priority must-have, and use cases 6 - 11 have priority nice-to-have.
+== Prioritization & Scope
+The focus of this project lies in creating a design for function composition that is suitable for beginners.
+This means use cases 1 - 6 have higher priority than use cases 6 - 9.
+Use cases 10 and 11 are not in this project's scope, but listed here anyway for completion.
