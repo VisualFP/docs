@@ -69,4 +69,4 @@ An expert user wants to import their existing Haskell project into VisualFP.
 == Prioritization & Scope
 The focus of this project lies in creating a design for function composition that is suitable for beginners.
 This means use cases 1 - 6 have higher priority than use cases 6 - 9.
-Use cases 10 and 11 are not in the scope of this project, but listed here anyway for completion of all interests in VisualFP.
+Use cases 10 and 11 are not in this project's scope, but listed here anyway for completion.
