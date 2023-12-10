@@ -2,7 +2,7 @@
 #import "@preview/tablex:0.0.6": tablex, hlinex
 #let load-drawio-svg(path, ..args) = image.decode(read(path).replace("Text is not SVG - cannot display", ""), ..args)
 
-= Application
+= Application <design-application>
 
 The design suggested after the second iteration, as described in
 @design_proposal_iteration_2, leaves the application style open as a decision.
