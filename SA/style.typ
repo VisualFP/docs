@@ -74,7 +74,7 @@
 }
 
 #let sa_text_style = (
-  font: "Palatino",
+  font: "Linux Libertine",
   size: 12pt
 )
 
