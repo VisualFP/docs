@@ -1,7 +1,7 @@
 #import "../../../style.typ": include_section
 
 = Conclusions
-Based on the questionnaire answers for the first three designs, which can be found in @design_iteration_one_survey_results , it can be concluded that there is no clear winner.  //TODO: figure out why the refernced section is displayed wrong
+Based on the questionnaire answers for the first three designs, which can be found in @design_iteration_one_survey_results , it can be concluded that there is no clear winner.
 All of the design concepts got a fair amount of valid criticism.
 
 == Flo-inspired Design
