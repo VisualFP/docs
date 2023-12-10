@@ -31,9 +31,9 @@ phases.
   A more detailed description of these constraints can be found in
   @constraint-language.]
 
-2. *Unification*: #[Next, a unification tries to find a solution for the
-  unification variables that satisfy all constraints. A concrete type can be
-  assigned to each unification variable if it succeeds.
+2. *Unification*: #[Next, the unification algorithm tries to find a solution for
+  the unification variables that satisfy all constraints. If it succeeds, A
+  concrete type can be assigned to each unification variable.
 
   The algorithm is based on Prolog, as described by Prof. Dr.
   Farhad D. Mehta in his lecture @mehta-unification.]
