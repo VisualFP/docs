@@ -1,5 +1,5 @@
 = UI
-Content: interesting things about the UI (why no FRP)
+This chapter describes the features included in the PoC application UI, the high-level implementation and how functional reactive programming could be applied to VisualFP.
 
 == Features
 The UI for the PoC application includes two main components, which can be seen in @ui-empty-editor: A sidebar with pre-defined value blocks and the function editor.
