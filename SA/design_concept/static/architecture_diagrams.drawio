@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T15:01:09.901Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0" etag="OftdvgCbsrtyG96f5iiM" version="22.1.7" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-11T12:53:08.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0" etag="SEvR6are-n1Ncna-Y_x7" version="22.1.7" type="device">
   <diagram name="Page-1" id="7wSfeId7zUns3h882nv0">
     <mxGraphModel dx="2074" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="R7u8QRBj4tWUcl5Hvf28-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7u8QRBj4tWUcl5Hvf28-31" target="R7u8QRBj4tWUcl5Hvf28-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R7u8QRBj4tWUcl5Hvf28-44" value="translate to inference&lt;br&gt;input expression" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7u8QRBj4tWUcl5Hvf28-37">
+        <mxCell id="R7u8QRBj4tWUcl5Hvf28-44" value="untyped&lt;br&gt;value definition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7u8QRBj4tWUcl5Hvf28-37">
           <mxGeometry x="-0.2897" y="-1" relative="1" as="geometry">
             <mxPoint x="19" y="-16" as="offset" />
           </mxGeometry>
@@ -78,17 +78,17 @@
         <mxCell id="R7u8QRBj4tWUcl5Hvf28-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7u8QRBj4tWUcl5Hvf28-32" target="R7u8QRBj4tWUcl5Hvf28-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R7u8QRBj4tWUcl5Hvf28-39" value="infer expression" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7u8QRBj4tWUcl5Hvf28-38">
+        <mxCell id="R7u8QRBj4tWUcl5Hvf28-39" value="inference&lt;br&gt;input expression" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7u8QRBj4tWUcl5Hvf28-38">
           <mxGeometry x="-0.4867" y="-2" relative="1" as="geometry">
-            <mxPoint x="24" y="-17" as="offset" />
+            <mxPoint x="29" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R7u8QRBj4tWUcl5Hvf28-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7u8QRBj4tWUcl5Hvf28-32" target="R7u8QRBj4tWUcl5Hvf28-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R7u8QRBj4tWUcl5Hvf28-45" value="return to UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7u8QRBj4tWUcl5Hvf28-43">
+        <mxCell id="R7u8QRBj4tWUcl5Hvf28-45" value="typed&lt;br&gt;value definition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7u8QRBj4tWUcl5Hvf28-43">
           <mxGeometry x="0.1963" y="2" relative="1" as="geometry">
-            <mxPoint x="6" y="10" as="offset" />
+            <mxPoint x="11" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R7u8QRBj4tWUcl5Hvf28-32" value="&lt;div&gt;Translation&lt;br&gt;&lt;/div&gt;[Component]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -97,9 +97,9 @@
         <mxCell id="R7u8QRBj4tWUcl5Hvf28-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7u8QRBj4tWUcl5Hvf28-33" target="R7u8QRBj4tWUcl5Hvf28-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R7u8QRBj4tWUcl5Hvf28-42" value="translate output&lt;br&gt;to UI model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7u8QRBj4tWUcl5Hvf28-40">
+        <mxCell id="R7u8QRBj4tWUcl5Hvf28-42" value="inferred expression" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7u8QRBj4tWUcl5Hvf28-40">
           <mxGeometry x="0.2212" y="3" relative="1" as="geometry">
-            <mxPoint x="19" y="12" as="offset" />
+            <mxPoint x="14" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R7u8QRBj4tWUcl5Hvf28-33" value="&lt;div&gt;Inference&lt;br&gt;&lt;/div&gt;[Component]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
