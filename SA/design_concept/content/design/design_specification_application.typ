@@ -4,8 +4,9 @@
 
 = Application <design-application>
 
-In /*TODO: Insert reference after !74 merges */ the suggested concept of
-Prof. Dr. Farhad Mehta, the application style was left open as a decision.
+The design suggested after the second iteration, as described in
+@design_proposal_iteration_2, leaves the application style open as a decision.
+This section makes that decision and elaborates on the reasons.
 
 The two discussed options were:
 

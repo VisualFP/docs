@@ -4,8 +4,8 @@ VisualFP features a type-inference engine responsible for figuring out which
 expressions are valid, determine which type-holes are necessary, and annotate
 sub-expressions with their according types.
 
-It operates on a separate expression model to isolate the inference engine,
-which differs from the UI's. The engine is not responsible for converting to and
+It operates on a separate expression model to isolate the inference engine.
+The engine is not responsible for converting to and
 from the UI model; this is done by a translation layer described in
 @translation-layer.
 
@@ -31,9 +31,9 @@ phases.
   A more detailed description of these constraints can be found in
   @constraint-language.]
 
-2. *Unification*: #[Next, a unification tries to find a solution for the
-  unification variables that satisfy all constraints. A concrete type can be
-  assigned to each unification variable if it succeeds.
+2. *Unification*: #[Next, the unification algorithm tries to find a solution for
+  the unification variables that satisfy all constraints. If it succeeds, A
+  concrete type can be assigned to each unification variable.
 
   The algorithm is based on Prolog, as described by Prof. Dr.
   Farhad D. Mehta in his lecture @mehta-unification.]
