@@ -14,7 +14,7 @@ The Electron.js app itself doesn't contain any logic and just acts as a browser.
 
 Theoretically, Threepenny could also be used to host a regular web application, eliminating the need for an Electron app.
 However, Threepenny controls the browser via web sockets, so a performant server and a good network connection are required.
-Thus, it is recommended to avoid this, as a hight latency connection would be noticable in UI updates.
+Thus, it is recommended to avoid this, as a high latency connection would be noticeable in UI updates.
 @threepenny_gui
 
 The Threepenny application itself consists of three components, which can be seen in @component-diagram.
@@ -31,7 +31,7 @@ The UI component is described in @ui.
 
 == Translation Component <translation-layer>
 The translation component has been built between the UI and the inference engine.
-As can be seen in @component-diagram, it is responisble for translating between the data models used by the UI and the type inference engine:
+As can be seen in @component-diagram, it is responsible for translating between the data models used by the UI and the type inference engine:
 1. From the untyped model of the UI to the input model of the inference engine 
 2. From the inferred model of the inference engine to the typed UI model
 
