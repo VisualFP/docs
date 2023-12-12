@@ -80,7 +80,7 @@ Implementing the FRP architecture through Threepenny could be considered again o
 The author of Threepenny, Heinrich Apfelmus, is planning to do that in a future release @threepenny-frp-replacement.
 
 Gnerally, there is no reason why VisualFP couldn't be implemented using FRP.
-In such an implementation, there would be 3 kind of events:
+In such an implementation, there would be 3 kinds of events:
 - "Reset Editor" button is clicked
 - "View Haskell" button is clicked
 - A block value is dropped into a type hole. This event is a combination of all events from every type-hole in the function definition.
