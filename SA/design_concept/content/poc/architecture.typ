@@ -1,7 +1,7 @@
 = Architecture <poc-architecture>
 This chapter describes the architecture that has been chosen for the PoC application.
 
-As described in @impl_options_decision, the PoC uses Electron.js and Threepenny-GUI for its implementation.
+As described in @option-ui-decision, the PoC uses Electron.js and Threepenny-GUI for its implementation.
 This choice results in the applicaiton having a "remote" user interface @Renzel1997ClientServerAF, as shown in @container-diagram.
 
 #figure(

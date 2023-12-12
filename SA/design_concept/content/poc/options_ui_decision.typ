@@ -1,6 +1,6 @@
 #import "../../../acronyms.typ": ac
 
-= UI Framework Decision
+= UI Framework Decision <option-ui-decision>
 
 All UI technologies to implement UIs in a functional language are unfamiliar to
 the authors.
