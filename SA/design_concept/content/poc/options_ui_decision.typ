@@ -2,12 +2,12 @@
 
 = UI Framework Decision <option-ui-decision>
 
-All UI technologies to implement UIs in a functional language are unfamiliar to
+All technologies to implement UIs in a functional language are unfamiliar to
 the authors.
 
 Because of that, it is crucial to have a good abstraction between UI and
-business logic in place so that the UI framework can be exchanged with another
-option with as little effort as possible if necessary.
+business logic in place so that the UI framework, if necessary, can be exchanged with another
+option with as little effort as possible.
 
 #ac("FRP") is an excellent concept for incorporating UI behavior and events into
 functional programming.  Of the frameworks considered, only threepenny-gui

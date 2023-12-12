@@ -20,7 +20,7 @@ application or a desktop application.
 
 == UI Frameworks <ui-framework-options>
 
-VisualFP requires external technologies to implement a UI; the backend logic
+VisualFP requires external technologies to implement a UI, the backend logic
 and a compiler platform to translate the visual code representation to
 Haskell code.
 

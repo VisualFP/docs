@@ -20,8 +20,8 @@ challenges:
 
 - While there is some documentation, it doesn't seem to be very comprehensive.
 
-We are sure that the downsides could be overcome, and we also think that
+The downsides could be overcome, and it is to be expected that
 GHCJS will get better tooling support in the future.
 
-But after writing some samples in GHCJS, we expect that a considerable amount of
+But after writing some samples in GHCJS, it is to be expected that a considerable amount of
 time would need to be invested to get GHCJS to work for the #ac("PoC").
