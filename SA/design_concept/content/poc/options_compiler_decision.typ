@@ -1,6 +1,6 @@
 #import "../../../acronyms.typ": ac
 
-=== Compiler Platform
+= Compiler Platform Decision
 
 GHC is the only one still being actively developed out of the compiler-platforms
 we've looked at. Since VisualFP will rely heavily on the chosen platform, it

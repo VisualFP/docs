@@ -1,4 +1,4 @@
-== Deployment Decision
+= Deployment Decision
 
 We expected that VisualFP would primarily be used in classrooms. Such
 environments often do not allow for easy deployment and maintenance of
