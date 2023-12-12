@@ -21,7 +21,7 @@ The following technologies were considerd.
 #include_section("design_concept/content/poc/bolero.typ", heading_increase: 2)
 #include_section("design_concept/content/poc/compiler-platform.typ", heading_increase: 2)
 
-== Decision
+== Decision <impl_options_decision>
 Since this project wants to create a tool for visual functional programming, implementing the tool in a functional language is most fitting.
 
 All technologies to implement UIs in a functional language are unfamiliar to the authors.

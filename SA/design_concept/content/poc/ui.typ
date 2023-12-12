@@ -1,4 +1,4 @@
-= UI
+= UI <ui>
 This chapter describes the features of the PoC application UI, the high-level implementation and how functional reactive programming could be applied to VisualFP.
 
 == Features
