@@ -1,4 +1,5 @@
 = Web Application
+
 A web application has a frontend and a backend.
 The frontend is statically served to the user in a web browser and communicates through an API with the backend, which is hosted on a server.
 
