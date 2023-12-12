@@ -2,13 +2,18 @@
 #import "../../acronyms.typ": *
 
 #part("Appendix")
+#pagebreak()
 
-#include_section("design_concept/appendix/task_description.typ")
+= Task Description
+#image("../static/task_description_page_one.png")
+#image("../static/task_description_page_two.png")
+#pagebreak()
 
 = Design Evaluation Questionnaire Template <appendix_design_eval_questionnaire>
 #for n in ("1", "2", "3", "4", "5", "6") {
   image("../static/concept_questionnaire_" + n + ".png")
 }
+#pagebreak()
 
 #include_section("design_concept/appendix/questionnaire_answers.typ")
 
