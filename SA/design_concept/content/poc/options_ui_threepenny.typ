@@ -2,7 +2,7 @@
 
 = Threepenny-GUI
 
-The threepenny-GUI GUI framework was written in Haskell to create desktop
+The Threepenny-GUI framework was written in Haskell to create desktop
 applications that run in a web browser. The framework can be combined with
 Electron for a tighter integration with the desktop environment.
 

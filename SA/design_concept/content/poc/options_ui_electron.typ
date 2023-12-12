@@ -15,7 +15,7 @@ Since Electron apps can be created like any web app, many libraries are
 available for front end development. The authors also already have experience
 with JavaScript and its ecosystem.
 
-Without transpilation from another language, electron, like any browser,
+Without transpilation from another language, Electron, like any browser,
 requires the application to be written in JavaScript. JavaScript is an
 interpreted language and has a weak type system. It is also not considered a
 functional language, as it offers many imperative features and #ac("API")s.
