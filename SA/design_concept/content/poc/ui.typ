@@ -14,7 +14,7 @@ Starting with a generic function type allows more flexible testing.
 In a full version of the application, the user would be able to define the function name and type when creating it.
 
 #grid(
-  columns: 2,
+  columns: (60%, 40%),
   gutter: 5pt,
   [#figure(
     image("../../static/ui_editor_drag_lambda.png"),
