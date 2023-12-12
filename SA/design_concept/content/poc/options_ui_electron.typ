@@ -1,6 +1,6 @@
 #import "../../../acronyms.typ": ac
 
-= Electron JS
+= Electron JS <option-electron>
 
 Electron JS is a framework for creating desktop apps using HTML, JS, and CSS,
 achieved by combining chromium and Node.js.
