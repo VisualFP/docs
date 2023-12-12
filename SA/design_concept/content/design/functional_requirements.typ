@@ -1,4 +1,4 @@
-= Functional Requirements
+= Functional Requirements <functional_requirements>
 The following section describes all use cases identified for the VisualFP application.
 
 == Actors
