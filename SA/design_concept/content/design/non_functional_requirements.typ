@@ -1,4 +1,4 @@
-= Non Functinal Requirements
+= Non Functinal Requirements <non_functional_requirements>
 This section describes all non-functional requirements identified for VisualFP.
 To find relevant NFRs, ISO-25010 was used for inspiration.
 

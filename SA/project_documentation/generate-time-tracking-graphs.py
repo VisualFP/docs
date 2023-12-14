@@ -36,8 +36,8 @@ plt.xlim(0.5, 14.75)
 # Adding a text annotation for total time spent
 plt.text(
     9.75,
-    -3,
-    f'Total Lukas Streckeisen: {sum(lukas_hours)} hours\nTotal Jann Flepp: {sum(jann_hours)} hours',
+    -3.5,
+    f'Total Lukas Streckeisen: {sum(lukas_hours)} hours\nTotal Jann Flepp: {sum(jann_hours)} hours\nTotal both: {sum(lukas_hours) + sum(jann_hours)}',
     ha='left',
     va='center',
     bbox=dict(boxstyle='round', facecolor='white', edgecolor='lightgrey')
