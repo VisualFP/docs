@@ -52,4 +52,4 @@ The main focus of the project was to create a visual concept for function compos
 As can be seen in @requirement_validation, all requirements related to function composition could be achieved.
 
 Due to time constraints, the requirements UC2, UC7, UC8 and UC9 had to be considered as out-of-scope.
-However, during the implementation of the type inference engine, UC7 was kept in mind, so that custom data types can be added without much extra effort.
+However, during the implementation of the type inference engine, UC7 was kept in mind, so that custom data types could be added without much effort.
