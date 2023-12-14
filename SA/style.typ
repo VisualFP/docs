@@ -189,25 +189,24 @@
     title: none,
     target: figure.where(kind: image),
   )
-  pagebreak()
 }
 
 #let sa_list_of_tables() = {
+  pagebreak()
   heading(level: 1, [List of Tables])
   outline(
     title: none,
     target: figure.where(kind: "table")
   )
-  pagebreak()
 }
 
 #let sa_list_of_listings() = {
+  pagebreak()
   heading(level: 1, [List of Code Listings])
   outline(
     title: none,
     target: figure.where(kind: raw)
   )
-  pagebreak()
 }
 
 #let sa_disclaimer() = [
