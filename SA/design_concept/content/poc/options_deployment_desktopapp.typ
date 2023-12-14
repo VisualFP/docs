@@ -1,4 +1,5 @@
 = Desktop Application
+
 A desktop application can be installed on the user's device with one installer.
 Both the frontend and backend are executed on the user's device.
 
