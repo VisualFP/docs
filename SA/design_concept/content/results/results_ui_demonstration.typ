@@ -1,6 +1,6 @@
 = UI Demonstration
-In @design_eval_code_scenarios some code scenarios were defined to evaluate the design concepts.
-The construction of the `mapAdd5` scenario in VisualFP is depicted stept by step in @visual-fp-ui-demo-part-one and @visual-fp-ui-demo-part-two.
+@visual-fp-ui-demo-part-one and @visual-fp-ui-demo-part-two depict a step-by-step demonstration of the PoC application
+using the `mapAdd5` code scenario as descriped in @design_eval_code_scenarios.
 
 #figure(
   grid(
