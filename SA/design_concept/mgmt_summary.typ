@@ -54,7 +54,7 @@ pre-defined values that can be used to build a user-defined function. A
 screenshot of the application is provided in @managmenet-summary-screenshot. 
 
 #figure(
-  box(stroke: 2pt, image("./static/management-summary-screenshot.jpg", width: 80%)),
+  box(stroke: 2pt, image("./static/management-summary-screenshot.png", width: 80%)),
   caption: "Screenshot of the mapAdd5 function definition in VisualFP"
 ) <managmenet-summary-screenshot>
 
