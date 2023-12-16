@@ -1,5 +1,5 @@
 = Proof of Concept
-The project produced a proof of concept application that implements the design concept described in @design_proposal_iteration_2 and @design_specification.
+The project produced a proof of concept application that implements the design concept described in @design_proposal_iteration_2 and @design_decision.
 Although the application doesn't offer visualizations for the most commen aspects of functional programming, such as the construction of custom data types, the application shows that the proposed concept for function composition works and is easy to use.
 This means that the main goal of the project was achieved.
 
