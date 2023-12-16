@@ -10,3 +10,16 @@ Our detailed planing is done weekly using a Kanban board in Jira.
     caption: "Initial Project Plan"
 )<initial_project_plan>
 
+== Project Plan Retrospection
+The project plan that we defined at the start of the project worked out well.
+In mid November, we were able to switch from the conceptual phase to the PoC phase, which is consistent with the initial plan.
+Towards the end of the conceptual phase, we were a bit unsure if the remaining time is enough to build a presentable PoC application.
+But due to unexpectedly swift progress, we were able to include more features into the PoC than initially thought.
+
+We met both project deadlines, for the broschure abstract and the final submission.
+We were even able to hand-in the broschure abstract about half a week in advance.
+
+However, the end-phase of the project wasn't accurately displayed in the initial project plan.
+While we finished the concept documentation, i.e. the description of the theoretical concept for function composition, as planned, we didn't include a phase to finish the rest of the documentation, i.e. documenting the PoC, the project documentation, proof reading, etc.
+We did this documentation work during the last 1.5 weeks of the PoC phase.
+In a next project, we would definetly include another documentation phase at the end of the project in the initial plan.
