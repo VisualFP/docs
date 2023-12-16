@@ -6,10 +6,7 @@ Content:
 - What could the application look like in a complete version?
 
 == Possible future enhancements
-During the development of the PoC, two possible variants of a feature complete application emerged, which are briefly described below.
+During the development of the PoC, two possible variants of a feature-complete application emerged, which are briefly described below.
 
 #include_section("design_concept/content/results/outlook_ide.typ", heading_increase: 2)
-
-// TODO: find good name for Farhad's version
-=== Farhad's vision
-TODO
+#include_section("design_concept/content/results/outlook_language.typ", heading_increase: 2)
