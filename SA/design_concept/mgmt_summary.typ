@@ -1,35 +1,66 @@
 = Management Summary
-// TODO: finalize
 
-When introducing children and young adults to the world of programming, many teachers use tools like Scratch or LEGO Mindstorms.
-Such visual, block-based tools eliminate the hurdle of code syntax, allowing beginners to concentrate on the program they want to write.
+== Initial Situation
 
-However, all popular visual tools used for teaching programming are made for imperative programming.
-There exist visual tools for functional programming, but they lack in visual aesthetics or hide important concepts that are vital to understanding the functional programming paradigm.
+Many teachers use tools like Scratch or LEGO Mindstorms when introducing
+children and young adults to the programming world. Such visual, block-based
+tools eliminate the hurdle of code syntax, allowing beginners to concentrate on
+the program they want to write.
 
-With VisualFP, a visual, block-based tool should be designed that can be used to teach functional programming.
-At the center of this project is a design concept for visual function composition, describing how the visual editor of such a tool should work.
-To proof that the theoretical concept is feasable, a proof of concept application with a visual function editor should be created.
+However, almost all visual tools for teaching programming are made for the imperative
+programming paradigm.  Visual tools exist for functional programming but lack
+visual aesthetics or hide essential concepts required to understand functional
+programming.
 
-To find a suitable design for the function editor, two design iterations were carried out.
-After creating 3 initial design proposals during the first iteration, a small survey with experienced developers & students was conducted to gain insight into the advantages & disadvantages of each design.
-Based on this feedback, a fourth, more detailed design concept was created.
+== Objective
 
-This concept uses nested blocks to represent function definitions.
-The development flow is guided by type holes, which are typed placeholders for the values required for the definition to be valid.
-To complete the definition, users can drop value blocks into a type hole and fill it with that value.
-Value bocks are provided by the editor or defined by the user.
+With VisualFP, a visual, block-based tool should be designed that can be used to
+teach functional programming. At the center of this project is a design concept
+for visual function composition, describing how the visual editor of such a tool
+would work. A proof of concept application with a visual function editor should
+be created to prove the concept is feasible.
 
-The concept was implemented in a proof-of-concept application, which was written using Haskell and Electron.js.
-The application includes a small selection of pre-defined values that can be used in the function editor to build a user-defined function.
+A potent type inference engine is necessary for such an editor to work,
+which shall be implemented using a unification algorithm as proposed by Simon
+Peyton Jones @spj-ghc-inference. An overview of a unification-based engine
+is shown in @management-summary-inference-engine.
 
 #figure(
-  image("./static/visualFP_mapAdd5.png", width: 18cm),
-  caption: "Screenshot of the mapAdd5 function definition in VisualFP"
-)
+  image("./static/inference-engine.svg", width: 65%),
+  caption: [Type-inference engine components])  <management-summary-inference-engine>
 
-The implemented application proofs that the developed design concept for the function editor works as envisioned.
-However, the application is not yet ready to be used in classrooms.
-Additional design and development is required in order to bring the concept to its full potential.
+Additionally, the application should run on the user's machine to be used in
+classrooms without server infrastructure.
+
+== Results
+
+The developed concept uses nested blocks to represent function definitions. Type
+holes guide the development flow as typed placeholders for the values required
+for the definition to be valid. Users can drop value blocks into a type hole to
+fill it with that value. Value blocks are provided by the editor or are defined
+by the user.
+
+The concept was implemented in a proof-of-concept application written using
+Haskell and Electron.js. A component-level view of the application is provided
+in @management-summary-component-diagram.
+
+#figure(
+  image("./static/component_diagram.svg", width: 100%),
+  caption: "C4 Component Diagram for VisualFP PoC"
+) <management-summary-component-diagram>
+
+The application includes a small selection of
+pre-defined values that can be used to build a user-defined function. A
+screenshot of the application is provided in @managmenet-summary-screenshot. 
+
+#figure(
+  box(stroke: 2pt, image("./static/management-summary-screenshot.png", width: 80%)),
+  caption: "Screenshot of the mapAdd5 function definition in VisualFP"
+) <managmenet-summary-screenshot>
+
+The implemented application proves that the developed design concept works as
+envisioned.  However, the application is not yet ready to be used in classrooms
+as additional design and development is required to bring the idea to its full
+potential.
 
 #pagebreak()
