@@ -1,5 +1,8 @@
 = Scope
-The goal of the PoC application is to show that the visual concept described in @design_proposal_iteration_2 and @design_specification works.
+
+The goal of the PoC application is to show that the visual concept described in
+@design_proposal_iteration_2 and @design_decision works.
+
 To show that, the PoC needs to implement
 - UC1 - Simple function composition
 - UC3 - Function composition using lists
@@ -9,4 +12,6 @@ To show that, the PoC needs to implement
 as described in @use-cases.
 Additionally, a concept for function execution is described theoretically.
 
-All other described use-cases, although they're all an integral part of a fully functioning visual editor for functional programming, are not included in the PoC due to time constraints.
+Although all other described use cases are integral to a fully functioning
+visual editor for functional programming as well, they are not included in the
+PoC due to time constraints.

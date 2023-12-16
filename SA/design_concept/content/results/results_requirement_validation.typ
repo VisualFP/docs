@@ -1,9 +1,9 @@
 #import "@preview/tablex:0.0.5": tablex, cellx
 
-= Requirement Validation
+= Requirement Validation <requirement_validation>
 @functional_requirements and @non_functional_requirements defined 9 use cases and 2 NFRs.
 
-@requirement_validation shows which of these requirements were fulfilled during the project and which are still open.
+@requirement_validation_table shows which of these requirements were fulfilled during the project and which are still open.
 
 #let validation_header(title) = cellx(align: center + horizon)[*#title*]
 #let validation_result(id, requirement, result, level) = (
@@ -46,10 +46,10 @@
   supplement: "Table",
   kind: "table",
   caption: "Requirement verification"
-) <requirement_validation>
+) <requirement_validation_table>
 
 The main focus of the project was to create a visual concept for function composition and prove that it is feasible with a PoC application.
-As can be seen in @requirement_validation, all requirements related to function composition could be achieved.
+As can be seen in @requirement_validation_table, all requirements related to function composition could be achieved.
 
 Due to time constraints, the requirements UC2, UC7, UC8 and UC9 had to be considered as out-of-scope.
 However, during the implementation of the type inference engine, UC7 was kept in mind, so that custom data types could be added without much effort.
