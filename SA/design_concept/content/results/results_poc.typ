@@ -12,7 +12,7 @@ A different UI framework may also provide better support for functional reactive
 
 == macOS Electron App
 For the project submission, the PoC Electron application was packaged for Windows, Linux & macOS.
-Unfortunately, the macOS app has an unforseen issue: It doesn't pass the macOS gatekeeper checks.
+Unfortunately, the macOS app has an unforeseen issue: It doesn't pass the macOS gatekeeper checks.
 
 Based on code signature, notarization and comparison with known malware, gatekeeper flags potentially dangerous applications and restricts them from execution.
 @apple-gatekeeper
