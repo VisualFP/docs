@@ -6,7 +6,7 @@ To address this gap, a visual, block-based tool for functional programming shoul
 The project focuses on finding a visual design of such a tool and then proving its feasibility in a proof of concept application.
 
 Existing visual programming tools are examined before creating a visual design.
-The development of the design is approachedin two iterations:
+The development of the design is approached in two iterations:
 In a first step, concept drafts are based on researched tools and evaluated using a survey.
 Then, a new concept is created using the received feedback and implemented in a proof of concept.
 
