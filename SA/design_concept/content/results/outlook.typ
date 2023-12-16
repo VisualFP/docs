@@ -1,9 +1,6 @@
 #import "../../../style.typ": include_section
 
-= Outlook
-Content:
-- What new questions arise?
-- What could the application look like in a complete version?
+= Outlook <outlook>
 
 == Possible future enhancements
 During the development of the PoC, two possible variants of a feature-complete application emerged, which are briefly described below.
