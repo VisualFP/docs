@@ -1,4 +1,4 @@
-#import "../../../acronyms.typ": ac
+#import "../../acronyms.typ": ac
 
 = Jann Flepp
 
