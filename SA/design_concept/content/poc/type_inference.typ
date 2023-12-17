@@ -19,7 +19,7 @@ An overview of the inference engine is shown in
 phases.
 
 #figure(
-  text(font: "Palatino Linotype" ,align(center, image("../../static/inference-engine.svg", width: 65%))),
+  align(center, image("../../static/inference-engine.svg", width: 65%)),
   caption: [Type-inference engine components])  <inference-engine-components>
 
 1. *Elaboration*: #[The elaboration phase takes an input expression and
