@@ -6,8 +6,7 @@ This part discusses the motivation behind VisualFP, what it aims to achieve,
 and the research that was done on existing alternatives.
 
 Some sections from @motivation Motivation and @goals Goals have been taken
-from the task description, which can be found in full at /*TODO: Add
-description*/
+from the task description, which can be found in full in @appendix_task_description.
 
 #include_section("design_concept/content/introduction/motivation.typ")
 #include_section("design_concept/content/introduction/goals.typ")
