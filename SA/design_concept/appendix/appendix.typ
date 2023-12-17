@@ -4,7 +4,7 @@
 #part("Appendix")
 #pagebreak()
 
-= Task Description
+= Task Description <appendix_task_description>
 #image("../static/task_description_page_one.png")
 #image("../static/task_description_page_two.png")
 #pagebreak()
