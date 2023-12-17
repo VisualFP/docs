@@ -6,6 +6,5 @@ This part describes the requirements, the design proposals, the design evaluatio
 
 #include_section("design_concept/content/design/functional_requirements.typ")
 #include_section("design_concept/content/design/non_functional_requirements.typ")
-#include_section("design_concept/content/design/design_evaluation_criteria.typ")
-#include_section("design_concept/content/design/design_evaluation.typ")
-#include_section("design_concept/content/design/design_decisions.typ")
+#include_section("design_concept/content/design/design_iteration_1.typ")
+#include_section("design_concept/content/design/design_iteration_2.typ")

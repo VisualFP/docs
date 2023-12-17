@@ -1,22 +1,26 @@
 #import "../../../style.typ": include_section
 
-= Conclusions
-Based on the questionnaire answers for the first three designs, which can be found in @design_iteration_one_survey_results , it can be concluded that there is no clear winner.
+= Conclusions <iteration-1-conclusion>
+
+Based on the questionnaire answers for the first three designs, which can be
+found in @design_iteration_one_survey_results , it can be concluded that each
+design received valid criticism.
+
 All of the design concepts got a fair amount of valid criticism.
 
 == Flo-inspired Design
 
-However, it is clear that the Flo-inspired design received the most negative feedback.
-While this concept keeps blocks very small due to blocks being connect through arrows, it quickly looks overloaded.
+It is clear that the Flo-inspired design received the most negative feedback.
+While this concept keeps blocks very small due to blocks being connected through arrows, it quickly looks overloaded.
 In part, this is due to the type-annotations which on the questionnaire images are visible for every block (these are only supposed to be visible when hovering over a block), but the main reason is the currying-visualization.
 
 By trying to visualize currying, the amount of blocks grows with every additional function parameter, leading to a high total number of blocks.
 This could be improved by displaying functions as one block with multiple parameters, giving up the visualization of currying.
-As suggested by Rafael Das Gupta, an option could also be to offer the user a possibility to activate/deactivate currying in the function editor.
+As suggested by Rafael Das Gupta, an option could also be to offer the user the possibility to activate/deactivate currying in the function editor.
 
 == Scratch-inspired Design
 
-The Scratch-inspired design received the most positive feedback, but also
+The Scratch-inspired design received the most positive feedback but also
 some negative feedback.
 
 The most consistent criticism was about the operator functions being aligned

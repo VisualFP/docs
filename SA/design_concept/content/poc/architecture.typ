@@ -39,7 +39,7 @@ This process isn't as straightforward as one might think, as the UI and
 inference engine have different representations of function application: The UI
 maintains a list of arguments per reference. In contrast, the inference engine
 expects applications to happen in dedicated nodes. This discrepancy has also
-been described in @design-application.
+been described in @application-decision.
 
 Translating the inferred model into the typed UI model is quite simple:
 Applications are simplified into arguments of the underlying element.

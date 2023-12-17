@@ -1,4 +1,4 @@
-= Sum Type Destruction <sum_type_destruction>
+= Sum Type Destruction <sum-type-destruction-decision>
 #let load-drawio-svg(path, ..args) = image.decode(read(path).replace("Text is not SVG - cannot display", ""), ..args)
 
 Sum types consist of a set of constructors, each with a different type. The type
@@ -35,12 +35,12 @@ constructors.
     caption: "Example of pattern-matching in Haskell"
 )<pattern-matching-example-haskell>
 
-An easier way to implement this is to generate a function which has a
-parameter function per constructor of the sum type and an output type. These
-parameter functions take the type constructor arguments as their input
+An easier way to implement this is to generate a function with a
+parameter function per the sum type and output type constructor. These
+parameter functions take the type constructor arguments as input
 parameters and map them to the output type. This is called a destruction
-function. @destruction-function-example-haskell shows how such a destruction
-function would look like for the example mentioned above.
+function. @destruction-function-example-haskell shows what such a destruction
+function would look like for the abovementioned example.
 
 
 #figure(
@@ -84,6 +84,6 @@ How pattern-matching and destruction functions would look like in VisualFP can b
 The decision was made in favor of the destruction function since the
 pattern-matching approach does not translate as well into an exclusively
 visual language. The fact that it makes the import of Haskell code more
-difficult is unfortunate, but acceptable since the primary goal of VisualFP
+difficult is unfortunate but acceptable since the primary goal of VisualFP
 is to be a visual language to introduce beginners to functional programming.
 
