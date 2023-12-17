@@ -1,6 +1,6 @@
 #import "../../../acronyms.typ": *
 
-= Visual and Textual Language
+= Visual and Textual Language <outlook-visual-textual>
 
 The function editor shown in the  #ac("PoC") application could be extended
 into a language that can be viewed, edited, and executed in both a visual and
