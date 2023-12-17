@@ -78,7 +78,7 @@ How pattern-matching and destruction functions would look like in VisualFP can b
   load-drawio-svg("../../static/design_specification_destruction.svg", width: 100%),
   caption: [Example of a destruction function in VisualFP])<pattern-matching-example-visualfp>
 #figure(
-  load-drawio-svg("../../static/design_specification_pattern-matching.svg", width: 77%),
+  load-drawio-svg("../../static/design_specification_pattern-matching.svg", width: 80%),
   caption: [Example of pattern-matching in VisualFP])<destruction-function-example-visualfp>
 
 The decision was made in favor of the destruction function since the
