@@ -89,6 +89,7 @@
   let part-label = label("part_" + it)
   let number = part-counter.at(loc).at(0) + 1
   let part-name = locate(loc => [Part #numbering("I", number) - #it])
+  hide(heading("- Part " + it, outlined: false, numbering: none, bookmarked: true) + v(-1em))
   text(size: 20pt, weight: "bold", [#part-name #part-label])
   metadata((is-part: true, label: part-label, location: loc))
   v(1cm)
@@ -104,8 +105,8 @@
 // inspired by https://stackoverflow.com/questions/76363935/typst-header-that-changes-from-page-to-page-based-on-state
 #let get-last-heading() = {
   locate(loc => [
-    #let first-heading = query(heading.where(level: 1), loc).find(h => h.location().page() == loc.page())
-    #let last-heading = query(heading.where(level: 1), loc).rev().find(h => h.location().page() == loc.page())
+    #let first-heading = query(heading.where(level: 1, outlined: true), loc).find(h => h.location().page() == loc.page())
+    #let last-heading = query(heading.where(level: 1, outlined: true), loc).rev().find(h => h.location().page() == loc.page())
         #{
         if not first-heading == none {
             ht-first.update([
