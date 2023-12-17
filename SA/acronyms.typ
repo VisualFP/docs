@@ -9,6 +9,7 @@
   GHC: "Glasgow Haskell Compiler",
   PoC: "Proof of Concept",
   GTK: "GIMP ToolKit",
+  OST: "Eastern Switzerland University of Applied Sciences",
   FFI: "Foreign Functional Interface",
   FRP: [Functional Reactive Programming - A concept that defines types and functions for interactive applications written in a functional language @frp_elliott_hudak]
 )
