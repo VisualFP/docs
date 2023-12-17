@@ -1,4 +1,3 @@
 = Personal Reports
-== Lukas Streckeisen
 
-== Jann Flepp
+#include_section("project_documentation/content/personal_report_jann.typ", heading_increase: 1)
