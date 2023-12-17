@@ -2,7 +2,7 @@
 
 #part("Design")
 
-This chapter describes the requirements, the design proposals, the design evaluation process, and the detailed final design for VisualFP.
+This part describes the requirements, the design proposals, the design evaluation process, and the detailed final design for VisualFP.
 
 #include_section("design_concept/content/design/functional_requirements.typ")
 #include_section("design_concept/content/design/non_functional_requirements.typ")

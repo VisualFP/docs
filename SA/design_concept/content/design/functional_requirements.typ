@@ -1,5 +1,5 @@
 = Functional Requirements <functional_requirements>
-The following section describes all use cases identified for the VisualFP application.
+The following section describes all actors and use cases identified for the VisualFP application.
 
 == Actors
 VisualFP has two actors:
@@ -26,7 +26,7 @@ VisualFP has two actors:
 == Use Cases <use-cases>
 
 @use_case_diagram gives an overview of all identified use-cases.
-By default, the term "user" in the use case description refers to the "student user" role.
+By default, the term "user" in the use case description refers to the "student user".
 
 #figure(
     image("../../static/SA_use_cases.png", width: 80%),
