@@ -36,7 +36,7 @@ constructors.
 )<pattern-matching-example-haskell>
 
 An easier way to implement this is to generate a function with a
-parameter function per the sum type and output type constructor. These
+parameter function per sum type and output type constructor. These
 parameter functions take the type constructor arguments as input
 parameters and map them to the output type. This is called a destruction
 function. @destruction-function-example-haskell shows what such a destruction

@@ -1,7 +1,7 @@
 = Design Conclusion
 
 During the first iteration, three very different approaches were explored.
-We gained valuable feedback on their advantages and shortcomings through a
+Valuable feedback was gained on their advantages and shortcomings through a
 survey. Prof. Dr. Farhad Mehta proposed a new design concept in the second
 iteration based on that feedback and some new ideas.
 

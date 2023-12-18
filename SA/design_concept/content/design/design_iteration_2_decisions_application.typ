@@ -8,7 +8,7 @@ The design suggested after the second iteration, as described in
 @design-proposal-2, leaves the application style open as a decision.
 This section makes that decision and elaborates on the reasons.
 
-There are two options that we can imagine:
+Two possible application styles are:
 
 / Explicit: Leave higher-order function values as such and apply them
   explicitly using a dedicated application function.

@@ -3,7 +3,7 @@
 = Conclusions <iteration-1-conclusion>
 
 Based on the questionnaire answers for the first three designs, which can be
-found in @design_iteration_one_survey_results , it can be concluded that each
+found in @design_iteration_one_survey_results, it can be concluded that each
 design received valid criticism.
 
 All of the design concepts got a fair amount of valid criticism.
