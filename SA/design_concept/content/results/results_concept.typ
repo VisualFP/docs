@@ -1,9 +1,9 @@
 = Design Concept <result-concept>
 
-The design concept described in @design_proposal_iteration_2 and
-@design_decision focuses on visual function composition. It proposes a function
-editor that features all the basic functionalities needed to create functional
-applications in a block-based fashion.
+The design concept described in @design-iteration-2 focuses on visual function
+composition. It proposes a function editor that features all the basic
+functionalities needed to create functional applications in a block-based
+fashion.
 
 The editor allows learners to approach functional programming through blocks
 instead of code. The type-inference engine offers much guidance, especially

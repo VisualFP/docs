@@ -1,7 +1,7 @@
 = Scope
 
 The goal of the PoC application is to show that the visual concept described in
-@design_proposal_iteration_2 and @design_decision works.
+@design-iteration-2 works.
 
 To show that, the PoC needs to implement
 - UC1 - Simple function composition

@@ -1,4 +1,4 @@
-= Haskell function-notation inspired design
+= Haskell function-notation inspired design <haskell-function-notation-inspired-design>
 
 The Haskell function-notation inspired design takes the notation of
 functions in Haskell and converts the explicit and implicit parenthesis into
@@ -20,5 +20,5 @@ annotated with their type.
 )<haskell_funcnot_inspired_mapAdd5>
 
 The handling of type arguments is not yet defined, although a similar solution
-as for the scratch-inspired design, described in @scratch_inspired_design, could
+as for the scratch-inspired design, described in @scratch-inspired-design, could
 be used.

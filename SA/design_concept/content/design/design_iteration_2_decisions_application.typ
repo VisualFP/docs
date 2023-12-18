@@ -2,13 +2,13 @@
 #import "@preview/tablex:0.0.6": tablex, hlinex
 #let load-drawio-svg(path, ..args) = image.decode(read(path).replace("Text is not SVG - cannot display", ""), ..args)
 
-= Application <design-application>
+= Application <application-decision>
 
 The design suggested after the second iteration, as described in
-@design_proposal_iteration_2, leaves the application style open as a decision.
+@design-proposal-2, leaves the application style open as a decision.
 This section makes that decision and elaborates on the reasons.
 
-The two discussed options were:
+Two possible application styles are:
 
 / Explicit: Leave higher-order function values as such and apply them
   explicitly using a dedicated application function.

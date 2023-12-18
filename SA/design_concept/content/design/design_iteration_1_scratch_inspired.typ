@@ -1,4 +1,4 @@
-= Scratch-inspired design <scratch_inspired_design>
+= Scratch-inspired design <scratch-inspired-design>
 
 The proposal of the scratch-inspired design takes scratch's imperative block
 style and converts it into the context of an expressional and declarative
