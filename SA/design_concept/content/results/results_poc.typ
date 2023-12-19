@@ -3,7 +3,7 @@
 = Proof of Concept
 
 The project produced a proof of concept application that implements the design concept described in @design-iteration-2.
-Although the application doesn't offer visualizations for the most common aspects of functional programming, such as the construction of custom data types, the application shows that the proposed concept for function composition works and is easy to use.
+Although the application doesn't offer visualizations for some of the most common aspects of functional programming, such as the construction of custom data types, the application shows that the proposed concept for function composition works and is easy to use.
 So, in our opinion, the project's main goal was achieved.
 
 To make the application ready for use in a classroom, the use cases that weren't achieved during this project, as shown in @requirement_validation, need to be implemented.
@@ -18,7 +18,7 @@ A different #ac("UI") framework may also provide better support for functional r
 For the project submission, the #ac("PoC") Electron application was packaged for Windows, Linux & macOS.
 Unfortunately, the macOS app has an unforeseen issue: It doesn't pass the macOS gatekeeper checks.
 
-Based on code signature, notarization, and comparison with known malware, gatekeeper flag potentially dangerous applications and restrict them from execution.
+Based on code signature, notarization, and comparison with known malware, gatekeeper flags potentially dangerous applications and restricts them from execution.
 @apple-gatekeeper
 
 In the case of VisualFP, the error message "“VFP.app” is damaged and can't be opened. You should move it to the Bin." appears when trying to execute the application.
