@@ -3,7 +3,7 @@
 
 = Implementation Options
 
-In preparation for the PoC implementation, different implementation options
+In preparation for the #ac("PoC") implementation, different implementation options
 were considered.
 
 The following sections describe in which areas multiple options were considered, and
@@ -49,7 +49,7 @@ These two use cases pose different requirements on the compiler platform:
 - To be used as a compiler, the compiler must have a set of support tooling
   available, such as a build tool and a language server.
 
-The compiler used to build the PoC itself depends on the language and
+The compiler used to build the #ac("PoC") itself depends on the language and
 other frameworks chosen to implement the application, this section focuses
 on the use of a compiler platform as a library. 
 
