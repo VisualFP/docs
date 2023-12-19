@@ -52,8 +52,8 @@ One approach to this issue might have been to try out different numbers of
 nested applications and see which one might be successfully type-checked.
 
 For VisualFP a different approach was chosen: In case the arguments of a
-reference need to be inferred, the #ac("UI") model passes the original type-hole along.
-The translation component then compares the arity of the type-hole with the arity of
+reference need to be inferred, the #ac("UI") model passes the original type hole along.
+The translation component then compares the arity of the type hole with the arity of
 the reference and adds as many applications as needed for the two to match.    
 
 == Inference Component

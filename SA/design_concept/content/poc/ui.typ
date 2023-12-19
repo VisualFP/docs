@@ -85,7 +85,7 @@ Generally, there is no reason why VisualFP couldn't be implemented using #ac("FR
 In such an implementation, there would be three kinds of events:
 - "Reset Editor" button is clicked
 - "View Haskell" button is clicked
-- A block value is dropped into a type hole. This event combines all events from every type-hole in the function definition.
+- A block value is dropped into a type hole. This event combines all events from every type hole in the function definition.
 
 The value definition of the user-defined function is a behavior that changes every time a block value is dropped into the value definition.
 When the value definition changes, the elements displayed in the function editor must also be updated.

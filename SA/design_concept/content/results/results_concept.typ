@@ -7,7 +7,7 @@ fashion.
 
 The editor allows learners to approach functional programming through blocks
 instead of code. The type-inference engine offers much guidance, especially
-the automatically generated type-holes, which can help to understand how e.g.
+the automatically generated type holes, which can help to understand how e.g.
 parametric polymorphism or currying works. 
 
 But other aspects not covered in the concept are also essential to create modern

@@ -22,7 +22,7 @@
   columns: (2fr, 1.3fr),
   column-gutter: 5pt,
   [Another similarity to the scratch-inspired design is the use of
-  type-holes for parameters that are not yet supplied. In such a case, a
+  type holes for parameters that are not yet supplied. In such a case, a
   placeholder with nothing but the type of the parameter is shown, as can be
   seen in @mehta-proposal-type-hole.],
   align(center + horizon)[

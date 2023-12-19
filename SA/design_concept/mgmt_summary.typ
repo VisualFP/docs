@@ -40,7 +40,7 @@ for the definition to be valid. Users can drop value blocks into a type hole to
 fill it with that value. Value blocks are provided by the editor or are defined
 by the user.
 
-The concept was implemented in a proof-of-concept application written using
+The concept was implemented in a proof of concept application written using
 Haskell and Electron.js. A component-level view of the application is provided
 in @management-summary-component-diagram.
 

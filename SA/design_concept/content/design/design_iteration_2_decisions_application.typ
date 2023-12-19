@@ -36,10 +36,10 @@ up to more extensive examples, while the explicit style starts to feel overloade
 
 The type resolution for the elaborate application style works like this:
 
-1. A type-hole of a value $A_1 arrow.r ... arrow.r A_n$ is encountered.
+1. A type hole of a value $A_1 arrow.r ... arrow.r A_n$ is encountered.
 2. A value of type
    $B_1 arrow.r ... arrow.r B_n arrow.r A_1 arrow.r ... arrow.r A_n$
-   is inserted into the type-hole,
+   is inserted into the type hole,
 3. #[The editor resolves the curried function into it's nested values and
    matches the ending values $A_1 arrow.r ... arrow.r A_n$ with the expected
    type of the hole. 
@@ -56,9 +56,9 @@ An example of the elaborate application system can be seen in
     columns: (auto, auto, auto),
     [Type hole], [Inserted Value], [Result], hlinex(stroke: 0.5pt),
     $A arrow.r A$, $A$, [_error_], hlinex(stroke: 0.5pt),
-    $A$, $A arrow.r A$, [_type-hole:_ $A$], hlinex(stroke: 0.5pt),
-    $B arrow.r C$, $A arrow.r B arrow.r C$, [_type-hole:_ $A$], hlinex(stroke: 0.5pt),
-    $C$, $A arrow.r B arrow.r C$, [_type-holes:_ $A$, $B$],
+    $A$, $A arrow.r A$, [_type hole:_ $A$], hlinex(stroke: 0.5pt),
+    $B arrow.r C$, $A arrow.r B arrow.r C$, [_type hole:_ $A$], hlinex(stroke: 0.5pt),
+    $C$, $A arrow.r B arrow.r C$, [_type holes:_ $A$, $B$],
   ),
   kind: "table",
   supplement: "Table",
