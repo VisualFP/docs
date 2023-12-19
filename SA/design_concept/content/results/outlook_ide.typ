@@ -12,8 +12,9 @@ modules, integration with a package manager, etc.
 
 On the other hand, such a development would offer the opportunity to outsource
 functionality, such as compilation and execution, to Haskell tooling.
-An integration with, e.g., the Haskell Substitution Stepper #footnote("https://eprints.ost.ch/id/eprint/991/") could be helpful.
-A Haskell compiler could also replace the already-built type-inference engine.
+A Haskell compiler could also replace the already-built type-inference engine, and
+an integration with, e.g., the Haskell Substitution Stepper
+#footnote("https://eprints.ost.ch/id/eprint/991/") could be helpful as well.
 
 @visualfp_ide_mockup shows a mockup of what such an IDE could look like.
 The two main elements are the sidebar, which gives the user access to libraries and self-defined functions, and the large editor section containing the visual editor.
