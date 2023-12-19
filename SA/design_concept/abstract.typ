@@ -1,6 +1,7 @@
 = Abstract
+
 Most visual programming tools used to introduce children & young adults to the world of programming are made for imperative programming.
-Existing tools for functional programming lack in visual aesthetics or hide key concepts of the functional programming paradigm.
+Existing functional programming tools lack visual aesthetics or hide critical concepts of the functional programming paradigm.
 
 To address this gap, a visual, block-based tool for functional programming should be designed.
 The project focuses on finding a visual design of such a tool and then proving its feasibility in a proof of concept application.
