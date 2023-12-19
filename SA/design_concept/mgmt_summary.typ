@@ -8,8 +8,8 @@ tools eliminate the hurdle of code syntax, allowing beginners to concentrate on
 the program they want to write.
 
 However, almost all visual tools for teaching programming are made for the imperative
-programming paradigm.  Visual tools exist for functional programming but lack
-visual aesthetics or hide essential concepts required to understand functional
+programming paradigm.  Visual tools exist for functional programming, but either lack
+a good user experience or hide essential concepts required to understand functional
 programming.
 
 == Objective
@@ -29,14 +29,13 @@ is shown in @management-summary-inference-engine.
   image("./static/inference-engine.svg", width: 65%),
   caption: [Type-inference engine components])  <management-summary-inference-engine>
 
-Additionally, the application should run on the user's machine to be used in
-classrooms without server infrastructure.
+Additionally, the application should run on the user's machine so that it can
+be used in classrooms without server infrastructure.
 
 == Results
 
 The developed concept uses nested blocks to represent function definitions. Type
-holes guide the development flow as typed placeholders for the values required
-for the definition to be valid. Users can drop value blocks into a type hole to
+holes guide the development flow as typed placeholders for missing pieces of a value definition. Users can drop value blocks into a type hole to
 fill it with that value. Value blocks are provided by the editor or are defined
 by the user.
 

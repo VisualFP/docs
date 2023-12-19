@@ -11,11 +11,11 @@ values through a graphical user interface.
 
 To combine such values, a set of algebras is provided that allows values to be
 applied to each other, even if they are nested in functions or tuples.
-This concept is called _deep application_.
+Elliot calls this concept _deep application_. @Elliot_2007
 
-Along with the technique, Conal developed an application called Eros that
-implements this technique. Eros is particularly suited to creative people with an
-artistic interest. A screenshot of Eros is shown in @eros_screenshot.
+Eliott also developed an application called Eros that implements these
+techniques. Eros is particularly suited to creative people with an artistic
+interest. A screenshot of Eros is shown in @eros_screenshot.
 
 #figure(
   image("../../../static/eros_screenshot.png", width: 60%),

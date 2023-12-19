@@ -15,4 +15,4 @@ The editor also offers previews for a component's data, which, e.g., allows a us
 Enso is visually impressive and largely intuitive regarding data flow.
 For example, downloading data from a public #ac("API") and aggregating it is super easy.
 However, some operations, such as dividing a number with another number, are pretty complicated.
-Based on that, Enso seems to be an excellent tool for working with datasets but not so much for creating programs with actual logic.
+Based on that, Enso seems to be an excellent tool to work with datasets but not so much for creating programs with complex logic.

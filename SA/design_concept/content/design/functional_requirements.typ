@@ -71,6 +71,7 @@ An expert user wants to group functions into modules to keep their code organize
 An expert user wants to import their existing Haskell project into VisualFP.
 
 == Prioritization & Scope
-The focus of this project lies in creating a design for function composition that is suitable for beginners.
-This means use cases 1 - 6 have higher priority than use cases 6 - 9.
+The focus of this project lies in creating a design that allows to develop functional applications visually and is suitable for beginners.
+
+Use cases 1 - 6 have been deemed more important to reach this goal and thus have higher priority than use cases 6 - 9.
 Use cases 10 and 11 are not in this project's scope but are listed for completion.
