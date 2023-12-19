@@ -3,7 +3,7 @@ import numpy as np
 
 # Data for the project team's time spent per week (in hours)
 weeks = list(range(0, 15))
-lukas_hours = [0, 17.75, 16.5, 18.5, 12.5, 17.5, 16, 16, 16.75, 17.25, 17.75, 21.75, 0, 0, 0]
+lukas_hours = [3, 14.833, 16.5, 18.5, 12.5, 17.5, 16.083, 16, 16.833, 17.33, 17.75, 21.75, 18.5, 19.5833, 12.25]
 jann_hours = [7.91,11.36,17.583,16.25,14.33,13.83,16.83,22.66,13.92,17.17,22.67,16.92,14.08,19.58,13.0]
 
 # Weekly average target
