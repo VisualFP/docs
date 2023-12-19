@@ -9,7 +9,7 @@ $
 240 "hours per member" times 2 "members" &= 480 "hours"
 $
 
-Both members tracked the time they spent on the project each week, totaling
+Both members tracked their time on the project each week, totaling
 approximately the available hours. A detailed graphic is shown in
 @time-tracking-table.
 
