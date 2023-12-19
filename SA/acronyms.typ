@@ -1,25 +1,35 @@
 // Inspired by https://github.com/Ciolv/typst-template-bachelor-thesis/blob/main/acronyms.typ
 
 #let acronyms = (
-  AST: "Abstract Syntax Tree - Tree representation of a program's structure",
+  AST: "Abstract Syntax Tree",
   API: "Application Programming Interface",
   FP: "Functional Programming",
   SA: "Studienarbeit",
   LSP: "Language Server Protocol",
   GHC: "Glasgow Haskell Compiler",
   PoC: "Proof of Concept",
-  GTK: "GIMP ToolKit - Toolkit for creating graphical user interfaces",
+  GTK: "GIMP ToolKit",
   OST: "Eastern Switzerland University of Applied Sciences",
-  FFI: "Foreign Functional Interface - Interface between two different programming languages",
-  FRP: [Functional Reactive Programming - A concept that defines types and functions for interactive applications written in a functional language @frp_elliott_hudak],
-  HTML: "HyperText Markup Language - Language to define the content structure of e.g., web sites",
-  CSS: "Cascading Style Sheets - Language to style the content of e.g., web sites",
-  DOM: "Document Object Model - Tree representation of e.g., a HTML document",
+  FFI: "Foreign Functional Interface",
+  FRP: "Functional Reactive Programming",
+  HTML: "HyperText Markup Language",
+  CSS: "Cascading Style Sheets",
+  DOM: "Document Object Model",
   JS: "JavaScript",
   OS: "Operating System",
   UI: "User Interface",
   UC: "Use Case",
   NFR: "Non-Functional Requirement"
+)
+
+#let acronym-descriptions = (
+  AST: [Tree representation of a program's structure],
+  GTK: [Toolkit for creating graphical user interfaces],
+  FFI: [Interface between two different programming languages],
+  FRP: [A concept that defines types and functions for interactive applications written in a functional language @frp_elliott_hudak],
+  HTML: [Language to define the content structure of, e.g., web sites],
+  CSS: [Language to style the content of, e.g., web sites],
+  DOM: [Tree representation of, e.g., a HTML document],
 )
 
 #let usedAcronyms = state("usedDic", (:))
@@ -35,7 +45,11 @@
   }
 
   usedAcronyms.display(usedDic => {
-    return link(label("list_of_acronyms"))[#ac]
+    let label = label("list_of_acronyms")
+    if (usedDic.keys().contains(ac)) {
+      return link(label, ac)
+    }
+    return link(label)[#ac (#acronyms.at(ac))]
   });
 
   usedAcronyms.update(usedDic => {
@@ -56,7 +70,11 @@
           .pairs()
           .map(key => key.at(0))
           .sorted()
-          .map(key => terms.item(key, acronyms.at(key)))
+          .map(key => {
+            let meaning = acronyms.at(key)
+            let description = if (acronym-descriptions.keys().contains(key)) [ \- #acronym-descriptions.at(key)] else []
+            terms.item(key, meaning + description)
+          })
       )
   })
 }
