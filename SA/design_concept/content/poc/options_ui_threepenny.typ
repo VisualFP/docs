@@ -14,7 +14,7 @@ the client, which is implemented as a JavaScript #ac("FFI").
 Threepenny also offers the possibility of implementing the application in
 #ac("FRP") style @threepenny_gui.
 
-Using Haskell on both the front and back end would be an advantage over other
+Using Haskell on both the front and backend would be an advantage over other
 frameworks. Threepenny's #ac("FRP") specific functions should allow for a
 good architecture.
 

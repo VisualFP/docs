@@ -12,7 +12,7 @@ running on different #ac("OS") platforms without adjustments. @electron-js
 For VisualFP, Electron.js can implement the #ac("UI") and the backend logic.
 
 Since Electron apps can be created like any web app, many libraries are
-available for front end development. The authors also already have experience
+available for frontend development. The authors also already have experience
 with JavaScript and its ecosystem.
 
 Without transpilation from another language, Electron, like any browser,
