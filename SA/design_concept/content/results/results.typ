@@ -18,7 +18,7 @@ the #ac("PoC") application turned out, and a small demonstration of the
 = Outlook
 
 During the #ac("PoC") development, two possible variants of a feature-complete
-application emerged. Both are which are briefly described below.
+application emerged. Both are briefly described below.
 
 #include_section("design_concept/content/results/outlook_ide.typ", heading_increase: 1)
 #include_section("design_concept/content/results/outlook_language.typ", heading_increase: 1)
