@@ -1,6 +1,6 @@
 = Used Tools
 
-We used these tools for the realization of this project.
+We used these tools to realize this project.
 
 / Jira: is a software management tool to manage agile teams.
   We are using it to plan the project and keep track of the progress.
@@ -15,7 +15,7 @@ We used these tools for the realization of this project.
   code, similar to LaTeX. We use it to write the project
   documentation and the design concept.
   #footnote("https://typst.app/")
-/ GHC: , short for Glasgow Haskell Compiler, is a compiler for the Haskell
+/ GHC: short for Glasgow Haskell Compiler, is a compiler for the Haskell
   programming language. We are employing GHC to write the backend and use it as
   a compiler platform in the product.
   #footnote("https://www.haskell.org/ghc/")

@@ -117,7 +117,7 @@ initial assessments and adds a retrospection assessment to it.
         not supported. \
         For example, there is no Typst equivalent to the 'part' system of the
         popular LaTeX article document class. Although possible, rebuilding
-        such features is time-consuming. 
+        such features are time-consuming. 
         ]),
     
     ..retrospective_risk([002],

@@ -11,7 +11,7 @@
 #let metadata = (
   title: [VisualFP],
   description: [Designing a Visual, Block-Based Environment to Create & Execute Haskell Code],
-  organization: [Department of Computer Science \ OST - University of Applied Sciences \ Campus Rapperswil-Jona],
+  organization: [Department of Computer Science \ OST - Eastern Switzerland University of Applied Sciences \ Campus Rapperswil-Jona],
   thesis: [Student Research Project],
   term: [Autumn Term 2023],
   authors: [Lukas Streckeisen, Jann M. Flepp],
