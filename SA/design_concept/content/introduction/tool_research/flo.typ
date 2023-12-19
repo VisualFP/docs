@@ -13,7 +13,7 @@ A block's parameters and outputs are represented by sockets, which can be
 connected to compatible sockets through click-and-drag. The compiler can infer
 the sockets' types and reject incompatible connections.
 
-A specialty of flo is that blocks do not just represent values but also types.
+A specialty of flo is that blocks represent values and types.
 A type block is either a basic type, such as `Int` or `Bool`, or a constructor
 to a complex type with type parameters, represented through sockets. An
 example of a type being used as type parameter is shown in @flo_screenshot_2.
