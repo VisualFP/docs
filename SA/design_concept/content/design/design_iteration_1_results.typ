@@ -35,7 +35,7 @@ Another point of critique that several participants repeated was that
 unapplied parameters are not used correctly and/or inconsistently. It was
 e.g., mentioned that using a parameter-value `a` is not allowed in
 $eta$-reduced form, which is correct. The critical point here is that these
-missing arguments are type-holes portrayed in violet, indicating that they
+missing arguments are type holes portrayed in violet, indicating that they
 are unfilled. Unfortunately, this was not clear enough solely based on the
 images.
 

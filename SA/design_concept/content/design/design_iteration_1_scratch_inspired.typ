@@ -25,13 +25,13 @@ center, right) doesn't bear any semantic meaning.
 
 == Type Holes
 
-If a parameter is left unapplied, a type-hole is shown instead as a violet
-block with the expected value type as its name. Such a type-hole can
+If a parameter is left unapplied, a type hole is shown instead as a violet
+block with the expected value type as its name. Such a type hole can
 be seen in @scratch_inspired_type_hole.
 
 #figure(
     image("../../static/scratch-inspired-mapAdd5.svg", width: 25%),
-    caption: "Example of scratch-inspired function definition with a type-hole"
+    caption: "Example of scratch-inspired function definition with a type hole"
 )<scratch_inspired_type_hole>
 
 In @scratch_inspired_type_hole, the second parameter of the `(+)` function

@@ -3,7 +3,7 @@
 = Type Inference <type-inference>
 
 VisualFP features a type-inference engine responsible for figuring out which
-expressions are valid, determine which type-holes are necessary, and annotate
+expressions are valid, determine which type holes are necessary, and annotate
 sub-expressions with their according types.
 
 It operates on a separate expression model to isolate the inference engine.
