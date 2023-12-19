@@ -1,3 +1,5 @@
+#import "../../../acronyms.typ": *
+
 = Type Inference <type-inference>
 
 VisualFP features a type-inference engine responsible for figuring out which
