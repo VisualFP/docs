@@ -15,8 +15,8 @@ platform-independent without the need for a supporting server infrastructure.
 But GHCJS has merged only recently @ghcjs-merged, and thus its usage poses some
 challenges:
 
-- At the time of writing, there are no pre-built binaries available, which means
-  that the complete #ac("GHC") compiler needs to be built manually.
+- No pre-built binaries are available at the time of writing, meaning the
+  complete #ac("GHC") compiler must be built manually.
 
 - While there is some documentation, it doesn't seem to be very comprehensive.
 

@@ -8,8 +8,8 @@ The goal of the #ac("PoC") application is to show that the visual concept descri
 To show that, the #ac("PoC") needs to implement
 - #ac("UC")1 - Simple function composition
 - #ac("UC")3 - Function composition using lists
-- #ac("UC")4 - Funtion composition using higher-order functions
-- #ac("UC")5 - Curied Functions
+- #ac("UC")4 - Function composition using higher-order functions
+- #ac("UC")5 - Curried Functions
 - #ac("UC")6 - Recursive function composition
 as described in @use-cases.
 

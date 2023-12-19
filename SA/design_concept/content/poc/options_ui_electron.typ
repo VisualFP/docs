@@ -7,9 +7,9 @@ achieved by combining chromium and Node.js.
 
 Electron allows the creation of desktop apps in web-app style, which means that,
 as long as no native #ac("OS") features are needed, an app is automatically capable of
-running on different #ac("OS") platforms without adjustments.  @electron-js
+running on different #ac("OS") platforms without adjustments. @electron-js
 
-For VisualFP, Electron.js can implement both the #ac("UI") and the backend logic.
+For VisualFP, Electron.js can implement the #ac("UI") and the backend logic.
 
 Since Electron apps can be created like any web app, many libraries are
 available for front end development. The authors also already have experience
