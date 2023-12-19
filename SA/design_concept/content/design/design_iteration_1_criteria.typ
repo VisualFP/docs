@@ -1,6 +1,6 @@
 = Design Evaluation Criteria <design-evaluation-criteria>
 
-Unfortunately, it isn't possible to objectively compare 'how good' a design is
+Unfortunately, it isn't possible to compare 'how good' a design is
 objectively. Thus, the design evaluation process is based on
 selected code scenarios and a non-quantitative questionnaire to evaluate their
 visual representation.

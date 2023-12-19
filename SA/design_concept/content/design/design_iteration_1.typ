@@ -13,11 +13,11 @@ The following process was chosen to gain as much insight as possible:
    a design inspired by the Haskell function notation in
    @haskell-function-notation-inspired-design.
 
-3. The three designs are filled into the questionnaire and handed to
-   experts. The feedback is then further discussed in @iteration-1-conclusion.
+3. The three designs are filled into a questionnaire and handed a selected survey group.
+   The feedback is then further discussed in @iteration-1-conclusion.
 
-#include_section("design_concept/content/design/design_iteration_1_criteria.typ", heading_increase: 2)
-#include_section("design_concept/content/design/design_iteration_1_scratch_inspired.typ", heading_increase: 2)
-#include_section("design_concept/content/design/design_iteration_1_flo_inspired.typ", heading_increase: 2)
-#include_section("design_concept/content/design/design_iteration_1_haskell_function_notation_inspired.typ", heading_increase: 2)
-#include_section("design_concept/content/design/design_iteration_1_results.typ", heading_increase: 2)
+#include_section("design_concept/content/design/design_iteration_1_criteria.typ", heading_increase: 1)
+#include_section("design_concept/content/design/design_iteration_1_scratch_inspired.typ", heading_increase: 1)
+#include_section("design_concept/content/design/design_iteration_1_flo_inspired.typ", heading_increase: 1)
+#include_section("design_concept/content/design/design_iteration_1_haskell_function_notation_inspired.typ", heading_increase: 1)
+#include_section("design_concept/content/design/design_iteration_1_results.typ", heading_increase: 1)

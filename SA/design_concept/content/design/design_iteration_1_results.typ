@@ -6,8 +6,6 @@ Based on the questionnaire answers for the first three designs, which can be
 seen in @design_iteration_one_survey_results, it can be concluded that each
 design received valid criticism.
 
-All of the design concepts got a fair amount of valid criticism.
-
 == Flo-inspired Design
 
 It is clear that the Flo-inspired design received the most negative feedback.
