@@ -1,7 +1,7 @@
 // Inspired by https://github.com/Ciolv/typst-template-bachelor-thesis/blob/main/acronyms.typ
 
 #let acronyms = (
-  AST: "Abstract Syntax Tree",
+  AST: "Abstract Syntax Tree - Tree representation of a program's structure",
   API: "Application Programming Interface",
   FP: "Functional Programming",
   SA: "Studienarbeit",
@@ -15,7 +15,11 @@
   HTML: "HyperText Markup Language - Language to define the content structure of e.g. web sites",
   CSS: "Cascading Style Sheets - Language to style the content of e.g. web sites",
   DOM: "Document Object Model - Tree representation of e.g. a HTML document",
-  JS: "JavaScript"
+  JS: "JavaScript",
+  OS: "Operating System",
+  UI: "User Interface",
+  UC: "Use Case",
+  NFR: "Non-Functional Requirement"
 )
 
 #let usedAcronyms = state("usedDic", (:))

@@ -16,8 +16,8 @@ straightforward as using it as a compiler:
   code snippet in an #ac("AST").
 
 - The #ac("API") documentation is limited. Even though there is a great
-  starting point for the internals of GHC available at GHC commentary
+  starting point for the internals of #ac("GHC") available at #ac("GHC") commentary
   @ghc-commentary, and some bloggers such as Stephen Diehl
-  @ghc-pipeline-blogpost took the time to write about the GHC API, much of
+  @ghc-pipeline-blogpost took the time to write about the #ac("GHC") #ac("API"), much of
   the available documentation seems to be out-of-date, incomplete, or
   missing.

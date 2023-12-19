@@ -1,10 +1,10 @@
 #import "../../../acronyms.typ": *
 
 = User Interface <ui>
-This chapter describes the features of the #ac("PoC") application UI, the high-level implementation and how functional reactive programming could be applied to VisualFP.
+This chapter describes the features of the #ac("PoC") application #ac("UI"), the high-level implementation and how functional reactive programming could be applied to VisualFP.
 
 == Features
-The UI for the #ac("PoC") application includes two main components, as shown in @ui-empty-editor: A sidebar with pre-defined value blocks and the function editor.
+The #ac("UI") for the #ac("PoC") application includes two main components, as shown in @ui-empty-editor: A sidebar with pre-defined value blocks and the function editor.
 
 #figure(
   image("../../static/ui_empty_editor.png"),
@@ -45,11 +45,11 @@ Finally, the user-built function definitions can be viewed as Haskell code by cl
 ) <ui-view-haskell>
 
 == Implementation
-The UI implementation consists of an Electron.js app hosting a Threepenny UI.
-The Electron app is packaged with an executable of the Threepenny UI and all UI related static files, i.e. #ac("CSS") & JavaScript files.
-When starting the Threepenny UI, the Electron app passes a usable port for the local web-server and the file path to the static UI files to the Threepenny UI.
+The #ac("UI") implementation consists of an Electron.js app hosting a Threepenny #ac("UI").
+The Electron app is packaged with an executable of the Threepenny #ac("UI") and all #ac("UI") related static files, i.e. #ac("CSS") & JavaScript files.
+When starting the Threepenny #ac("UI"), the Electron app passes a usable port for the local web-server and the file path to the static #ac("UI") files to the Threepenny #ac("UI").
 
-The function editor is the biggest part of the Threepenny UI and has two main responsibilities:
+The function editor is the biggest part of the Threepenny #ac("UI") and has two main responsibilities:
 - Rendering of function value blocks
 - Reacting to value block drop events
 

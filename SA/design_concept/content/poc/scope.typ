@@ -6,11 +6,11 @@ The goal of the #ac("PoC") application is to show that the visual concept descri
 @design-iteration-2 works.
 
 To show that, the #ac("PoC") needs to implement
-- UC1 - Simple function composition
-- UC3 - Function composition using lists
-- UC4 - Funtion composition using higher-order functions
-- UC5 - Curied Functions
-- UC6 - Recursive function composition
+- #ac("UC")1 - Simple function composition
+- #ac("UC")3 - Function composition using lists
+- #ac("UC")4 - Funtion composition using higher-order functions
+- #ac("UC")5 - Curied Functions
+- #ac("UC")6 - Recursive function composition
 as described in @use-cases.
 
 Although all other described use cases are integral to a fully functioning
