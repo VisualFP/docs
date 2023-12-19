@@ -26,5 +26,5 @@ Specifically the debugging tools could offer an advantage over a pure textual de
 Given that the visual representation would be equivalent to textual code, VisualFP could be considered a new tool in the toolbox of seasoned Haskell programmers.
 
 Full compatibility with a typical Haskell project would not be a trivial goal to achieve.
-A deep integration with GHC, cabal, etc., would be necessary.
+A deep integration with #ac("GHC"), cabal, etc., would be necessary.
 It would bind VisualFP exclusively to Haskell, support for other functional languages, such as F\# or Scala, could not be easily added afterward.

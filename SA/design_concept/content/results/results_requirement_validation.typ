@@ -2,7 +2,7 @@
 #import "../../../acronyms.typ": *
 
 = Requirement Validation <requirement_validation>
-@functional_requirements and @non_functional_requirements defined 9 use cases and 2 NFRs.
+@functional_requirements and @non_functional_requirements defined 9 use cases and 2 #ac("NFR")s.
 
 @requirement_validation_table shows which of these requirements were fulfilled during the project and which are still open.
 
@@ -52,5 +52,5 @@
 The main focus of the project was to create a visual concept for function composition and prove that it is feasible with a #ac("PoC") application.
 As can be seen in @requirement_validation_table, all requirements related to function composition could be achieved.
 
-Due to time constraints, the requirements UC2, UC7, UC8 and UC9 had to be considered as out-of-scope.
-However, during the implementation of the type inference engine, UC7 was kept in mind, so that custom data types could be added without much effort.
+Due to time constraints, the requirements #ac("UC")2, #ac("UC")7, #ac("UC")8 and #ac("UC")9 had to be considered as out-of-scope.
+However, during the implementation of the type inference engine, #ac("UC")7 was kept in mind, so that custom data types could be added without much effort.

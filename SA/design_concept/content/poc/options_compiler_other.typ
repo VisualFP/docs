@@ -2,7 +2,7 @@
 
 = Other Haskell Compiler-Platforms
 
-Outside of the ubiquitous GHC, described in @ghc, a few other Haskell
+Outside of the ubiquitous #ac("GHC"), described in @ghc, a few other Haskell
 compilers were considered for this project. The most notable ones are:
 
 _Hugs_, which is a compiler that provides an almost complete implementation

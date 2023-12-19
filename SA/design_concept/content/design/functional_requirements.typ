@@ -1,3 +1,5 @@
+#import "../../../acronyms.typ": *
+
 = Functional Requirements <functional_requirements>
 The following section describes all actors and use cases identified for the VisualFP application.
 
@@ -10,8 +12,8 @@ VisualFP has two actors:
         [
             The student user is the primary user of VisualFP and, therefore, the main influence on the visualization design.
             The student user wants to learn functional programming using VisualFP.
-            They want to do that by visually composing functions in a simple UI.
-            The UI should simplify the understanding of functional concepts that many beginners struggle with.
+            They want to do that by visually composing functions in a simple #ac("UI").
+            The #ac("UI") should simplify the understanding of functional concepts that many beginners struggle with.
         ]
     ),
     terms.item(

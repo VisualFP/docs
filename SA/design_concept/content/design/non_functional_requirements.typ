@@ -1,6 +1,8 @@
+#import "../../../acronyms.typ": *
+
 = Non Functinal Requirements <non_functional_requirements>
 This section describes all non-functional requirements identified for VisualFP.
-To find relevant NFRs, ISO-25010 was used for inspiration.
+To find relevant #ac("NFR")s, ISO-25010 was used for inspiration.
 
 #let NFR(description, verification, acceptanceCriteria, realisation) = {
     description
@@ -18,7 +20,7 @@ To find relevant NFRs, ISO-25010 was used for inspiration.
 #NFR(
     [
         VisualFP should be usable on Windows, MacOS and Linux devices.
-        There should be no extra effort required to run VisualFP on any particular OS.
+        There should be no extra effort required to run VisualFP on any particular #ac("OS").
     ],
     "Test the usage of VisualFP on all three mentioned operating systems.",
     "The installation steps are the same or of equivalent effort for all three mentioned operating systems",

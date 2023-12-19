@@ -1,3 +1,5 @@
+#import "../../../acronyms.typ": *
+
 = Type Inference <type-inference>
 
 VisualFP features a type-inference engine responsible for figuring out which
@@ -6,7 +8,7 @@ sub-expressions with their according types.
 
 It operates on a separate expression model to isolate the inference engine.
 The engine is not responsible for converting to and
-from the UI model; this is done by a translation layer described in
+from the #ac("UI") model; this is done by a translation layer described in
 @translation-layer.
 
 Heavy inspiration for the implementation of the engine was taken from the talk

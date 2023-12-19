@@ -8,9 +8,9 @@ This means that the main goal of the project was achieved.
 To make the application ready for use in a classroom, the use cases that weren't achieved during this project, as can be seen in @requirement_validation, need to be implemented.
 
 In addition, there is some potential for improvement in the current implementation of the #ac("PoC").
-The choice for Threepenny as the UI framework was made primarily due to the given time constraints and the expectation that Threepenny allows for fast progress while implementing the #ac("PoC"), which proved to be true.
-But a UI technology that doesn't require a local webserver, probably a GHCJS based framework, would be better suited to implement a full version of VisualFP, as it would enable the application to be served to any browser as a set of static files.
-A different UI framework may also provide better support for functional reactive programming, which is expected to make the UI implementation more concise.
+The choice for Threepenny as the #ac("UI") framework was made primarily due to the given time constraints and the expectation that Threepenny allows for fast progress while implementing the #ac("PoC"), which proved to be true.
+But a #ac("UI") technology that doesn't require a local webserver, probably a GHCJS based framework, would be better suited to implement a full version of VisualFP, as it would enable the application to be served to any browser as a set of static files.
+A different #ac("UI") framework may also provide better support for functional reactive programming, which is expected to make the #ac("UI") implementation more concise.
 
 == macOS Electron App
 For the project submission, the #ac("PoC") Electron application was packaged for Windows, Linux & macOS.
