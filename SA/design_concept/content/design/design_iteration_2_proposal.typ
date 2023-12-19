@@ -38,7 +38,7 @@
   column-gutter: 5pt,
   [The main difference to the previous proposals is how scoping is solved:
   Instead of providing specialized expressions for constructs such as
-  pattern-matching, list-comprehension, etc., the idea is to do scoping using
+  pattern matching, list comprehension, etc., the idea is to do scoping using
   only lambda expressions. An example of that can be seen in @mehta-proposal-lambda.],
   align(center + horizon)[
     #figure(
@@ -59,7 +59,7 @@ The proposal leaves two decisions open for further exploration:
 
 Regarding the re-use of expressions, the idea is to define multiple small
 functions and then stick them together rather than providing a
-`let ... in ...`-like expression type to delcare re-usable values.
+`let ... in ...`-like expression to declare re-usable values.
 
 A strong inference engine would be running in the background, which powers
 the resolution of type holes and type-checking of the program.

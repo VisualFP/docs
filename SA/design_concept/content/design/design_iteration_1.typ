@@ -10,7 +10,7 @@ The following process was chosen to gain as much insight as possible:
 
 2. Then, three proposals are presented: A Flo-based design in
    @flo-inspired-design, a Scratch-based design in @scratch-inspired-design, and
-   a design inspired by the Haskell function-notation in
+   a design inspired by the Haskell function notation in
    @haskell-function-notation-inspired-design.
 
 3. The three designs are filled into the questionnaire and handed to

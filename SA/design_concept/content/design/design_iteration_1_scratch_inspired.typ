@@ -18,8 +18,8 @@ parameters below them, and the main expression above it, as shown in
     caption: "Example of scratch-inspired function definition for an addition function"
 )<scratch_inspired_addition>
 
-Functions used in expressions are displayed as green blocks, and can be
-applied by inserting blocks to their parameters declared above them. Their
+Functions used in expressions are displayed as green blocks and can be
+applied by inserting blocks to the parameters declared above them. Their
 name is shown inside the block, whereas the alignment of the name (left,
 center, right) doesn't bear any semantic meaning.
 
