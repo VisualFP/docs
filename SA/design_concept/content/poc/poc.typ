@@ -2,6 +2,9 @@
 
 #part("Proof of Concept")
 
+This part describes the development of the proof of concept application as
+described in the goals defined in @goals.
+
 #include_section("design_concept/content/poc/scope.typ")
 #include_section("design_concept/content/poc/options.typ")
 #include_section("design_concept/content/poc/architecture.typ")

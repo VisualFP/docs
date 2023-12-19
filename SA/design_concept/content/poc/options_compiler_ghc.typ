@@ -12,7 +12,7 @@ Unfortunately, the usage of #ac("GHC") as a library is not as
 straightforward as using it as a compiler:
 
 - Given the large amount of supported features, the #ac("API") is more
-  complex than necessary for the use-case of representing a visual-editor
+  complex than necessary for the use-case of representing a visual editor
   code snippet in an #ac("AST").
 
 - The #ac("API") documentation is limited. Even though there is a great

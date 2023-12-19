@@ -3,11 +3,9 @@
 
 = Implementation Options
 
-In preparation for the #ac("PoC") implementation, different implementation options
-were considered.
-
-The following sections describe in which areas multiple options were considered, and
-which choices have been made.
+Different implementation options were considered for the
+#ac("PoC"). The following sections describe the options and choices that have
+been made.
 
 == Deployment platform <deployment-platform-options>
 
@@ -20,7 +18,7 @@ application or a desktop application.
 
 == UI Frameworks <ui-framework-options>
 
-VisualFP requires external technologies to implement a UI, the backend logic
+VisualFP requires external technologies to implement a #ac("UI"), the backend logic
 and a compiler platform to translate the visual code representation to
 Haskell code.
 
