@@ -2,7 +2,7 @@
 
 = Haskell-gi
 
-#ac("GTK") is a widget toolkit that allows the creation of #ac("UI")s that works on
+#ac("GTK") is a widget toolkit that allows the creation of #ac("UI")s that work on
 many popular operating systems.  GTK widgets can be created programmatically or
 with an XML #ac("UI") definition. @gtk_project
 
