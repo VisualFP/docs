@@ -3,7 +3,7 @@
 = Conclusions <iteration-1-conclusion>
 
 Based on the questionnaire answers for the first three designs, which can be
-found in @design_iteration_one_survey_results, it can be concluded that each
+seen in @design_iteration_one_survey_results, it can be concluded that each
 design received valid criticism.
 
 All of the design concepts got a fair amount of valid criticism.
@@ -11,11 +11,11 @@ All of the design concepts got a fair amount of valid criticism.
 == Flo-inspired Design
 
 It is clear that the Flo-inspired design received the most negative feedback.
-While this concept keeps blocks very small due to blocks being connected through arrows, it quickly looks overloaded.
-In part, this is due to the type-annotations which on the questionnaire images are visible for every block (these are only supposed to be visible when hovering over a block), but the main reason is the currying-visualization.
+While this concept keeps blocks small due to blocks being connected through arrows, it quickly looks overloaded.
+This is partly because the type annotations on the questionnaire images are visible for every block (these are only supposed to be visible when hovering over a block). Still, the main reason is the currying visualization.
 
 By trying to visualize currying, the amount of blocks grows with every additional function parameter, leading to a high total number of blocks.
-This could be improved by displaying functions as one block with multiple parameters, giving up the visualization of currying.
+This problem could be improved by displaying functions as one block with multiple parameters, giving up the visualization of currying.
 As suggested by Rafael Das Gupta, an option could also be to offer the user the possibility to activate/deactivate currying in the function editor.
 
 == Scratch-inspired Design
@@ -45,12 +45,12 @@ requires a lot of horizontal space to grow.
 Compared to the other designs, the Scratch-inspired design was praised for
 its extensive use of coloring, and as the most easy to understand.
 
-== Haskell Function-Notation inspired Design
+== Haskell Function Notation-inspired Design
 
-The Haskell function-notation inspired design received the most mixed
+The Haskell function notation-inspired design received the most mixed
 feedback.
 
-The one common point of critique was that the design is too overloaded and
+The one common point of critique was that the design was too overloaded and
 difficult to understand, especially for beginners.
 
 But some participants like the design the most, as it is the most similar to

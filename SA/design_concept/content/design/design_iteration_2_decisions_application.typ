@@ -31,10 +31,10 @@ an `addition` function would look like in both styles can be seen in
 ]
 
 Of these two styles, the elaborate application style was chosen over
-explicit application, since the elaborate style stays readable when scaling
-up to bigger examples, while the explicit style starts to feel overloaded.
+explicit application since the elaborate style stays readable when scaling
+up to more extensive examples, while the explicit style starts to feel overloaded.
 
-The type-resolution for the elaborate application style works like this:
+The type resolution for the elaborate application style works like this:
 
 1. A type-hole of a value $A_1 arrow.r ... arrow.r A_n$ is encountered.
 2. A value of type

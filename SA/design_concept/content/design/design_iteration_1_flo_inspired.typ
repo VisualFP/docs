@@ -39,7 +39,7 @@ For that, the user can create a connector arrow between a function block and a f
 When using functions as parameters, it is possible to leave some function parameters unapplied.
 Like this, a function parameter can be filled by the function it's used in.
 
-An example of that can be seen in @flo_inspired_mapAddFive, which is a visual representation of the "Map Add 5" code scenario in @design_eval_code_scenarios.
+An example of that can be seen in @flo_inspired_mapAddFive, a visual representation of the "Map Add 5" code scenario in @design_eval_code_scenarios.
 The fill-color of the parameter slot recognizes the auto-filled parameter of the "(+)" function.
 #figure(
     image("../../static/flo-inspired-mapAdd5.png", width: 60%),
@@ -47,8 +47,8 @@ The fill-color of the parameter slot recognizes the auto-filled parameter of the
 )<flo_inspired_mapAddFive>
 
 Pattern-matching is a handy feature of Haskell.
-To support that in VisualFP, there is a pre-defined match block that has match cases for typical scenarios (e.g. empty list and head-tail pattern).
-The match block has connector-slots for each match-case to which the user can connect the definition of the case behavior.
+To support that in VisualFP, there is a pre-defined match block with match cases for typical scenarios (e.g. empty list and head-tail pattern).
+The match block has connector slots for each match case to which the user can connect the definition of the case behavior.
 
 Another essential concept in any language is recursion.
 To create the recursive behavior, the user can drag the function they are defining from the sidebar onto the function editor canvas and use it as any other function.

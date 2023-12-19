@@ -1,7 +1,9 @@
 #import "../../../acronyms.typ": *
 
 = Functional Requirements <functional_requirements>
-The following section describes all actors and use cases identified for the VisualFP application.
+
+The following section describes all actors and use cases identified for the
+VisualFP application.
 
 == Actors
 VisualFP has two actors:
@@ -13,7 +15,7 @@ VisualFP has two actors:
             The student user is the primary user of VisualFP and, therefore, the main influence on the visualization design.
             The student user wants to learn functional programming using VisualFP.
             They want to do that by visually composing functions in a simple #ac("UI").
-            The #ac("UI") should simplify the understanding of functional concepts that many beginners struggle with.
+            The #ac("UI") should simplify understanding functional concepts that many beginners struggle with.
         ]
     ),
     terms.item(
@@ -27,8 +29,8 @@ VisualFP has two actors:
 
 == Use Cases <use-cases>
 
-@use_case_diagram gives an overview of all identified use-cases.
-By default, the term "user" in the use case description refers to the "student user".
+@use_case_diagram gives an overview of all identified use cases.
+By default, "user" in the use case description refers to the "student user".
 
 #figure(
     image("../../static/SA_use_cases.png", width: 80%),
@@ -48,10 +50,10 @@ A user wants to compose a function that is defined by itself.
 A user wants to compose functions that take other functions as their argument.
 
 === UC5 - Curried Functions
-A user wants to create function by partially applying a curried function.
+A user wants to create a function by partially applying a curried function.
 
 === UC6 - Function Composition using Lists
-A user wants to compose a function using lists, i.e. list construction.
+A user wants to compose a function using lists, i.e., list construction.
 
 === UC7 - Data Type Composition
 A user wants to be able to create their own data types.
@@ -71,4 +73,4 @@ An expert user wants to import their existing Haskell project into VisualFP.
 == Prioritization & Scope
 The focus of this project lies in creating a design for function composition that is suitable for beginners.
 This means use cases 1 - 6 have higher priority than use cases 6 - 9.
-Use cases 10 and 11 are not in this project's scope, but listed here anyway for completion.
+Use cases 10 and 11 are not in this project's scope but are listed for completion.

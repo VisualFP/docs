@@ -1,15 +1,14 @@
 = Design Evaluation Criteria <design-evaluation-criteria>
 
 Unfortunately, it isn't possible to objectively compare 'how good' a design is
-in an objective fashion.
+objectively. Thus, the design evaluation process is based on
+selected code scenarios and a non-quantitative questionnaire to evaluate their
+visual representation.
 
-This is why the design evaluation process is based on selected code scenarios
-and a non-quantitative questionnaire to evaluate their visual representation.
-
-To get further valuable feedback to improve initial designs, a survey will be
-conducted using both the questionnaire and example visualizations for specific
-code scenarios.  The survey targets a selected group of students and some more
-experienced functional programmers.
+A survey will be conducted using the questionnaire and example
+visualizations for specific code scenarios to get further valuable feedback to
+improve initial designs. The survey targets a selected group of students and
+some more experienced functional programmers.
 
 The code scenarios and questionnaire questions can be found below.
 

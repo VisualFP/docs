@@ -10,15 +10,15 @@ usually cannot know which constructor was used to create a value, there must
 be a way to handle all possible constructors. 
 
 A common approach in functional languages is to use _pattern matching_.
-Pattern matching allows to match values against a set of patterns and
-execute user-provided code per pattern. One of the patterns-types usually 
+Pattern matching allows one to match values against a set of patterns and
+execute user-provided code per pattern. One of the pattern types usually 
 destructs sum type constructors. 
 
 An example of pattern-matching in Haskell can be seen in
 @pattern-matching-example-haskell, which defines a sum type`Expression`
-with two constructors `Value` and
+with two constructors, `Value` and
 `Addition`, and a function `calc`
-that pattern-matches a value of type `Expression` against its
+that pattern matches a value of type `Expression` against its
 constructors.
 
 #figure(
@@ -38,9 +38,9 @@ constructors.
 An easier way to implement this is to generate a function with a
 parameter function per sum type and output type constructor. These
 parameter functions take the type constructor arguments as input
-parameters and map them to the output type. This is called a destruction
-function. @destruction-function-example-haskell shows what such a destruction
-function would look like for the abovementioned example.
+parameters and map them to the output type. These kinds of functions are called
+destruction functions. @destruction-function-example-haskell shows what such a
+destruction function would look like for the abovementioned example.
 
 
 #figure(
@@ -70,7 +70,7 @@ This list is not exhaustive, but it already shows how the lack of
 pattern-matching would make the import of Haskell code into VisualFP more
 difficult.
 
-How pattern-matching and destruction functions would look like in VisualFP can be seen in
+How pattern-matching and destruction functions would look in VisualFP can be seen in
 @pattern-matching-example-visualfp and
 @destruction-function-example-visualfp.
 
