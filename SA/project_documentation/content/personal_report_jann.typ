@@ -2,7 +2,7 @@
 
 = Jann Flepp
 
-Even before studying at the #ac("OST"), I was interested in functional
+Even before studying at #ac("OST"), I was interested in functional
 programming. I worked on some small personal projects in F\# and looked at
 foundational topics such as the lambda-calculus.
 
