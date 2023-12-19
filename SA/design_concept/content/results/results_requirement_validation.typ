@@ -49,8 +49,8 @@
   caption: "Requirement verification"
 ) <requirement_validation_table>
 
-The main focus of the project was to create a visual concept for function composition and prove that it is feasible with a #ac("PoC") application.
-As can be seen in @requirement_validation_table, all requirements related to function composition could be achieved.
+The project's main focus was to create a visual concept for function composition and prove that it is feasible with a #ac("PoC") application.
+As can be seen in @requirement_validation_table, all requirements related to function composition have been achieved.
 
 Due to time constraints, the requirements #ac("UC")2, #ac("UC")7, #ac("UC")8 and #ac("UC")9 had to be considered as out-of-scope.
-However, during the implementation of the type inference engine, #ac("UC")7 was kept in mind, so that custom data types could be added without much effort.
+However, during the implementation of the type inference engine, #ac("UC")7 was kept in mind so that custom data types could be added without much effort.
