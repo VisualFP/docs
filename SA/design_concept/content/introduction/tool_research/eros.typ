@@ -23,5 +23,5 @@ artistic interest. A screenshot of Eros is shown in @eros_screenshot.
 
 "Tangible Functional Programming" is a fascinating technique, and
 particularly the way Eros visualizes pure values can be an inspiration for
-VisualFP. But ultimately, we feel like the technique is not well suited for
+VisualFP. But ultimately, the technique appears unsuitable for
 general-purpose functional programming, especially in an educational context. 
