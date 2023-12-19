@@ -1,4 +1,5 @@
 #import "@preview/tablex:0.0.5": tablex, cellx
+#import "../../../acronyms.typ": *
 
 = Requirement Validation <requirement_validation>
 @functional_requirements and @non_functional_requirements defined 9 use cases and 2 NFRs.
@@ -48,7 +49,7 @@
   caption: "Requirement verification"
 ) <requirement_validation_table>
 
-The main focus of the project was to create a visual concept for function composition and prove that it is feasible with a PoC application.
+The main focus of the project was to create a visual concept for function composition and prove that it is feasible with a #ac("PoC") application.
 As can be seen in @requirement_validation_table, all requirements related to function composition could be achieved.
 
 Due to time constraints, the requirements UC2, UC7, UC8 and UC9 had to be considered as out-of-scope.

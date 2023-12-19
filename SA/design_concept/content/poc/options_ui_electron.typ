@@ -1,8 +1,8 @@
 #import "../../../acronyms.typ": ac
 
-= Electron JS <option-electron>
+= Electron.js <option-electron>
 
-Electron JS is a framework for creating desktop apps using HTML, JS, and CSS,
+Electron.js is a framework for creating desktop apps using #ac("HTML"), #ac("JS"), and #ac("CSS"),
 achieved by combining chromium and Node.js.
 
 Electron allows the creation of desktop apps in web-app style, which means that,

@@ -8,10 +8,14 @@
   LSP: "Language Server Protocol",
   GHC: "Glasgow Haskell Compiler",
   PoC: "Proof of Concept",
-  GTK: "GIMP ToolKit",
+  GTK: "GIMP ToolKit - Toolkit for creating graphical user interfaces",
   OST: "Eastern Switzerland University of Applied Sciences",
-  FFI: "Foreign Functional Interface",
-  FRP: [Functional Reactive Programming - A concept that defines types and functions for interactive applications written in a functional language @frp_elliott_hudak]
+  FFI: "Foreign Functional Interface - Interface between two different programming languages",
+  FRP: [Functional Reactive Programming - A concept that defines types and functions for interactive applications written in a functional language @frp_elliott_hudak],
+  HTML: "HyperText Markup Language - Language to define the content structure of e.g. web sites",
+  CSS: "Cascading Style Sheets - Language to style the content of e.g. web sites",
+  DOM: "Document Object Model - Tree representation of e.g. a HTML document",
+  JS: "JavaScript"
 )
 
 #let usedAcronyms = state("usedDic", (:))
@@ -38,7 +42,7 @@
 
 #let sa_list_of_acronyms() = {
   locate(loc => if (usedAcronyms.final(loc).len() > 0) {
-      heading(level: 1, "List of Acronyms")
+      heading(level: 1, "Glossary & List of Acronyms")
       v(1em)
       terms(
         tight: false,

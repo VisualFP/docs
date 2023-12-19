@@ -1,7 +1,9 @@
+#import "../../../acronyms.typ": *
+
 = IDE for visual functional programming
 In a future project, VisualFP could be further enhanced to work like a visual IDE for Haskell.
 
-Besides the functionality that already exists in the PoC application, this would require additional features offered by Haskell to be implemented in a visual fashion as well,
+Besides the functionality that already exists in the #ac("PoC") application, this would require additional features offered by Haskell to be implemented in a visual fashion as well,
 such as an editor for Haskell-type definitions, a way to organize user definitions into modules, integration with a package manager, etc.
 
 On the other hand, such a development would offer the opportunity to outsource a lot of functionality, such as compilation and execution, to Haskell tooling.

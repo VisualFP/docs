@@ -1,5 +1,7 @@
+#import "../../../acronyms.typ": *
+
 = UI Demonstration
-@visual-fp-ui-demo-part-one and @visual-fp-ui-demo-part-two depict a step-by-step demonstration of the PoC application
+@visual-fp-ui-demo-part-one and @visual-fp-ui-demo-part-two depict a step-by-step demonstration of the #ac("PoC") application
 using the `mapAdd5` code scenario as descriped in @design_eval_code_scenarios.
 
 #figure(
