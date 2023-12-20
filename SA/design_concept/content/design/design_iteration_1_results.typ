@@ -6,8 +6,6 @@ Based on the questionnaire answers for the first three designs, which can be
 seen in @design_iteration_one_survey_results, it can be concluded that each
 design received valid criticism.
 
-All of the design concepts got a fair amount of valid criticism.
-
 == Flo-inspired Design
 
 It is clear that the Flo-inspired design received the most negative feedback.
@@ -32,9 +30,8 @@ It is fairly easy to fix by aligning the operators to
 the left.
 
 Another point of critique repeated by several participants was that
-unapplied parameters are not used correctly and/or inconsistently. Some felt
-that the type holes were unintuitive, and the portrayal of the type holes in
-violet was probably unintuitive.
+unapplied parameters are not used correctly and/or inconsistently and some felt
+that the type holes were unintuitive.
 
 Finally, all participants agreed that the design wouldn't scale, as it
 requires a lot of horizontal space to grow.
@@ -47,11 +44,11 @@ its extensive use of coloring, and as the most easy to understand.
 The Haskell function notation-inspired design received the most mixed
 feedback.
 
-A one common point of critique was that the design was too overloaded and
+A common point of critique was that the design was too overloaded and
 difficult to understand, especially for beginners.
 
 But some participants like the design the most, as it is the most similar to
 Haskell. Other participants disliked the design the most, maybe because
 the relationship between the design and Haskell was not clear enough. Still, it
-wouldn't be a good sign if one needed to understand Haskell to
-understand the concept, as that would go against the goals of VisualFP.
+isn't a good sign if one needs to understand Haskell to
+understand the concept, as that goes against the goals of VisualFP.

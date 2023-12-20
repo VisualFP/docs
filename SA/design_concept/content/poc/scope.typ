@@ -11,7 +11,7 @@ To show that, the #ac("PoC") needs to implement
 - #ac("UC")4 - Function composition using higher-order functions
 - #ac("UC")5 - Curried Functions
 - #ac("UC")6 - Recursive function composition
-as described in @use-cases using the proposed visualization concept.
+as described in @use-cases.
 
 Although all other described use cases are integral to a fully functioning
 visual editor for functional programming as well, they are not included in the

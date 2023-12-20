@@ -19,7 +19,7 @@ parameters below them, and the main expression above it, as shown in
 )<scratch_inspired_addition>
 
 Functions used in expressions are displayed as green blocks and can be
-applied to by inserting blocks to the parameters declared above them. Their
+applied by inserting blocks to the parameters declared above them. Their
 name is shown inside the block, whereas the alignment of the name (left,
 center, right) doesn't bear any semantic meaning.
 

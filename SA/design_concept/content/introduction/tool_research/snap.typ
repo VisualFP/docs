@@ -18,7 +18,7 @@ seen in the red blocks in @snap_screenshot.
 However, everything else can only be done imperatively, making the functional
 aspects more of an additional feature than a core concept of Snap!.
 
-Users can also create block commands based on existing commands, which
+Users can also create new block commands based on existing commands, which
 allows users to reuse their code. But unlike usual functions, custom
 blocks aren't able to take arguments from their caller @snap-manual.
 

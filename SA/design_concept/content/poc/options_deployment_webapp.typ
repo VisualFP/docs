@@ -12,4 +12,4 @@ on their devices, and that there is no need to support multiple operating
 systems explicitly since most devices can run a web browser.
 
 The drawbacks are that the application must be hosted on a server and other
-development tools that may require access to the users' device cannot be used.
+development tools that may require access to the user's device cannot be used.

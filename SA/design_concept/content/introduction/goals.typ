@@ -10,7 +10,7 @@ The core functionality of VisualFP will be implemented in a #ac("PoC") to
 prove the feasibility of the design.
 
 The central part of this project is to document the design process used to
-create VisualFP transparently to allow others to understand better the decisions
+create VisualFP transparently to allow others to better understand the decisions
 made during the project, which alternatives were considered, and to evaluate
 whether they want to follow the same path.
 

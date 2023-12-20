@@ -1,8 +1,7 @@
 = Design Evaluation Criteria <design-evaluation-criteria>
 
-Since we don't think that it is possible to compare 'how good' a design 
-objectively, the design evaluation process is based on
-selected code scenarios and a non-quantitative questionnaire to evaluate them.
+Since it is difficult to compare designs in a quantitative manner,
+the design evaluation process is based on selected code scenarios and a non-quantitative questionnaire.
 
 A survey will be conducted using the questionnaire and example
 visualizations for specific code scenarios to get further valuable feedback to

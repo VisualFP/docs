@@ -3,7 +3,7 @@
 = Non Functional Requirements <non_functional_requirements>
 
 This section describes all non-functional requirements identified for VisualFP.
-To find relevant #ac("NFR")s, ISO-25010 @iso-25010 was used for inspiration.
+To find a relevant #ac("NFR"), ISO-25010 @iso-25010 was used for inspiration.
 
 #let NFR(description, verification, acceptanceCriteria, realisation) = {
     description
@@ -34,6 +34,6 @@ To find relevant #ac("NFR")s, ISO-25010 @iso-25010 was used for inspiration.
         Since VisualFP targets students who want to learn functional programming, the learning effort shouldn't be on the tool itself but on functional concepts.
     ],
     "Usability Tests with a user without experience in functional programming",
-    "A user without experience in functional programming understands how to use VisualFP within 2 hours",
+    "A user without experience in functional programming understands how to use VisualFP within 1 hour",
     "Keep the design of VisualPF simple; offer help buttons on more complex blocks"
 )
