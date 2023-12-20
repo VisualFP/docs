@@ -3,8 +3,8 @@
 = UI Demonstration
 
 @visual-fp-ui-demo-step-one through @visual-fp-ui-demo-step-six depict a
-step-by-step demonstration of the #ac("PoC") application using the `mapAdd5`
-code scenario described in @design_eval_code_scenarios.
+step-by-step construction of the `mapAdd5`
+code scenario, described in @design_eval_code_scenarios, using the #ac("PoC") application.
 
 #figure(
   image("../../static/ui-demo-one.png"),
