@@ -18,4 +18,4 @@ The clear separation of the #ac("UI") and business logic and the support of the
 established .NET platform is a significant advantage for Bolero.
 
 The two downsides are that neither of the authors is familiar with the framework
-and that F\# doesn't really fit into a probject, that aims to create a Haskell-compatible visual editor.
+and that F\# doesn't really fit into a project, that aims to create a Haskell-compatible visual editor.
