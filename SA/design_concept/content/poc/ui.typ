@@ -50,6 +50,7 @@ The Electron app is packaged with an executable of the Threepenny #ac("UI") and 
 When starting the Threepenny #ac("UI"), the Electron app passes a usable port for the local web server and the file path to the static #ac("UI") files to the Threepenny #ac("UI").
 
 The function editor is the most significant part of the Threepenny #ac("UI") and has two primary responsibilities:
+
 - Rendering of function value blocks
 - Reacting to value block drop events
 
@@ -64,6 +65,7 @@ So, to register the drop event listeners, the IDs of type holes need to be colle
 With these IDs, the #ac("HTML") elements added to the #ac("DOM") can be loaded, and the event handlers registered.
 
 The drop event handlers always do the same, regardless of the block value that was dropped:
+
 1. Replace the type hole with the dropped value
 2. Infer the updated function definition
 3. Clear all elements from the function editor
@@ -83,6 +85,7 @@ The author of Threepenny, Heinrich Apfelmus, plans to do that in a future releas
 
 Generally, there is no reason why VisualFP couldn't be implemented using #ac("FRP").
 In such an implementation, there would be three kinds of events:
+
 - "Reset Editor" button is clicked
 - "View Haskell" button is clicked
 - A block value is dropped into a type hole. This event combines all events from every type hole in the function definition.

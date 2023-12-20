@@ -11,8 +11,9 @@ of Haskell 98 @hugs-compiler.
 Unfortunately, Hugs is is not actively maintained anymore @hugs-compiler,
 thus, it wasn't considered further.
 
-The _Haskell Suite_ is a collection of tools and libraries that aim to
-implement a complete Haskell compiler @haskell-suite.
+Another Haskell compiler platform we've looked at is the _Haskell Suite_, which
+is a collection of tools and libraries that aim to implement a complete Haskell
+compiler @haskell-suite.
 
 The #ac("AST") interpreter is provided on hackage as the package
 `haskell-src-exts`
@@ -20,5 +21,5 @@ The #ac("AST") interpreter is provided on hackage as the package
 creating some example programs with it, it seems that the #ac("API") is
 quite nice to use.
 
-Unfortunately, the Haskell Suite is also not actively developed anymore, as
-it is currently on maintenance support @haskell-suite-maintenance.
+Unfortunately, the Haskell Suite is also not actively developed anymore, and
+is currently on maintenance support @haskell-suite-maintenance.

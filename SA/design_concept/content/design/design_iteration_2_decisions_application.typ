@@ -13,7 +13,7 @@ Two possible application styles are:
 / Explicit: Leave higher-order function values as such and apply them
   explicitly using a dedicated application function.
 
-/ Elaborate: #[Embedd a more deeper understanding of application into the
+/ Elaborate: #[Embedd a deeper understanding of application into the
   language, which allows to resolve nested curried function values to
   their arguments if necessary.]
 
@@ -32,7 +32,8 @@ an `addition` function would look like in both styles can be seen in
 
 Of these two styles, the elaborate application style was chosen over
 explicit application since the elaborate style stays readable when scaling
-up to more extensive examples, while the explicit style starts to feel overloaded.
+up to more extensive examples, while the explicit style would start to feel
+overloaded more quickly.
 
 The type resolution for the elaborate application style works like this:
 
@@ -56,9 +57,9 @@ An example of the elaborate application system can be seen in
     columns: (auto, auto, auto),
     [Type hole], [Inserted Value], [Result], hlinex(stroke: 0.5pt),
     $A arrow.r A$, $A$, [_error_], hlinex(stroke: 0.5pt),
-    $A$, $A arrow.r A$, [_type hole:_ $A$], hlinex(stroke: 0.5pt),
-    $B arrow.r C$, $A arrow.r B arrow.r C$, [_type hole:_ $A$], hlinex(stroke: 0.5pt),
-    $C$, $A arrow.r B arrow.r C$, [_type holes:_ $A$, $B$],
+    $A$, $A arrow.r A$, [_new type hole:_ $A$], hlinex(stroke: 0.5pt),
+    $B arrow.r C$, $A arrow.r B arrow.r C$, [_new type hole:_ $A$], hlinex(stroke: 0.5pt),
+    $C$, $A arrow.r B arrow.r C$, [_new type holes:_ $A$, $B$],
   ),
   kind: "table",
   supplement: "Table",

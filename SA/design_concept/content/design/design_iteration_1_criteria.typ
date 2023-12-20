@@ -1,9 +1,8 @@
 = Design Evaluation Criteria <design-evaluation-criteria>
 
-Unfortunately, it isn't possible to objectively compare 'how good' a design is
-objectively. Thus, the design evaluation process is based on
-selected code scenarios and a non-quantitative questionnaire to evaluate their
-visual representation.
+Since we don't think that it is possible to compare 'how good' a design 
+objectively, the design evaluation process is based on
+selected code scenarios and a non-quantitative questionnaire to evaluate them.
 
 A survey will be conducted using the questionnaire and example
 visualizations for specific code scenarios to get further valuable feedback to
@@ -67,8 +66,8 @@ a simple function using another function.
 
 == Evaluation Questionnaire <design_eval_questionnaire>
 
-These evaluation questions have to be answered by the survey participants once
-for every design proposal:
+The survey participants are asked to answer the following questions for every
+design proposal:
 
 - Were you able to understand the meaning of the boxes and arrows?
 - Do you find the concept nice to look at?
@@ -77,5 +76,7 @@ for every design proposal:
 - Do you have any suggestions for improvement or general comments on the concept?
 
 Additionally, every survey participant can suggest a visualization concept of
-their own.  The questionnaire template handed out to survey participants can be
-found in @appendix_design_eval_questionnaire.
+their own.
+
+The questionnaire template handed out to survey participants can be found in
+@appendix_design_eval_questionnaire.

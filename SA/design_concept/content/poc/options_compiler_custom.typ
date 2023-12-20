@@ -7,7 +7,7 @@ be an option to skip the use of a compiler platform as a library
 altogether:
 
 - It is not necessary for the compiler platform to parse Haskell code. For the
-  #ac("PoC"), being able to type-check expressions is sufficient.
+  #ac("PoC"), being able to type-check simple expressions is sufficient.
 
 - Execution of expressions is optional as well.
 

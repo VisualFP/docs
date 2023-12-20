@@ -15,7 +15,8 @@ called 'gi-gtk-declarative'
 is still experimental. @haskell_gi
 
 Using Haskell-gi to create the #ac("UI") of VisualFP would allow the frontend and
-backend logic to be implemented in Haskell. Good support and documentation can
-be expected since many applications are written in #ac("GTK").
+backend logic to be implemented in Haskell.
 
-The downside to Haskell-gi is that #ac("GTK") is unknown to both authors.
+The downside to Haskell-gi is that #ac("GTK") is unknown to both authors and it
+doesn't seem to be used as much as web-based frameworks, which could impact the
+availability of documentation and examples.

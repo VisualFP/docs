@@ -6,10 +6,12 @@ The Threepenny-GUI framework was written in Haskell to create desktop
 applications that run in a web browser. The framework can be combined with
 Electron for a tighter integration with the desktop environment.
 
-Threepenny starts a local web server that serves an #ac("HTML") page.
-The server uses a WebSocket connection to communicate with the browser.
+Threepenny starts a local web server written in Haskell that serves a
+#ac("HTML") page.
+Then, the server establishes a WebSocket connection to communicate with
+the browser.
 Finally, the server sends JavaScript code via this connection to execute it on
-the client, which is implemented as a JavaScript #ac("FFI").
+the client, which is implemented as a JavaScript #ac("FFI") on the Haskell side.
 
 Threepenny also offers the possibility of implementing the application in
 #ac("FRP") style @threepenny_gui.

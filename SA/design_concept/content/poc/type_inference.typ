@@ -34,7 +34,7 @@ phases.
   @constraint-language.]
 
 2. *Unification*: #[Next, the unification algorithm tries to find a solution for
-  the unification variables that satisfy all constraints. If it succeeds, A
+  the unification variables that satisfy all constraints. If it succeeds, a
   concrete type can be assigned to each unification variable.
 
   The algorithm is based on Prolog, as described by Prof. Dr.

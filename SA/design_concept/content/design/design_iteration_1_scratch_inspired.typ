@@ -19,7 +19,7 @@ parameters below them, and the main expression above it, as shown in
 )<scratch_inspired_addition>
 
 Functions used in expressions are displayed as green blocks and can be
-applied by inserting blocks to the parameters declared above them. Their
+applied to by inserting blocks to the parameters declared above them. Their
 name is shown inside the block, whereas the alignment of the name (left,
 center, right) doesn't bear any semantic meaning.
 
@@ -35,8 +35,7 @@ be seen in @scratch_inspired_type_hole.
 )<scratch_inspired_type_hole>
 
 In @scratch_inspired_type_hole, the second parameter of the `(+)` function
-is left unapplied. The portrayed type is `a`, a type-argument that would be
-declared in a separate, not yet specified window.
+is left unapplied, and thus, a type hole of type `Int` is shown.
 
 == Pattern Matching
 

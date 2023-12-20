@@ -6,5 +6,5 @@ survey. Prof. Dr. Farhad Mehta proposed a new design concept in the second
 iteration based on that feedback and some new ideas.
 
 This new concept has the potential to provide beginners with more guidance
-during function composition than the previous concepts, which is why it is
-developed further for the rest of the project.
+during function composition than the previous concepts, which is why we will try
+to prove it's feasibility for the rest of the project.

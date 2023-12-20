@@ -15,9 +15,8 @@ straightforward as using it as a compiler:
   complex than necessary for the use-case of representing a visual editor
   code snippet in an #ac("AST").
 
-- The #ac("API") documentation is limited. Even though there is a great
-  starting point for the internals of #ac("GHC") available at #ac("GHC") commentary
-  @ghc-commentary, and some bloggers such as Stephen Diehl
-  @ghc-pipeline-blogpost took the time to write about the #ac("GHC") #ac("API"), much of
-  the available documentation seems to be out-of-date, incomplete, or
-  missing.
+- The #ac("API") documentation is limited. Even though there is a great starting
+  point for the internals of #ac("GHC") available at #ac("GHC") commentary
+  @ghc-commentary, and some bloggers such as Stephen Diehl took the time to write
+  about the #ac("GHC") #ac("API") @ghc-pipeline-blogpost, much of the available
+  documentation seems to be out-of-date, incomplete, or missing.

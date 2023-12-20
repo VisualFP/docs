@@ -6,6 +6,8 @@ After the initial proposals received mixed feedback in the questionnaire,
 project advisor Prof. Dr. Farhad D. Mehta suggested an additional design, which
 combines some aspects of the previous proposals and adds some new ideas. 
 
+In this section, we explore this suggestion in more detail. 
+
 #include_section("design_concept/content/design/design_iteration_2_proposal.typ", heading_increase: 1)
 
 == Decisions
