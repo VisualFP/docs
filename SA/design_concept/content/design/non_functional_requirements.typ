@@ -17,7 +17,7 @@ To find a relevant #ac("NFR"), ISO-25010 @iso-25010 was used for inspiration.
     )
 }
 
-== NFR1 - Platform Compatibility
+== NFR1 - Platform Compatibility <nfr1>
 #NFR(
     [
         VisualFP should be usable on Windows, MacOS, and Linux devices.
@@ -28,7 +28,7 @@ To find a relevant #ac("NFR"), ISO-25010 @iso-25010 was used for inspiration.
     "Usage of platform-independent technologies"
 )
 
-== NFR2 - Learnability
+== NFR2 - Learnability <nfr2>
 #NFR(
     [
         Since VisualFP targets students who want to learn functional programming, the learning effort shouldn't be on the tool itself but on functional concepts.
