@@ -84,5 +84,5 @@ development on the project:
   the option of the visual and textual language (@outlook-visual-textual) very
   much.
 
-These shortcomings could be fixed by adding a getting-started for beginners tour to VisualFP, which would explain the different UI components, provide a tutorial for value construction, and explain Haskell's function type notation.
+These shortcomings could be fixed by adding a getting-started tour for beginners, which would explain the different UI components, provide a tutorial for value construction, and explain Haskell's function type notation.
 In addition, block values provided by VisualFP could feature a brief description.
