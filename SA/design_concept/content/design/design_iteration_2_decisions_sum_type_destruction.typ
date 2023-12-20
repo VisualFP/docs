@@ -11,13 +11,13 @@ constructors must be handled.
 
 A common approach in functional languages is to use _pattern matching_.
 Pattern matching allows to match values against a set of patterns and
-execute user-provided code per pattern. Each code path needs have the same
+execute user-provided code per pattern. Each code path needs to have the same
 return type, which will then be used as the type of the matching
 expression. One of the pattern types usually destructs sum type constructors. 
 
 An example of pattern-matching in Haskell can be seen in
 @pattern-matching-example-haskell, which defines a sum type named `Expression`
-with two constructors: `Value` and `Addition`, and a function `calc`
+with two constructors, `Value` and `Addition`, and a function `calc`
 that pattern matches a value of type `Expression` against its
 constructors.
 

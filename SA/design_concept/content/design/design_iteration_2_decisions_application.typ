@@ -2,13 +2,9 @@
 #import "@preview/tablex:0.0.6": tablex, hlinex
 #let load-drawio-svg(path, ..args) = image.decode(read(path).replace("Text is not SVG - cannot display", ""), ..args)
 
-= Application <application-decision>
+= Function Application <application-decision>
 
-The design suggested after the second iteration, as described in
-@design-proposal-2, leaves the application style open as a decision.
-This section makes that decision and elaborates on the reasons.
-
-Two possible application styles are:
+For function application, there are two possible application styles up for discussion:
 
 / Explicit: Leave higher-order function values as such and apply them
   explicitly using a dedicated application function.
@@ -41,7 +37,7 @@ The type resolution for the elaborate application style works like this:
 2. A value of type
    $B_1 arrow.r ... arrow.r B_n arrow.r A_1 arrow.r ... arrow.r A_n$
    is inserted into the type hole,
-3. #[The editor resolves the curried function into it's nested values and
+3. #[The editor resolves the curried function into its nested values and
    matches the ending values $A_1 arrow.r ... arrow.r A_n$ with the expected
    type of the hole. 
 

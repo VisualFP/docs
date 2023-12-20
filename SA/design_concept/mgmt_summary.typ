@@ -8,7 +8,7 @@ tools eliminate the hurdle of code syntax, allowing beginners to concentrate on
 the program they want to write.
 
 However, almost all visual tools for teaching programming are made for the imperative
-programming paradigm.  Visual tools exist for functional programming, but either lack
+programming paradigm. Visual tools exist for functional programming, but either lack
 a good user experience or hide essential concepts required to understand functional
 programming.
 

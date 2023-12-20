@@ -11,7 +11,7 @@ of Haskell 98 @hugs-compiler.
 Unfortunately, Hugs is is not actively maintained anymore @hugs-compiler,
 thus, it wasn't considered further.
 
-Another Haskell compiler platform we've looked at is the _Haskell Suite_, which
+Another Haskell compiler platform is the _Haskell Suite_, which
 is a collection of tools and libraries that aim to implement a complete Haskell
 compiler @haskell-suite.
 

@@ -37,38 +37,42 @@ By default, "user" in the use case description refers to the "student user".
     caption: "Use Case Diagram"
 )<use_case_diagram>
 
+As the aim of this project is to find a visual representation of functional programming,
+the use case descriptions are kept very brief and only state the intention behind the use case but not how it must be achieved.
+
 === UC1 - Simple Function Composition
-A user wants to compose a simple function using pre-defined functions, e.g., Integer parameters.
+A user wants to execute their visually composed functions to see the effects of their functions on data.
 
 === UC2 - Function Execution
 A user wants to execute their visually composed functions.
 
 === UC3 - Recursive Function Composition
-A user wants to compose a function that is defined by itself.
+A user wants to compose a function that is defined using itself.
+For that, the user needs possibilities to distinguish between a recursive and a base case.
 
 === UC4 - Function Composition using Higher-Order Functions
-A user wants to compose functions that take other functions as their argument.
+To create generic functions that can be used in different contexts, a user wants to compose functions that take other functions as their argument.
 
 === UC5 - Curried Functions
 A user wants to create a function by partially applying a curried function.
 
 === UC6 - Function Composition using Lists
-A user wants to compose a function using lists, i.e., list construction.
+A user wants to compose a function using lists, so that they can collect data and process it further.
 
 === UC7 - Data Type Composition
-A user wants to be able to create their own data types.
+A user wants to be able to create their own data types to represent data of their problem domain accurately.
 
 === UC8 - Save Source File
-A user wants to save their composed functions in a source file.
+A user wants to save their composed functions in a source file so they can keep their work when, e.g., restarting their computer.
 
 === UC9 - Open Source File
-A user wants to open a previously saved source file to continue working on their functions.
+A user wants to open a previously saved source file to continue working on their program.
 
 === UC10 - Group Functions into Modules
 An expert user wants to group functions into modules to keep their code organized.
 
 === UC11 - Import Haskell code
-An expert user wants to import their existing Haskell project into VisualFP.
+An expert user wants to import their existing Haskell project into VisualFP so they can get a better understanding of their code from its visualization.
 
 == Prioritization & Scope
 The focus of this project lies in creating a design that allows to develop functional applications visually and is suitable for beginners.

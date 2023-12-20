@@ -18,4 +18,5 @@ the outside, functions are drawn from the inside.
 A function's input is displayed on the top, and the output on the bottom.
 The arrows show how the output is composed of other expressions.
 
-Out of all the researched tools, we feel like this suggestion is the best way to show functional programming concepts.
+Out of all the researched tools, this suggestion shows functional
+programming concepts best.

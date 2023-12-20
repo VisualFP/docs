@@ -23,4 +23,4 @@ imperative features and #ac("API")s.
 Considering that both a Node.js and a Chromium runtime are bundled in Electron,
 the resulting app sizes are quite large, even for apps with little logic.
 Rendering the app in a browser also requires much more resources than #ac("UI")s
-build with native #ac("OS") #ac("API")s (e.g., Win32 on Windows)
+built with native #ac("OS") #ac("API")s (e.g., Win32 on Windows)

@@ -10,8 +10,8 @@ Threepenny starts a local web server written in Haskell that serves a
 #ac("HTML") page.
 Then, the server establishes a WebSocket connection to communicate with
 the browser.
-Finally, the server sends JavaScript code via this connection to execute it on
-the client, which is implemented as a JavaScript #ac("FFI") on the Haskell side.
+Finally, using a JavaScript #ac("FFI"), Threepenny sends JavaScript code via this connection to execute it on
+the client.
 
 Threepenny also offers the possibility of implementing the application in
 #ac("FRP") style @threepenny_gui.

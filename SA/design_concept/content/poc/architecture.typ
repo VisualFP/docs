@@ -39,5 +39,5 @@ diagram of the backend is shown in @component-diagram.
 Splitting the backend into these three components isolates the #ac("UI") from the business logic, making either easily replaceable.
 
 The #ac("UI") component is described in more detail in @ui, the translation
-component in @translation-layer and the inference engine is described in
+component in @translation-layer and the inference engine in
 @type-inference.

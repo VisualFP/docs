@@ -6,7 +6,7 @@ composable way. He calls this technique "Tangible Functional Programming"
 on combinations of pure values. 
 
 At the core of the technique are _tangible values_, which are pure values,
-including functions that can be visualized and composed with other tangible
+including functions, that can be visualized and composed with other tangible
 values through a graphical user interface.
 
 To combine such values, a set of algebras is provided that allows values to be
