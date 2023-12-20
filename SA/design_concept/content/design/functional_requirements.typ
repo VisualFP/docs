@@ -41,14 +41,14 @@ As the aim of this project is to find a visual representation of functional prog
 the use case descriptions are kept very brief and only state the intention behind the use case but not how it must be achieved.
 
 === UC1 - Simple Function Composition
-A user wants to execute their visually composed functions to see the effects of their functions on data.
+A user wants to compose a simple function using pre-defined functions, e.g., Integer parameters.
 
 === UC2 - Function Execution
-A user wants to execute their visually composed functions.
+A user wants to execute their visually composed functions to see the effects of their functions on data.
 
 === UC3 - Recursive Function Composition
 A user wants to compose a function that is defined using itself.
-For that, the user needs possibilities to distinguish between a recursive and a base case.
+To do so, the user needs possibilities to distinguish between a recursive and a base case.
 
 === UC4 - Function Composition using Higher-Order Functions
 To create generic functions that can be used in different contexts, a user wants to compose functions that take other functions as their argument.
