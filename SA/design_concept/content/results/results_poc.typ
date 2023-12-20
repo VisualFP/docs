@@ -2,7 +2,7 @@
 
 = Proof of Concept
 
-The project produced a proof of concept application that implements the design concept described in @design-iteration-2.
+The project produced a proof of concept application that implements the design concept as described in @design-iteration-2.
 Although the application doesn't offer visualizations for some of the most common aspects of functional programming, such as the construction of custom data types, the application shows that the proposed concept for function composition works and is easy to use.
 So, in our opinion, the project's main goal was achieved.
 

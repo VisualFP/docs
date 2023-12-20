@@ -13,7 +13,7 @@ Still, we did follow some quality guidelines while developing the application.
 
 == Compiler Warnings
 
-The project utilized #ac("GHC")s warnings by enabling the `-Wall` option for all
+The project utilized #ac("GHC") warnings by enabling the `-Wall` option for all
 compilations.
 
 All warnings were resolved at the time of submission. 

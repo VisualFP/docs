@@ -4,8 +4,8 @@
 = Implementation Options
 
 Different implementation options were considered for the
-#ac("PoC"). The following sections describe the options and choices that have
-been made.
+#ac("PoC"). The following sections describe the options that were considered and
+choices that have been made.
 
 == Deployment platform <deployment-platform-options>
 
@@ -18,11 +18,9 @@ application or a desktop application.
 
 == UI Frameworks <ui-framework-options>
 
-VisualFP requires external technologies to implement a #ac("UI"), the backend logic
-and a compiler platform to translate the visual code representation to
-Haskell code.
-
-The following technologies were considered.
+VisualFP requires external technologies to implement a #ac("UI"), especially to
+achieve cross-platform support without duplication. The following
+technologies were considered.
 
 #include_section("design_concept/content/poc/options_ui_electron.typ", heading_increase: 2)
 #include_section("design_concept/content/poc/options_ui_haskellgi.typ", heading_increase: 2)
@@ -35,21 +33,23 @@ The following technologies were considered.
 
 A compiler platform is a set of tools and libraries that can be used to
 compile code. VisualFP requires a compiler platform to build
-the application itself and a library to compile programs created by
+the application itself but also as a library to compile programs created by
 the users in the visual editor.
 
 These two use cases pose different requirements on the compiler platform:
+
+- To be used as a compiler, the platform must have a set of support tooling
+  available, such as a build tool and a language server.
 
 - To be used as a library, the compiler platform must offer a well-defined
   #ac("API") that can be used to create, parse, and compile an #ac("AST")
   programmatically.
 
-- To be used as a compiler, the compiler must have a set of support tooling
-  available, such as a build tool and a language server.
+For these two use cases, two different compiler platforms may be used.
 
 The compiler used to build the #ac("PoC") itself depends on the language and
 other frameworks chosen to implement the application, this section focuses
-on the use of a compiler platform as a library. 
+on the use of a compiler platform as a library.
 
 #include_section("design_concept/content/poc/options_compiler_ghc.typ", heading_increase: 2)
 #include_section("design_concept/content/poc/options_compiler_other.typ", heading_increase: 2)

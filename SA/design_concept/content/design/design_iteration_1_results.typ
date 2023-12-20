@@ -6,8 +6,6 @@ Based on the questionnaire answers for the first three designs, which can be
 seen in @design_iteration_one_survey_results, it can be concluded that each
 design received valid criticism.
 
-All of the design concepts got a fair amount of valid criticism.
-
 == Flo-inspired Design
 
 It is clear that the Flo-inspired design received the most negative feedback.
@@ -25,19 +23,15 @@ some negative feedback.
 
 The most consistent criticism was about the operator functions being aligned
 in the middle, implying that the design accounts for infix application but
-was written in parentheses (e.g., `(+)`), a form of regular
-function application that doesn't support infix notation. This is a very
-valid point and something the design wasn't supposed to imply.
+was written in parentheses (e.g., `(+)`), which in Haskell is a form of regular
+function application of operators that would support an infix notation. This is
+a very valid point and something the design wasn't supposed to imply.
 It is fairly easy to fix by aligning the operators to
 the left.
 
-Another point of critique that several participants repeated was that
-unapplied parameters are not used correctly and/or inconsistently. It was
-e.g., mentioned that using a parameter-value `a` is not allowed in
-$eta$-reduced form, which is correct. The critical point here is that these
-missing arguments are type holes portrayed in violet, indicating that they
-are unfilled. Unfortunately, this was not clear enough solely based on the
-images.
+Another point of critique repeated by several participants was that
+unapplied parameters are not used correctly and/or inconsistently and some felt
+that the type holes were unintuitive.
 
 Finally, all participants agreed that the design wouldn't scale, as it
 requires a lot of horizontal space to grow.
@@ -50,9 +44,11 @@ its extensive use of coloring, and as the most easy to understand.
 The Haskell function notation-inspired design received the most mixed
 feedback.
 
-The one common point of critique was that the design was too overloaded and
+A common point of critique was that the design was too overloaded and
 difficult to understand, especially for beginners.
 
 But some participants like the design the most, as it is the most similar to
-Haskell. Other participants disliked the design the most, probably because
-the relationship between the design and Haskell was not clear enough.
+Haskell. Other participants disliked the design the most, maybe because
+the relationship between the design and Haskell was not clear enough. Still, it
+isn't a good sign if one needs to understand Haskell to
+understand the concept, as that goes against the goals of VisualFP.

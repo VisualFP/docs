@@ -1,7 +1,7 @@
 #import "../../../style.typ": *
 #let load-drawio-svg(path, ..args) = image.decode(read(path).replace("Text is not SVG - cannot display", ""), ..args)
 
-= Second Design Proposal <design-proposal-2>
+= Final Design Proposal <design-proposal-2>
 
 #grid(
   columns: (2fr, 1.4fr),
@@ -39,7 +39,8 @@
   [The main difference to the previous proposals is how scoping is solved:
   Instead of providing specialized expressions for constructs such as
   pattern matching, list comprehension, etc., the idea is to do scoping using
-  only lambda expressions. An example of that can be seen in @mehta-proposal-lambda.],
+  only basic structures of functional programming such as lambda
+  expressions. An example of that can be seen in @mehta-proposal-lambda.],
   align(center + horizon)[
     #figure(
       load-drawio-svg("../../static/mehta-proposal-lambda.svg", width: 70%),
@@ -47,19 +48,9 @@
   ]
 )
 
-The proposal leaves two decisions open for further exploration:
-
-1. For sum types, how should pattern matching be done? \
-   The available approaches have been described, and the decision has been made
-   in @sum-type-destruction-decision.
-
-2. How should application be done? \
-   There are also multiple approaches to this decision. They have been
-   described in @application-decision.
-
 Regarding the re-use of expressions, the idea is to define multiple small
 functions and then stick them together rather than providing a
 `let ... in ...`-like expression to declare re-usable values.
 
-A strong inference engine would be running in the background, which powers
-the resolution of type holes and type-checking of the program.
+#include_section("design_concept/content/design/design_iteration_2_decisions_application.typ", heading_increase: 2)
+#include_section("design_concept/content/design/design_iteration_2_decisions_sum_type_destruction.typ", heading_increase: 2)

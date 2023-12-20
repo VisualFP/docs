@@ -3,11 +3,11 @@
 Block-based programming tools enable a purely visual introduction to programming
 for the imperative programming paradigm. Common beginner mistakes, such as
 compiling code with incorrect syntax, are impossible in such an environment.
-Examples include Scratch, developed by MIT, and LEGO Mindstorms software.
+Examples include Scratch, developed by MIT, and the LEGO Mindstorms software.
 
-There aren't any similar tools available to teach functional programming,
+There aren't many similar tools available to teach functional programming,
 which is why most educators start their courses by either showing the
-logical nature of functional programming through, e.g. the lambda calculus,
+logical nature of functional programming through e.g. the lambda calculus,
 or by jumping right into code, leaving many students puzzled.
 
 Some visual approaches to functional programming exist; the ones researched during this project

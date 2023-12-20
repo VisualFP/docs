@@ -23,11 +23,9 @@ alongside the expected type in the context window, as shown in @agda_context_win
 The Agda language server is also able to provide automatic case-splitting
 for pattern matching. During this process, the checker will determine the
 possible cases and present only those to the user. Thus, the user is freed from
-remembering and typing all matching cases and from determining which
-possibilities there are.
+remembering and typing out all matching cases.
 
 Additionally, the language server offers to normalize or deduce any given
 expression inside the context of the currently loaded code. The checker is
 also utilized for syntax highlighting, providing the user with semantical
 value in the form of coloring. 
-

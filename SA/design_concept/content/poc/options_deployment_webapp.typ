@@ -11,5 +11,5 @@ different programming languages, that the users don't have to install anything
 on their devices, and that there is no need to support multiple operating
 systems explicitly since most devices can run a web browser.
 
-The drawbacks are that the backend would be responsible for managing the users
-files, and the application must be hosted on a server.
+The drawbacks are that the application must be hosted on a server and other
+development tools that may require access to the user's device cannot be used.

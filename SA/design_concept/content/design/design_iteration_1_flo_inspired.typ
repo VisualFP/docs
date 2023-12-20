@@ -1,5 +1,5 @@
 = Flo-inspired design <flo-inspired-design>
-This design proposal for the composition of functions in a functional manner is inspired by flo (see @flo).
+This design proposal is inspired by flo (see @flo).
 With this design, function elements are distributed on a canvas.
 Every element (e.g., a variable or function) can be connected to another element with arrows.
 

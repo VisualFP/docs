@@ -35,8 +35,7 @@ be seen in @scratch_inspired_type_hole.
 )<scratch_inspired_type_hole>
 
 In @scratch_inspired_type_hole, the second parameter of the `(+)` function
-is left unapplied. The portrayed type is `a`, a type-argument that would be
-declared in a separate, not yet specified window.
+is left unapplied, and thus, a type hole of type `Int` is shown.
 
 == Pattern Matching
 

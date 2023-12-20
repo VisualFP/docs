@@ -22,7 +22,7 @@ example of a type being used as type parameter is shown in @flo_screenshot_2.
   image("../../../static/flo_screenshot_2.png", width: 30%),
   caption: [Screenshot of a negation function application in flo @flo-manual]) <flo_screenshot_2>
 
-flo has been a research project and has not been actively developed since 2016.
+flo was a research project and has not been actively developed since 2016.
 Out of all researched tools, it is probably the one that comes closest to
 VisualFP in terms of its goals.
 

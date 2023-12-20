@@ -117,7 +117,7 @@ initial assessments and adds a retrospection assessment to it.
         not supported. \
         For example, there is no Typst equivalent to the 'part' system of the
         popular LaTeX article document class. Although possible, rebuilding
-        such features are time-consuming. 
+        such features is time-consuming. 
         ]),
     
     ..retrospective_risk([002],
@@ -129,10 +129,10 @@ initial assessments and adds a retrospection assessment to it.
     ..retrospective_risk([003],
       risk: [Too little time for prototype],
       initial: lightyellow,
-      quantitative: lightyellow,
+      quantitative: lightgreen,
       qualitative: [
         The concept took a considerable amount of time from the
-        project. Implementing the PoC has indeed been a challenge]),
+        project. Implementing the PoC has indeed been a challenge but progressed surprisingly fast.]),
 
     ..retrospective_risk([004],
       risk: [Block Model cannot be simplified for PoC],

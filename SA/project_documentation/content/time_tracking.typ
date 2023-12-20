@@ -17,3 +17,7 @@ approximately the available hours. A detailed graphic is shown in
   image("../static/time_spent.png"),
   caption: "Time spent per week for each member."
 ) <time-tracking-table>
+
+It is to be noted that some work went into the project before the semester began,
+i.e., the definition of the project's task description. @time-tracking-table depicts
+this as Week 0.

@@ -30,7 +30,7 @@ Learners could first build an understanding of functional concepts visually and
 then apply the same understanding to Haskell code.
 
 Haskell programmers could find use in such a tool as well.
-Specifically, the debugging tools could offer an advantage over a pure textual development approach.
+Specifically, debugging tools could offer an advantage over a pure textual development approach.
 Visual representation would be equivalent to textual code, so VisualFP could be considered a new tool in the toolbox of seasoned Haskell programmers.
 
 Full compatibility with a typical Haskell project would not be a trivial goal.

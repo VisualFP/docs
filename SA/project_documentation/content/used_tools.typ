@@ -8,9 +8,6 @@ We used these tools to realize this project.
 / GitHub: is a web-based hosting service for version control using Git. We are
   using it to control and build the source code.
   #footnote("https://github.com/VisualFP")
-/ Figma: is a vector graphics editor and prototyping tool. We are using it to
-  design the UI concepts.
-  #footnote("https://figma.com/")
 / Typst: is a typesetting system that allows the document to be written in
   code, similar to LaTeX. We use it to write the project
   documentation and the design concept.
@@ -20,5 +17,5 @@ We used these tools to realize this project.
   a compiler platform in the product.
   #footnote("https://www.haskell.org/ghc/")
 / Grammarly: is an advanced writing tool that rephrases English texts to correct
-  errors and improve the quality.
+  errors and improve their quality.
 

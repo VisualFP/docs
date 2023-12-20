@@ -9,4 +9,5 @@ other development tools such as Cabal
 #footnote("https://www.haskell.org/cabal/").
 
 Unfortunately, every user would need to install the application themselves. The
-application also would need to be built separately per operating system.
+application also would need to be built separately per operating system and
+depending on the chosen runtime also per processor architecture.

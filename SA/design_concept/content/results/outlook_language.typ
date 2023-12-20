@@ -7,7 +7,7 @@ into a language that can be viewed, edited, and executed in both a visual and
 textual fashion simultaneously.
 
 One could imagine a dedicated application for such an environment, but a web
-application or an extension for existing editors could also be implemented. A
+application or an extension for existing editors could also be envisioned. A
 Visual Studio Code extension mockup can be seen in @vscode-visual-textual to
 illustrate the idea.
 

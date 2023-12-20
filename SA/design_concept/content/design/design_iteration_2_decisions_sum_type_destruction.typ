@@ -6,18 +6,18 @@ of a sum type is the union of the types of its constructors.
 
 To work with a value of a sum type, it must be possible to destruct
 the value into its constructor and arguments. Since while developing one
-usually cannot know which constructor was used to create a value, there must
-be a way to handle all possible constructors. 
+usually cannot know which constructor was used to create a value, all possible
+constructors must be handled. 
 
 A common approach in functional languages is to use _pattern matching_.
-Pattern matching allows one to match values against a set of patterns and
-execute user-provided code per pattern. One of the pattern types usually 
-destructs sum type constructors. 
+Pattern matching allows to match values against a set of patterns and
+execute user-provided code per pattern. Each code path needs to have the same
+return type, which will then be used as the type of the matching
+expression. One of the pattern types usually destructs sum type constructors. 
 
 An example of pattern-matching in Haskell can be seen in
-@pattern-matching-example-haskell, which defines a sum type`Expression`
-with two constructors, `Value` and
-`Addition`, and a function `calc`
+@pattern-matching-example-haskell, which defines a sum type named `Expression`
+with two constructors, `Value` and `Addition`, and a function `calc`
 that pattern matches a value of type `Expression` against its
 constructors.
 
@@ -35,10 +35,10 @@ constructors.
     caption: "Example of pattern-matching in Haskell"
 )<pattern-matching-example-haskell>
 
-An easier way to implement this is to generate a function with a
-parameter function per sum type and output type constructor. These
+An easier way to implement sum type destruction is to generate a function that
+takes a function parameter per constructor of the sum type. These
 parameter functions take the type constructor arguments as input
-parameters and map them to the output type. These kinds of functions are called
+parameters and map them to a common output type. These kinds of functions are called
 destruction functions. @destruction-function-example-haskell shows what such a
 destruction function would look like for the abovementioned example.
 
