@@ -51,7 +51,7 @@ A user wants to compose a function that is defined using itself.
 To do so, the user needs possibilities to distinguish between a recursive and a base case.
 
 === UC4 - Function Composition using Higher-Order Functions
-To create generic functions that can be used in different contexts, a user wants to compose functions that take other functions as their argument.
+To create reusable and composable functions, a user wants to compose functions that take other functions as their input, in other words, higher-order functions.
 
 === UC5 - Curried Functions
 A user wants to create a function by partially applying a curried function.
