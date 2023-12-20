@@ -61,7 +61,7 @@ The non-functional requirement NFR2, as described in @nfr2, states that a user
 that isn't familiar with functional programming should be able to use VisualFP
 within 1 hour.
 
-We validated this requirement by showcasing the #ac("PoC") to Samuel Bernhard, a
+This requirement was validated by showcasing the #ac("PoC") to Samuel Bernhard, a
 software engineer at Hamilton Bonaduz AG. Samuel is a seasoned software
 developer but isn't familiar with functional programming.
 
@@ -75,11 +75,11 @@ development on the project:
   able to make use of type hints (type-holes, function signatures, etc) without
   additional explanation.
 
-- He also wasn't familiar with the `cons` and `nil` construction of lists, so we
-  had to explain to him how it works before he could use it.
+- He also wasn't familiar with the `cons` and `nil` construction of lists,
+  additional explanation was necessary before he could use it.
 
 - He would have liked to execute his created values.
 
-- After the showcase, we showed what outlooks we had thought of, and he liked
+- After the showcase, the envisioned outlooks were presented to him. He liked
   the option of the visual and textual language (@outlook-visual-textual) very
   much.
