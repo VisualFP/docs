@@ -42,7 +42,7 @@
 
     ..validation_result("NFR1", "Platform Compatibility", "The PoC application can be executed on all target platforms. The app's compatibility could be improved by switching to a GHCJS-based UI technology.", lightgreen),
 
-    ..validation_result("NFR2", "Learnability", "The complexity in the PoC UI is relatively low. However, this requirements wasn't formally verified.", lightyellow)
+    ..validation_result("NFR2", "Learnability", [This requirement was achieved with some noted. A more detailed explanation can be found in @validation-nfr2], lightgreen)
   ),
   supplement: "Table",
   kind: "table",
@@ -54,3 +54,32 @@ As can be seen in @requirement_validation_table, all requirements related to fun
 
 Due to time constraints, the requirements #ac("UC")2, #ac("UC")7, #ac("UC")8 and #ac("UC")9 had to be considered as out-of-scope.
 However, during the implementation of the type inference engine, #ac("UC")7 was kept in mind so that custom data types could be added without much effort.
+
+=== Validation of NFR2 <validation-nfr2>
+
+The non-functional requirement NFR2, as described in @nfr2, states that a user
+that isn't familiar with functional programming should be able to use VisualFP
+within 1 hour.
+
+We validated this requirement by showcasing the #ac("PoC") to Samuel Bernhard, a
+software engineer at Hamilton Bonaduz AG. Samuel is a seasoned software
+developer but isn't familiar with functional programming.
+
+He was able to use VisualFP within 1 hour, so we deem the requirement to be
+achieved.
+
+Still, the trial pointed out some aspects that are worth to be noted for future
+development on the project:
+
+- As he wasn't familiar with the function notation used by Haskell, he wasn't
+  able to make use of type hints (type-holes, function signatures, etc) without
+  additional explanation.
+
+- He also wasn't familiar with the `cons` and `nil` construction of lists, so we
+  had to explain to him how it works before he could use it.
+
+- He would have liked to execute his created values.
+
+- After the showcase, we showed what outlooks we had thought of, and he liked
+  the option of the visual and textual language (@outlook-visual-textual) very
+  much.
