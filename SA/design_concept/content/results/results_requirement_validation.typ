@@ -42,7 +42,7 @@
 
     ..validation_result("NFR1", "Platform Compatibility", "The PoC application can be executed on all target platforms. The app's compatibility could be improved by switching to a GHCJS-based UI technology.", lightgreen),
 
-    ..validation_result("NFR2", "Learnability", [This requirement was achieved with some noted. A more detailed explanation can be found in @validation-nfr2], lightgreen)
+    ..validation_result("NFR2", "Learnability", [This requirement was achieved with some notes. A more detailed explanation can be found in @validation-nfr2], lightgreen)
   ),
   supplement: "Table",
   kind: "table",
