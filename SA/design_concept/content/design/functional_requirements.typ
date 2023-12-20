@@ -38,7 +38,7 @@ By default, "user" in the use case description refers to the "student user".
 )<use_case_diagram>
 
 As the aim of this project is to find a visual representation of functional programming,
-the use case descriptions are kept very brief and only state the intention behind the use case but not how it must be achieved.
+the use case descriptions are kept very brief and only state the intention behind the use case.
 
 === UC1 - Simple Function Composition
 A user wants to compose a simple function using pre-defined functions, e.g., Integer parameters.
