@@ -1,4 +1,4 @@
-= Design Conclusion
+= Conclusion
 
 During the first iteration, three very different approaches were explored.
 Valuable feedback was gained on their advantages and shortcomings through a

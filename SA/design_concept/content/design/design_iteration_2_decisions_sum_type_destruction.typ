@@ -15,7 +15,7 @@ execute user-provided code per pattern. One of the pattern types usually
 destructs sum type constructors. 
 
 An example of pattern-matching in Haskell can be seen in
-@pattern-matching-example-haskell, which defines a sum type`Expression`
+@pattern-matching-example-haskell, which defines a sum type `Expression`
 with two constructors, `Value` and
 `Addition`, and a function `calc`
 that pattern matches a value of type `Expression` against its
