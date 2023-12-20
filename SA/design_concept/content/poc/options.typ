@@ -48,7 +48,7 @@ These two use cases pose different requirements on the compiler platform:
 For these two use cases, two different compiler platforms may be used.
 
 The compiler used to build the #ac("PoC") itself depends on the language and
-other frameworks chosen to implement the application, this section focuses
+other frameworks chosen to implement the application. This section focuses
 on the use of a compiler platform as a library.
 
 #include_section("design_concept/content/poc/options_compiler_ghc.typ", heading_increase: 2)

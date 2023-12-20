@@ -1,7 +1,7 @@
 #import "../../../acronyms.typ": *
 
 = User Interface <ui>
-This chapter describes the features of the #ac("PoC") application #ac("UI"), the high-level implementation, and how functional reactive programming could be applied to VisualFP.
+This section describes the features of the #ac("PoC") application #ac("UI"), the high-level implementation, and how functional reactive programming could be applied to VisualFP.
 
 == Features
 The #ac("UI") for the #ac("PoC") application includes two main components, as shown in @ui-empty-editor: A sidebar with pre-defined value blocks and the function editor.
@@ -47,14 +47,14 @@ Finally, the user-built function definitions can be viewed as Haskell code by cl
 == Implementation
 The #ac("UI") implementation consists of an Electron.js app hosting a Threepenny #ac("UI").
 The Electron app is packaged with an executable of the Threepenny #ac("UI") and all #ac("UI") related static files, i.e. #ac("CSS") & JavaScript files.
-When starting the Threepenny #ac("UI"), the Electron app passes a usable port for the local web server and the file path to the static #ac("UI") files to the Threepenny #ac("UI").
+When starting the Threepenny #ac("UI"), the Electron app passes a usable port for the local web server and the file path of the static #ac("UI") files to the Threepenny #ac("UI").
 
 The function editor is the most significant part of the Threepenny #ac("UI") and has two primary responsibilities:
 
 - Rendering of function value blocks
 - Reacting to value block drop events
 
-The rendering part creates an #ac("HTML") representation of each block in the value definition block and annotates it with #ac("CSS") classes according to its block type.
+The rendering part creates an #ac("HTML") representation of each block in the value definition and annotates it with #ac("CSS") classes according to its block type.
 
 Reacting to the drop events is a bit more complicated.
 The block values in the application's sidebar carry their names as data transfer data.
@@ -72,13 +72,13 @@ The drop event handlers always do the same, regardless of the block value that w
 4. Render the inferred function definition
 
 == Functional Reactive Programming
-Threepenny includes a #ac("FRP") library, which follows the concepts described by Conal Elliott and Paul Hudak.
+Threepenny includes an #ac("FRP") library, which follows the concepts described by Conal Elliott and Paul Hudak.
 #ac("FRP") has two main concepts: Events and Behaviors.
 An Event is defined as a list of occurrences in time.
 A Behavior represents a value that changes over time.
 @frp_elliott_hudak
 
-While the first intention was to build the #ac("PoC") with a #ac("FRP") architecture, it became clear over time that Threepenny's #ac("FRP") library is not yet ready for more complex use-cases like VisualFP's function editor.
+While the first intention was to build the #ac("PoC") with an #ac("FRP") architecture, it became clear over time that Threepenny's #ac("FRP") library is not yet ready for more complex use-cases like VisualFP's function editor.
 The main problem is that no function allows it to merge multiple events.
 Implementing the #ac("FRP") architecture through Threepenny could be considered again once the #ac("FRP") library is replaced by reactive-banana #footnote("https://github.com/HeinrichApfelmus/reactive-banana").
 The author of Threepenny, Heinrich Apfelmus, plans to do that in a future release @threepenny-frp-replacement.

@@ -4,7 +4,7 @@
 
 The project produced a proof of concept application that implements the design concept as described in @design-iteration-2.
 Although the application doesn't offer visualizations for some of the most common aspects of functional programming, such as the construction of custom data types, the application shows that the proposed concept for function composition works and is easy to use.
-So, in our opinion, the project's main goal was achieved.
+So, in the author's opinion, the project's main goal was achieved.
 
 To make the application ready for use in a classroom, the use cases that weren't achieved during this project, as shown in @requirement_validation, need to be implemented.
 

@@ -2,10 +2,10 @@
 
 = IDE for visual functional programming
 
-VisualFP could be further enhanced in a future project into a visual IDE for
+In a future project, VisualFP could be further enhanced into a visual IDE for
 Haskell.
 
-Besides the functionality already in the #ac("PoC") application, additional
+Besides the functionality already implemented in the #ac("PoC") application, additional
 features offered by Haskell would also need to be implemented visually, such as
 an editor for Haskell-type definitions, a way to organize user definitions into
 modules, integration with a package manager, etc.
@@ -31,7 +31,7 @@ then apply the same understanding to Haskell code.
 
 Haskell programmers could find use in such a tool as well.
 Specifically, debugging tools could offer an advantage over a pure textual development approach.
-Visual representation would be equivalent to textual code, so VisualFP could be considered a new tool in the toolbox of seasoned Haskell programmers.
+Visual representations would be equivalent to textual code, so VisualFP could be considered a new tool in the toolbox of seasoned Haskell programmers.
 
 Full compatibility with a typical Haskell project would not be a trivial goal.
 A deep integration with #ac("GHC"), Cabal, etc., would be necessary.

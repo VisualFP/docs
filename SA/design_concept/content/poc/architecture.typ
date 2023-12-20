@@ -8,7 +8,7 @@ This chapter describes the architecture chosen for the #ac("PoC") application.
 
 As described in @option-ui-decision, the #ac("PoC") uses Electron.js and Threepenny-GUI for its implementation.
 
-Using the client-server cut classification of Klaus Renzel @Renzel1997ClientServerAF, this choice results
+Using the client-server cut classification by Klaus Renzel @Renzel1997ClientServerAF, the technology choice results
 in the application having a "remote user interface" as shown in @container-diagram.
 
 #figure(
@@ -36,8 +36,7 @@ diagram of the backend is shown in @component-diagram.
   caption: "C4 Component Diagram for VisualFP's Threepenny UI"
 )<component-diagram>
 
-Splitting the backend into these three components isolates the #ac("UI") from the business logic, making either easily replaceable.
+Splitting the backend into these three components isolates the #ac("UI") from the business logic, making either of them easily replaceable.
 
-The #ac("UI") component is described in more detail in @ui, the translation
-component in @translation-layer and the inference engine in
+The translation component is described in more detail in @translation-layer, the #ac("UI") component in @ui and the inference engine in
 @type-inference.
